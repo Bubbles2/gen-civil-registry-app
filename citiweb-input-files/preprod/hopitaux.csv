@@ -1,0 +1,928 @@
+code;collectionpointcode;label;value;value_order
+LISTE_HOPITAUX_713;PCS_713;Cabinet médical Fatou bintou;Cabinet médical Fatou bintou;1
+LISTE_HOPITAUX_512;PCS_512;Case de sant‚ Diakine;Case de sant‚ Diakine;2
+LISTE_HOPITAUX_558;PCS_558;Case de santé Boulel seck;Case de santé Boulel seck;4
+LISTE_HOPITAUX_509;PCS_509;Case de santé Bouttolatte;Case de santé Bouttolatte;5
+LISTE_HOPITAUX_447;PCS_447;Case de santé d'Agnam godo;Case de santé d'Agnam godo;6
+LISTE_HOPITAUX_553;PCS_553;Case de santé Darou rahmane;Case de santé Darou rahmane;7
+LISTE_HOPITAUX_456;PCS_456;Case de santé de Agnam ouro ciré;Case de santé de Agnam ouro ciré;8
+LISTE_HOPITAUX_296;PCS_296;Case de Santé de Aini madi yoro;Case de Santé de Aini madi yoro;9
+LISTE_HOPITAUX_371;PCS_371;Case de sante de Assoni;Case de sante de Assoni;10
+LISTE_HOPITAUX_923;PCS_923;Case de Santé de Awa ba;Case de Santé de Awa ba;11
+LISTE_HOPITAUX_800;PCS_800;Case de Santé de Babrou;Case de Santé de Babrou;12
+LISTE_HOPITAUX_552;PCS_552;Case de santé de Back;Case de santé de Back;13
+LISTE_HOPITAUX_242;PCS_242;Case de Santé de Badiene;Case de Santé de Badiene;14
+LISTE_HOPITAUX_759;PCS_759;Case de Santé de Bagadadji;Case de Santé de Bagadadji;15
+LISTE_HOPITAUX_869;PCS_869;Case de Santé de Bagne;Case de Santé de Bagne;16
+LISTE_HOPITAUX_615;PCS_615;Case de Sante de BAGNOMBA;Case de Sante de BAGNOMBA;17
+LISTE_HOPITAUX_929;PCS_929;Case de Santé de Bakhaya Dia;Case de Santé de Bakhaya Dia;18
+LISTE_HOPITAUX_351;PCS_351;Case de santé de Bambadion;Case de santé de Bambadion;19
+LISTE_HOPITAUX_430;PCS_430;Case de santé de Bandia Mbambara;Case de santé de Bandia Mbambara;20
+LISTE_HOPITAUX_429;PCS_429;Case de santé de Bandian Sesséne;Case de santé de Bandian Sesséne;21
+LISTE_HOPITAUX_660;PCS_660;Case de santé de Bango;Case de santé de Bango;22
+LISTE_HOPITAUX_687;PCS_687;Case de Santé de Bantantinty;Case de Santé de Bantantinty;23
+LISTE_HOPITAUX_760;PCS_760;Case de Santé de Bantantou;Case de Santé de Bantantou;24
+LISTE_HOPITAUX_373;PCS_373;Case de sante de Baraboye;Case de sante de Baraboye;25
+LISTE_HOPITAUX_132;PCS_132;Case de santé de Barol;Case de santé de Barol;26
+LISTE_HOPITAUX_693;PCS_693;Case de Santé de Barry Ndondol;Case de Santé de Barry Ndondol;27
+LISTE_HOPITAUX_248;PCS_248;Case de Santé de Bata wolof;Case de Santé de Bata wolof;28
+LISTE_HOPITAUX_403;PCS_403;Case de sante de Belemondi;Case de sante de Belemondi;29
+LISTE_HOPITAUX_926;PCS_926;Case de Santé de Berkom lo;Case de Santé de Berkom lo;30
+LISTE_HOPITAUX_699;PCS_699;Case de santé de bissary diounkaya;Case de santé de bissary diounkaya;31
+LISTE_HOPITAUX_745;PCS_745;Case de Santé de Boguelo;Case de Santé de Boguelo;32
+LISTE_HOPITAUX_671;PCS_671;Case de Santé de Boki saboundé;Case de Santé de Boki saboundé;33
+LISTE_HOPITAUX_812;PCS_812;Case de Santé de Bombaly;Case de Santé de Bombaly;34
+LISTE_HOPITAUX_813;PCS_813;Case de Santé de Bouliery NdiolofŠne;Case de Santé de Bouliery NdiolofŠne;35
+LISTE_HOPITAUX_794;PCS_794;Case de Santé de Boundou;Case de Santé de Boundou;36
+LISTE_HOPITAUX_243;PCS_243;Case de Santé de Bras;Case de Santé de Bras;37
+LISTE_HOPITAUX_179;PCS_179;Case de santé de Bundoukoni;Case de santé de Bundoukoni;38
+LISTE_HOPITAUX_364;PCS_364;Case de santé de Ciss;Case de santé de Ciss;39
+LISTE_HOPITAUX_556;PCS_556;Case de santé de Dagdam;Case de santé de Dagdam;40
+LISTE_HOPITAUX_613;PCS_613;Case de Sante de DALAKOYE;Case de Sante de DALAKOYE;41
+LISTE_HOPITAUX_387;PCS_387;Case de sante de  darasalam;Case de sante de  darasalam;42
+LISTE_HOPITAUX_811;PCS_811;Case de Santé de Darou Baila;Case de Santé de Darou Baila;43
+LISTE_HOPITAUX_557;PCS_557;Case de santé de Darou diop ;Case de santé de Darou diop ;44
+LISTE_HOPITAUX_848;PCS_848;Case de Santé de Darou gaye;Case de Santé de Darou gaye;45
+LISTE_HOPITAUX_255;PCS_255;Case de Santé de D'avance geladio ;Case de Santé de D'avance geladio ;46
+LISTE_HOPITAUX_450;PCS_450;Case de santé de diafane belly thidy;Case de santé de diafane belly thidy;47
+LISTE_HOPITAUX_799;PCS_799;Case de Santé de Diaken Digue;Case de Santé de Diaken Digue;48
+LISTE_HOPITAUX_388;PCS_388;Case de sante de dialang;Case de sante de dialang;49
+LISTE_HOPITAUX_316;PCS_316;Case de santé de Diamagueune;Case de santé de Diamagueune;50
+LISTE_HOPITAUX_850;PCS_850;Case de Santé de Diama thiedou;Case de Santé de Diama thiedou;51
+LISTE_HOPITAUX_119;PCS_119;Case de Santé de Diamminar;Case de Santé de Diamminar;52
+LISTE_HOPITAUX_298;PCS_298;Case de Santé de Diankacounda;Case de Santé de Diankacounda;53
+LISTE_HOPITAUX_507;PCS_507;Case de santé de Diarone;Case de santé de Diarone;54
+LISTE_HOPITAUX_546;PCS_546;Case de santé de Diob;Case de santé de Diob;55
+LISTE_HOPITAUX_475;PCS_475;Case de santé de Diolofiba sérére;Case de santé de Diolofiba sérére;56
+LISTE_HOPITAUX_352;PCS_352;Case de santé de Djidinky mandingue;Case de santé de Djidinky mandingue;57
+LISTE_HOPITAUX_804;PCS_804;Case de Santé de Douysangou;Case de Santé de Douysangou;58
+LISTE_HOPITAUX_632;PCS_632;Case de Santé de Ediamath;Case de Santé de Ediamath;59
+LISTE_HOPITAUX_506;PCS_506;Case de santé de Falmere;Case de santé de Falmere;60
+LISTE_HOPITAUX_474;PCS_474;Case de santé de Faou1;Case de santé de Faou1;61
+LISTE_HOPITAUX_685;PCS_685;Case de Santé de fara ba;Case de Santé de fara ba;62
+LISTE_HOPITAUX_580;PCS_580;Case de santé de Fayelane;Case de santé de Fayelane;63
+LISTE_HOPITAUX_301;PCS_301;Case de Santé de Foulado yoro;Case de Santé de Foulado yoro;64
+LISTE_HOPITAUX_224;PCS_224;Case de Santé de Gagna Bougou;Case de Santé de Gagna Bougou;65
+LISTE_HOPITAUX_817;PCS_817;Case de Santé de Gague;Case de Santé de Gague;66
+LISTE_HOPITAUX_428;PCS_428;Case de santé de Gandoul;Case de santé de Gandoul;67
+LISTE_HOPITAUX_788;PCS_788;Case de Santé de Gapp;Case de Santé de Gapp;68
+LISTE_HOPITAUX_253;PCS_253;Case de Santé de Gniline goumack;Case de Santé de Gniline goumack;69
+LISTE_HOPITAUX_581;PCS_581;Case de santé de Godogéne;Case de santé de Godogéne;70
+LISTE_HOPITAUX_846;PCS_846;Case de Santé de Golobe;Case de Santé de Golobe;71
+LISTE_HOPITAUX_120;PCS_120;Case de Santé de GolondŠ;Case de Santé de GolondŠ;72
+LISTE_HOPITAUX_807;PCS_807;Case de Santé de Guebb Fall;Case de Santé de Guebb Fall;73
+LISTE_HOPITAUX_809;PCS_809;Case de Santé de Guebb Serrere;Case de Santé de Guebb Serrere;74
+LISTE_HOPITAUX_362;PCS_362;Case de santé de Guenth Ngouille;Case de santé de Guenth Ngouille;75
+LISTE_HOPITAUX_365;PCS_365;Case de santé de Guenth peulh 1;Case de santé de Guenth peulh 1;76
+LISTE_HOPITAUX_366;PCS_366;Case de santé de Guenth peulh 1;Case de santé de Guenth peulh 1;77
+LISTE_HOPITAUX_559;PCS_559;Case de santé de Guerane;Case de santé de Guerane;78
+LISTE_HOPITAUX_404;PCS_404;Case de sante de Guirwass;Case de sante de Guirwass;79
+LISTE_HOPITAUX_820;PCS_820;Case de Santé de Haymbayar;Case de Santé de Haymbayar;80
+LISTE_HOPITAUX_751;PCS_751;Case de santé de Ibel;Case de santé de Ibel;81
+LISTE_HOPITAUX_616;PCS_616;Case de sante de KABATEGUINDA;Case de sante de KABATEGUINDA;82
+LISTE_HOPITAUX_254;PCS_254;Case de Santé de Kacothie;Case de Santé de Kacothie;83
+LISTE_HOPITAUX_560;PCS_560;Case de santé de Karathier;Case de santé de Karathier;84
+LISTE_HOPITAUX_821;PCS_821;Case de Santé de Kayewaly;Case de Santé de Kayewaly;85
+LISTE_HOPITAUX_689;PCS_689;Case de Santé de keniaba;Case de Santé de keniaba;86
+LISTE_HOPITAUX_872;PCS_872;Case de Santé de Keur alioune kane;Case de Santé de Keur alioune kane;87
+LISTE_HOPITAUX_861;PCS_861;Case de Santé de Keur Amado coumba;Case de Santé de Keur Amado coumba;88
+LISTE_HOPITAUX_868;PCS_868;Case de Santé de Keur gallo kebe;Case de Santé de Keur gallo kebe;89
+LISTE_HOPITAUX_238;PCS_238;Case de Santé de Keur Ibra bineta;Case de Santé de Keur Ibra bineta;90
+LISTE_HOPITAUX_864;PCS_864;Case de Santé de Keur khale sarata;Case de Santé de Keur khale sarata;91
+LISTE_HOPITAUX_863;PCS_863;Case de Santé de Keur magueye ndao;Case de Santé de Keur magueye ndao;92
+LISTE_HOPITAUX_849;PCS_849;Case de Santé de Keur massamba fatim;Case de Santé de Keur massamba fatim;93
+LISTE_HOPITAUX_790;PCS_790;Case de Santé de Keur Mbar;Case de Santé de Keur Mbar;94
+LISTE_HOPITAUX_920;PCS_920;Case de Santé de Keur mbaye ndao;Case de Santé de Keur mbaye ndao;95
+LISTE_HOPITAUX_910;PCS_910;Case de Santé de Keur ndiaye peul;Case de Santé de Keur ndiaye peul;96
+LISTE_HOPITAUX_251;PCS_251;Case de Santé de Keur pathe Malick;Case de Santé de Keur pathe Malick;97
+LISTE_HOPITAUX_121;PCS_121;Case de Santé de Keur samba thiam;Case de Santé de Keur samba thiam;98
+LISTE_HOPITAUX_905;PCS_905;Case de Santé de Keur sidy mbengue;Case de Santé de Keur sidy mbengue;99
+LISTE_HOPITAUX_862;PCS_862;Case de Santé de Keur thione sarr;Case de Santé de Keur thione sarr;100
+LISTE_HOPITAUX_935;PCS_935;Case de Santé de Khadji gueye;Case de Santé de Khadji gueye;101
+LISTE_HOPITAUX_425;PCS_425;Case de santé de Kholpa;Case de santé de Kholpa;102
+LISTE_HOPITAUX_661;PCS_661;Case de santé de Khor;Case de santé de Khor;103
+LISTE_HOPITAUX_582;PCS_582;Case de santé de Kouthie;Case de santé de Kouthie;104
+LISTE_HOPITAUX_921;PCS_921;Case de Santé de Lambane wilane;Case de Santé de Lambane wilane;105
+LISTE_HOPITAUX_544;PCS_544;Case de santé de Lambayen;Case de santé de Lambayen;106
+LISTE_HOPITAUX_183;PCS_183;Case de santé de Landiénie;Case de santé de Landiénie;107
+LISTE_HOPITAUX_402;PCS_402;Case de sante de Layki;Case de sante de Layki;108
+LISTE_HOPITAUX_103;PCS_103;Case de Santé de Loumbi nguido;Case de Santé de Loumbi nguido;109
+LISTE_HOPITAUX_239;PCS_239;Case de Santé de Loumboul ;Case de Santé de Loumboul ;110
+LISTE_HOPITAUX_808;PCS_808;Case de Santé de Madina Toure;Case de Santé de Madina Toure;111
+LISTE_HOPITAUX_37;PCS_37;Case de Santé de Malicounda;Case de Santé de Malicounda;112
+LISTE_HOPITAUX_819;PCS_819;Case de Santé de Malka;Case de Santé de Malka;113
+LISTE_HOPITAUX_737;PCS_737;Case de Santé de Mandakholing;Case de Santé de Mandakholing;114
+LISTE_HOPITAUX_372;PCS_372;Case de sante de Manda thies;Case de sante de Manda thies;115
+LISTE_HOPITAUX_840;PCS_840;Case de Santé de Massar;Case de Santé de Massar;116
+LISTE_HOPITAUX_901;PCS_901;Case de Santé de Mbadiar;Case de Santé de Mbadiar;117
+LISTE_HOPITAUX_930;PCS_930;Case de Santé de Mbaom diop3;Case de Santé de Mbaom diop3;118
+LISTE_HOPITAUX_870;PCS_870;Case de Santé de Mbarack l“;Case de Santé de Mbarack l“;119
+LISTE_HOPITAUX_818;PCS_818;Case de Santé de Mbassis;Case de Santé de Mbassis;120
+LISTE_HOPITAUX_427;PCS_427;Case de santé de Mbayar;Case de santé de Mbayar;121
+LISTE_HOPITAUX_548;PCS_548;Case de santé de Mbedap;Case de santé de Mbedap;122
+LISTE_HOPITAUX_677;PCS_677;Case de Santé de Mbelkhaoul;Case de Santé de Mbelkhaoul;123
+LISTE_HOPITAUX_252;PCS_252;Case de Santé de Mbouma;Case de Santé de Mbouma;124
+LISTE_HOPITAUX_256;PCS_256;Case de Santé de M‚dina leyti;Case de Santé de M‚dina leyti;125
+LISTE_HOPITAUX_688;PCS_688;Case de Santé de Medina Gueneto;Case de Santé de Medina Gueneto;126
+LISTE_HOPITAUX_418;PCS_418;Case de Santé de Medina pakane;Case de Santé de Medina pakane;127
+LISTE_HOPITAUX_278;PCS_278;Case de sante de Medina Sall;Case de sante de Medina Sall;128
+LISTE_HOPITAUX_924;PCS_924;Case de Santé de Medina soump;Case de Santé de Medina soump;129
+LISTE_HOPITAUX_382;PCS_382;Case de Santé de Medina Touat;Case de Santé de Medina Touat;130
+LISTE_HOPITAUX_361;PCS_361;Case de santé de Médinatou Salam 4;Case de santé de Médinatou Salam 4;131
+LISTE_HOPITAUX_918;PCS_918;Case de Santé de Merina ndiaye;Case de Santé de Merina ndiaye;132
+LISTE_HOPITAUX_873;PCS_873;Case de Santé de Merina sall;Case de Santé de Merina sall;133
+LISTE_HOPITAUX_933;PCS_933;Case de Santé de Merina tall;Case de Santé de Merina tall;134
+LISTE_HOPITAUX_907;PCS_907;Case de Santé de Messere mbaye;Case de Santé de Messere mbaye;135
+LISTE_HOPITAUX_277;PCS_277;Case de sante de M‚guigne Boye;Case de sante de M‚guigne Boye;136
+LISTE_HOPITAUX_383;PCS_383;Case de Santé de Missirah Sourath;Case de Santé de Missirah Sourath;137
+LISTE_HOPITAUX_686;PCS_686;Case de Santé de Missira sarakhole;Case de Santé de Missira sarakhole;138
+LISTE_HOPITAUX_631;PCS_631;Case de Santé de Mlomp kawaguir;Case de Santé de Mlomp kawaguir;139
+LISTE_HOPITAUX_675;PCS_675;Case de Santé de MOMBOYE;Case de Santé de MOMBOYE;140
+LISTE_HOPITAUX_894;PCS_894;Case de Santé de More Daga;Case de Santé de More Daga;141
+LISTE_HOPITAUX_357;PCS_357;Case de santé de Mouille;Case de santé de Mouille;142
+LISTE_HOPITAUX_420;PCS_420;Case de Santé de Mouton Sankoule;Case de Santé de Mouton Sankoule;143
+LISTE_HOPITAUX_180;PCS_180;Case de santé de Nathia;Case de santé de Nathia;144
+LISTE_HOPITAUX_900;PCS_900;Case de Santé de Ndangour;Case de Santé de Ndangour;145
+LISTE_HOPITAUX_839;PCS_839;Case de Santé de Ndankh;Case de Santé de Ndankh;146
+LISTE_HOPITAUX_370;PCS_370;Case de sante de Ndebou boudi;Case de sante de Ndebou boudi;147
+LISTE_HOPITAUX_838;PCS_838;Case de Santé de Ndeucou;Case de Santé de Ndeucou;148
+LISTE_HOPITAUX_851;PCS_851;Case de Santé de Ndeukou lamane;Case de Santé de Ndeukou lamane;149
+LISTE_HOPITAUX_573;PCS_573;Case de santé de Ndiaganiao;Case de santé de Ndiaganiao;150
+LISTE_HOPITAUX_257;PCS_257;Case de Santé de Ndiagne leguene;Case de Santé de Ndiagne leguene;151
+LISTE_HOPITAUX_908;PCS_908;Case de Santé de Ndiarno  diop;Case de Santé de Ndiarno  diop;152
+LISTE_HOPITAUX_854;PCS_854;Case de Santé de Ndiayenne lack;Case de Santé de Ndiayenne lack;153
+LISTE_HOPITAUX_871;PCS_871;Case de Santé de Ndieguene;Case de Santé de Ndieguene;154
+LISTE_HOPITAUX_676;PCS_676;Case de Santé de NDIEMANE;Case de Santé de NDIEMANE;155
+LISTE_HOPITAUX_134;PCS_134;Case de santé de Ndiodiéne;Case de santé de Ndiodiéne;156
+LISTE_HOPITAUX_795;PCS_795;Case de Santé de Ndiokhoba;Case de Santé de Ndiokhoba;157
+LISTE_HOPITAUX_932;PCS_932;Case de Santé de Ndiokoul fall;Case de Santé de Ndiokoul fall;158
+LISTE_HOPITAUX_875;PCS_875;Case de Santé de NDIOMPY;Case de Santé de NDIOMPY;159
+LISTE_HOPITAUX_904;PCS_904;Case de Santé de Ndjiweul;Case de Santé de Ndjiweul;160
+LISTE_HOPITAUX_317;PCS_317;Case de santé de Ndodj;Case de santé de Ndodj;161
+LISTE_HOPITAUX_470;PCS_470;Case de santé de Ndoffane;Case de santé de Ndoffane;162
+LISTE_HOPITAUX_578;PCS_578;Case de santé de Ndolo;Case de santé de Ndolo;163
+LISTE_HOPITAUX_240;PCS_240;Case de Santé de Ndour de tellel ;Case de Santé de Ndour de tellel ;164
+LISTE_HOPITAUX_561;PCS_561;Case de santé de Ndoyombouph;Case de santé de Ndoyombouph;165
+LISTE_HOPITAUX_805;PCS_805;Case de Santé de Ngabou 2;Case de Santé de Ngabou 2;166
+LISTE_HOPITAUX_852;PCS_852;Case de Santé de Ngadiame;Case de Santé de Ngadiame;167
+LISTE_HOPITAUX_836;PCS_836;Case de Santé de Ngakham 2;Case de Santé de Ngakham 2;168
+LISTE_HOPITAUX_659;PCS_659;Case de Santé de  Ngallele;Case de Santé de  Ngallele;169
+LISTE_HOPITAUX_912;PCS_912;Case de Santé de Ngaraf ouolof;Case de Santé de Ngaraf ouolof;170
+LISTE_HOPITAUX_855;PCS_855;Case de Santé de Ngay Ngay  ndiabel;Case de Santé de Ngay Ngay  ndiabel;171
+LISTE_HOPITAUX_133;PCS_133;Case de santé de Ngentou Malick;Case de santé de Ngentou Malick;172
+LISTE_HOPITAUX_694;PCS_694;Case de Santé de Ngodjimene;Case de Santé de Ngodjimene;173
+LISTE_HOPITAUX_554;PCS_554;Case de santé de Ngonéne;Case de santé de Ngonéne;174
+LISTE_HOPITAUX_895;PCS_895;Case de Santé de Ngoundioira;Case de Santé de Ngoundioira;175
+LISTE_HOPITAUX_399;PCS_399;Case de sante de Ngouye;Case de sante de Ngouye;176
+LISTE_HOPITAUX_917;PCS_917;Case de Santé de Nguebeul;Case de Santé de Nguebeul;177
+LISTE_HOPITAUX_678;PCS_678;Case de Santé de Nguémé Issa;Case de Santé de Nguémé Issa;178
+LISTE_HOPITAUX_486;PCS_486;Case de santé de Niakh Niakhal;Case de santé de Niakh Niakhal;179
+LISTE_HOPITAUX_584;PCS_584;Case de santé de Nianar;Case de santé de Nianar;180
+LISTE_HOPITAUX_741;PCS_741;Case de Santé de Niandiaye;Case de Santé de Niandiaye;181
+LISTE_HOPITAUX_276;PCS_276;Case de sante de Ni‚b‚ne Toub‚;Case de sante de Ni‚b‚ne Toub‚;182
+LISTE_HOPITAUX_889;PCS_889;Case de Santé de Niomre lo;Case de Santé de Niomre lo;183
+LISTE_HOPITAUX_477;PCS_477;Case de santé de Noyacp;Case de santé de Noyacp;184
+LISTE_HOPITAUX_931;PCS_931;Case de Santé de Nuage diawar;Case de Santé de Nuage diawar;185
+LISTE_HOPITAUX_299;PCS_299;Case de Santé de Oguel;Case de Santé de Oguel;186
+LISTE_HOPITAUX_596;PCS_596;Case de Santé de Padah Peulh;Case de Santé de Padah Peulh;187
+LISTE_HOPITAUX_906;PCS_906;Case de Santé de Parba;Case de Santé de Parba;188
+LISTE_HOPITAUX_181;PCS_181;Case de santé de Pathassi;Case de santé de Pathassi;189
+LISTE_HOPITAUX_454;PCS_454;Case de santé de péthiélle maboubé;Case de santé de péthiélle maboubé;190
+LISTE_HOPITAUX_295;PCS_295;Case de Santé de Pidiro;Case de Santé de Pidiro;191
+LISTE_HOPITAUX_419;PCS_419;Case de Santé de Rabat;Case de Santé de Rabat;192
+LISTE_HOPITAUX_853;PCS_853;Case de Santé de Sakh;Case de Santé de Sakh;193
+LISTE_HOPITAUX_485;PCS_485;Case de santé de Saly joseph;Case de santé de Saly joseph;194
+LISTE_HOPITAUX_484;PCS_484;Case de santé de Saly veligara;Case de santé de Saly veligara;195
+LISTE_HOPITAUX_874;PCS_874;Case de Santé de Samael;Case de Santé de Samael;196
+LISTE_HOPITAUX_247;PCS_247;Case de Santé de Sama toucouleur;Case de Santé de Sama toucouleur;197
+LISTE_HOPITAUX_250;PCS_250;Case de Santé de SAMBARAMATA;Case de Santé de SAMBARAMATA;198
+LISTE_HOPITAUX_801;PCS_801;Case de Santé de Sambeguinth;Case de Santé de Sambeguinth;199
+LISTE_HOPITAUX_237;PCS_237;Case de Santé de Sam kebe;Case de Santé de Sam kebe;200
+LISTE_HOPITAUX_911;PCS_911;Case de Santé de Santhiou diokol;Case de Santé de Santhiou diokol;201
+LISTE_HOPITAUX_847;PCS_847;Case de Santé de Santhiou sine;Case de Santé de Santhiou sine;202
+LISTE_HOPITAUX_211;PCS_211;Case de santé de Sao;Case de santé de Sao;203
+LISTE_HOPITAUX_297;PCS_297;Case de Santé de Saré dembayel;Case de Santé de Saré dembayel;204
+LISTE_HOPITAUX_594;PCS_594;Case de sante de Saré faring;Case de sante de Saré faring;205
+LISTE_HOPITAUX_743;PCS_743;Case de Santé de Sare gagna;Case de Santé de Sare gagna;206
+LISTE_HOPITAUX_746;PCS_746;Case de Santé de Sare koli dia;Case de Santé de Sare koli dia;207
+LISTE_HOPITAUX_742;PCS_742;Case de Santé de Sare moussa sow;Case de Santé de Sare moussa sow;208
+LISTE_HOPITAUX_300;PCS_300;Case de Santé de Saré pathé bouya;Case de Santé de Saré pathé bouya;209
+LISTE_HOPITAUX_683;PCS_683;Case de Santé de segou koura;Case de Santé de segou koura;210
+LISTE_HOPITAUX_225;PCS_225;Case de Santé de Sidi Bougou;Case de Santé de Sidi Bougou;211
+LISTE_HOPITAUX_318;PCS_318;Case de santé de Sikim;Case de santé de Sikim;212
+LISTE_HOPITAUX_841;PCS_841;Case de Santé de Sine moussa abdou;Case de Santé de Sine moussa abdou;213
+LISTE_HOPITAUX_449;PCS_449;Case de santé de sinthiou boumak;Case de santé de sinthiou boumak;214
+LISTE_HOPITAUX_672;PCS_672;Case de Santé de Sinthiou Mogo;Case de Santé de Sinthiou Mogo;215
+LISTE_HOPITAUX_903;PCS_903;Case de Santé de Siweul seck;Case de Santé de Siweul seck;216
+LISTE_HOPITAUX_824;PCS_824;Case de Santé de Som;Case de Santé de Som;217
+LISTE_HOPITAUX_761;PCS_761;Case de Santé de Souaky;Case de Santé de Souaky;218
+LISTE_HOPITAUX_579;PCS_579;Case de santé de Soukéne;Case de santé de Soukéne;219
+LISTE_HOPITAUX_744;PCS_744;Case de Santé de Soukou ;Case de Santé de Soukou ;220
+LISTE_HOPITAUX_684;PCS_684;Case de Santé de Sourouyel;Case de Santé de Sourouyel;221
+LISTE_HOPITAUX_583;PCS_583;Case de santé de Soussane;Case de santé de Soussane;222
+LISTE_HOPITAUX_448;PCS_448;Case de santé de sylla worgo;Case de santé de sylla worgo;223
+LISTE_HOPITAUX_363;PCS_363;Case de santé de Taïba;Case de santé de Taïba;224
+LISTE_HOPITAUX_892;PCS_892;Case de Santé de Taif diop;Case de Santé de Taif diop;225
+LISTE_HOPITAUX_915;PCS_915;Case de Santé de Tallene gaye;Case de Santé de Tallene gaye;226
+LISTE_HOPITAUX_614;PCS_614;Case de Sante de TAMBANOUMBIA;Case de Sante de TAMBANOUMBIA;227
+LISTE_HOPITAUX_925;PCS_925;Case de Santé de Tawa peul;Case de Santé de Tawa peul;228
+LISTE_HOPITAUX_305;PCS_305;Case de Santé de Temento allette;Case de Santé de Temento allette;229
+LISTE_HOPITAUX_241;PCS_241;Case de Santé de Teudd bitty;Case de Santé de Teudd bitty;230
+LISTE_HOPITAUX_922;PCS_922;Case de Santé de Teumbou mbaye;Case de Santé de Teumbou mbaye;231
+LISTE_HOPITAUX_916;PCS_916;Case de Santé de Thiahaw gaye;Case de Santé de Thiahaw gaye;232
+LISTE_HOPITAUX_249;PCS_249;Case de Santé de Thiamene taba;Case de Santé de Thiamene taba;233
+LISTE_HOPITAUX_891;PCS_891;Case de Santé de Thiamine 2;Case de Santé de Thiamine 2;234
+LISTE_HOPITAUX_369;PCS_369;Case de sante de Thiankoye;Case de sante de Thiankoye;235
+LISTE_HOPITAUX_909;PCS_909;Case de Santé de Thiary loro;Case de Santé de Thiary loro;236
+LISTE_HOPITAUX_934;PCS_934;Case de Santé de Thierry batty;Case de Santé de Thierry batty;237
+LISTE_HOPITAUX_401;PCS_401;Case de sante de Thikité;Case de sante de Thikité;238
+LISTE_HOPITAUX_453;PCS_453;Case de santé de thioulel thialé;Case de santé de thioulel thialé;239
+LISTE_HOPITAUX_272;PCS_272;Case de santé de Thioupane;Case de santé de Thioupane;240
+LISTE_HOPITAUX_890;PCS_890;Case de Santé de Tinguidi;Case de Santé de Tinguidi;241
+LISTE_HOPITAUX_837;PCS_837;Case de Santé de Tob‚ne;Case de Santé de Tob‚ne;242
+LISTE_HOPITAUX_315;PCS_315;Case de santé de Tougne mosqu‚e;Case de santé de Tougne mosqu‚e;243
+LISTE_HOPITAUX_919;PCS_919;Case de Santé de Touré gueul;Case de Santé de Touré gueul;244
+LISTE_HOPITAUX_472;PCS_472;Case de santé de Velingara;Case de santé de Velingara;245
+LISTE_HOPITAUX_400;PCS_400;Case de sante de Wala;Case de sante de Wala;246
+LISTE_HOPITAUX_789;PCS_789;Case de Santé de Wallo Keur Massamba Niang;Case de Santé de Wallo Keur Massamba Niang;247
+LISTE_HOPITAUX_405;PCS_405;Case de sante de Wendou Thillé;Case de sante de Wendou Thillé;248
+LISTE_HOPITAUX_368;PCS_368;Case de sante de Woulidie;Case de sante de Woulidie;249
+LISTE_HOPITAUX_210;PCS_210;Case de Sante de Yabo-yabo;Case de Sante de Yabo-yabo;250
+LISTE_HOPITAUX_511;PCS_511;Case de santé Diakine;Case de santé Diakine;251
+LISTE_HOPITAUX_555;PCS_555;Case de santé Diane sylla;Case de santé Diane sylla;252
+LISTE_HOPITAUX_514;PCS_514;Case de santé Diourou;Case de santé Diourou;253
+LISTE_HOPITAUX_271;PCS_271;Case de santé du village de Ndack;Case de santé du village de Ndack;254
+LISTE_HOPITAUX_513;PCS_513;Case de santé Eguilaye;Case de santé Eguilaye;255
+LISTE_HOPITAUX_508;PCS_508;Case de santé Fafesse;Case de santé Fafesse;256
+LISTE_HOPITAUX_445;PCS_445;Case de santé Mberla bellé;Case de santé Mberla bellé;257
+LISTE_HOPITAUX_510;PCS_510;Case de santé Piran;Case de santé Piran;258
+LISTE_HOPITAUX_235;PCS_235;Case de santé Poukhan;Case de santé Poukhan;259
+LISTE_HOPITAUX_212;PCS_212;Case de santé Saokom1;Case de santé Saokom1;260
+LISTE_HOPITAUX_603;PCS_603;Case de Sante Village SOS;Case de Sante Village SOS;261
+LISTE_HOPITAUX_883;PCS_883;Centre de Santé;Centre de Santé;262
+LISTE_HOPITAUX_410;PCS_410;Centre de sante BAYE TALLA DIOP;Centre de sante BAYE TALLA DIOP;264
+LISTE_HOPITAUX_148;PCS_148;Centre de santé CAMBERENE;Centre de santé CAMBERENE;265
+LISTE_HOPITAUX_412;PCS_412;CENTRE DE SANTE COMMUNAUTAIRE;CENTRE DE SANTE COMMUNAUTAIRE;266
+LISTE_HOPITAUX_543;PCS_543;Centre de santé Darou mousty;Centre de santé Darou mousty;267
+LISTE_HOPITAUX_455;PCS_455;Centre de santé de Agnam civol;Centre de santé de Agnam civol;268
+LISTE_HOPITAUX_459;PCS_459;centre de santé de Bakel;centre de santé de Bakel;269
+LISTE_HOPITAUX_520;PCS_520;Centre de santé de Bignona;Centre de santé de Bignona;270
+LISTE_HOPITAUX_346;PCS_346;Centre de santé de Binetou rassoul;Centre de santé de Binetou rassoul;271
+LISTE_HOPITAUX_328;PCS_328;Centre de santé de Bodian;Centre de santé de Bodian;272
+LISTE_HOPITAUX_756;PCS_756;Centre de Santé de Boukiling;Centre de Santé de Boukiling;273
+LISTE_HOPITAUX_359;PCS_359;Centre de Santé de cheikh Ahmadou  Bamba;Centre de Santé de cheikh Ahmadou  Bamba;274
+LISTE_HOPITAUX_529;PCS_529;Centre de santé de Dagana;Centre de santé de Dagana;275
+LISTE_HOPITAUX_52;PCS_52;centre de santé de Diourbel;centre de santé de Diourbel;276
+LISTE_HOPITAUX_307;PCS_307;Centre de santé de District de kaffrine;Centre de santé de District de kaffrine;277
+LISTE_HOPITAUX_48;PCS_48;Centre de Santé de Ebarack;Centre de Santé de Ebarack;278
+LISTE_HOPITAUX_358;PCS_358;Centre de Santé de Elizabeth diouf;Centre de Santé de Elizabeth diouf;279
+LISTE_HOPITAUX_592;PCS_592;Centre de sante de EPS 1;Centre de sante de EPS 1;280
+LISTE_HOPITAUX_229;PCS_229;Centre de santé de Fatick;Centre de santé de Fatick;281
+LISTE_HOPITAUX_198;PCS_198;Centre de santé de Foundiougne;Centre de santé de Foundiougne;282
+LISTE_HOPITAUX_279;PCS_279;Centre de santé de Goudiry;Centre de santé de Goudiry;283
+LISTE_HOPITAUX_186;PCS_186;Centre de santé de Joal Fadiouth;Centre de santé de Joal Fadiouth;284
+LISTE_HOPITAUX_319;PCS_319;Centre de santé de kanel;Centre de santé de kanel;285
+LISTE_HOPITAUX_12;PCS_12;Centre de Santé de Kebemer;Centre de Santé de Kebemer;286
+LISTE_HOPITAUX_50;PCS_50;Centre de Santé de Kedougou;Centre de Santé de Kedougou;287
+LISTE_HOPITAUX_98;PCS_98;Centre de Santé de Keur Momar Sarr;Centre de Santé de Keur Momar Sarr;288
+LISTE_HOPITAUX_191;PCS_191;Centre de Santé de Keur Serigne Ablaye;Centre de Santé de Keur Serigne Ablaye;289
+LISTE_HOPITAUX_265;PCS_265;Centre de Santé de Koumpentoum;Centre de Santé de Koumpentoum;290
+LISTE_HOPITAUX_267;PCS_267;Centre de Santé de KOUNGHEUL;Centre de Santé de KOUNGHEUL;291
+LISTE_HOPITAUX_284;PCS_284;Centre de Santé de Linguere;Centre de Santé de Linguere;292
+LISTE_HOPITAUX_46;PCS_46;Centre de Santé de Lingukito;Centre de Santé de Lingukito;293
+LISTE_HOPITAUX_286;PCS_286;Centre de Santé de louga;Centre de Santé de louga;294
+LISTE_HOPITAUX_753;PCS_753;Centre de Santé de Madame ndiaye;Centre de Santé de Madame ndiaye;295
+LISTE_HOPITAUX_236;PCS_236;Centre de Santé de Malem Hodar;Centre de Santé de Malem Hodar;296
+LISTE_HOPITAUX_169;PCS_169;Centre de Santé de Malika;Centre de Santé de Malika;297
+LISTE_HOPITAUX_323;PCS_323;Centre de Santé de Matam;Centre de Santé de Matam;298
+LISTE_HOPITAUX_18;PCS_18;Centre de santé de  MBAMBEY;Centre de santé de  MBAMBEY;299
+LISTE_HOPITAUX_569;PCS_569;Centre de santé de Mbao;Centre de santé de Mbao;300
+LISTE_HOPITAUX_591;PCS_591;Centre de sante de Moricounda;Centre de sante de Moricounda;301
+LISTE_HOPITAUX_62;PCS_62;Centre de santé de Ndam;Centre de santé de Ndam;302
+LISTE_HOPITAUX_20;PCS_20;Centre de Santé de  NDONG;Centre de Santé de  NDONG;303
+LISTE_HOPITAUX_19;PCS_19;Centre de Santé de NDORONG MALICK;Centre de Santé de NDORONG MALICK;304
+LISTE_HOPITAUX_156;PCS_156;Centre de Santé de NGOR;Centre de Santé de NGOR;305
+LISTE_HOPITAUX_21;PCS_21;Centre de Santé de NGOUYE;Centre de Santé de NGOUYE;306
+LISTE_HOPITAUX_775;PCS_775;Centre de Santé de Nimzat;Centre de Santé de Nimzat;307
+LISTE_HOPITAUX_381;PCS_381;Centre de sante de Nioro;Centre de sante de Nioro;308
+LISTE_HOPITAUX_30;PCS_30;Centre de Santé de Odabe Nawar;Centre de Santé de Odabe Nawar;309
+LISTE_HOPITAUX_406;PCS_406;Centre de sante de Pete;Centre de sante de Pete;310
+LISTE_HOPITAUX_84;PCS_84;Centre de santé de Pikine;Centre de santé de Pikine;311
+LISTE_HOPITAUX_10;PCS_10;Centre de sante de Podor;Centre de sante de Podor;312
+LISTE_HOPITAUX_786;PCS_786;Centre de santé de Popenguine;Centre de santé de Popenguine;313
+LISTE_HOPITAUX_433;PCS_433;Centre de santé de Popenguine;Centre de santé de Popenguine;314
+LISTE_HOPITAUX_14;PCS_14;Centre de sante de Ranerou;Centre de sante de Ranerou;315
+LISTE_HOPITAUX_193;PCS_193;Centre de Santé de RUFISQUE;Centre de Santé de RUFISQUE;316
+LISTE_HOPITAUX_41;PCS_41;Centre de santé de Saint-Louis;Centre de santé de Saint-Louis;317
+LISTE_HOPITAUX_45;PCS_45;Centre de Santé de Salemata;Centre de Santé de Salemata;318
+LISTE_HOPITAUX_337;PCS_337;Centre de santé de Sam;Centre de santé de Sam;319
+LISTE_HOPITAUX_145;PCS_145;Centre de Santé de Sangalkam;Centre de Santé de Sangalkam;320
+LISTE_HOPITAUX_335;PCS_335;Centre de santé de Sara;Centre de santé de Sara;321
+LISTE_HOPITAUX_736;PCS_736;Centre de Santé de Saraya;Centre de Santé de Saraya;322
+LISTE_HOPITAUX_115;PCS_115;Centre de santé de Sos village enfant;Centre de santé de Sos village enfant;323
+LISTE_HOPITAUX_22;PCS_22;Centre de Santé de THIANDIGUE;Centre de Santé de THIANDIGUE;324
+LISTE_HOPITAUX_47;PCS_47;Centre de Santé de Thianguto;Centre de Santé de Thianguto;325
+LISTE_HOPITAUX_63;PCS_63;Centre de santé de Thiawéne;Centre de santé de Thiawéne;326
+LISTE_HOPITAUX_165;PCS_165;Centre de santé de WAKHINANE NIMZATT;Centre de santé de WAKHINANE NIMZATT;327
+LISTE_HOPITAUX_623;PCS_623;CENTRE DE SANTE DE YEUMBEUL;CENTRE DE SANTE DE YEUMBEUL;328
+LISTE_HOPITAUX_23;PCS_23;Centre de santé de Yeumbeul;Centre de santé de Yeumbeul;329
+LISTE_HOPITAUX_439;PCS_439;Centre de santé d'Oussoouye;Centre de santé d'Oussoouye;330
+LISTE_HOPITAUX_535;PCS_535;Centre de santé Elisabeth  Diouf;Centre de santé Elisabeth  Diouf;331
+LISTE_HOPITAUX_112;PCS_112;Centre de santé Gaspar Camara;Centre de santé Gaspar Camara;332
+LISTE_HOPITAUX_150;PCS_150;Centre de santé Gaspard Camara;Centre de santé Gaspard Camara;333
+LISTE_HOPITAUX_128;PCS_128;Centre de santé Grand Daka;Centre de santé Grand Daka;334
+LISTE_HOPITAUX_114;PCS_114;Centre de santé Grand Dakar;Centre de santé Grand Dakar;335
+LISTE_HOPITAUX_130;PCS_130;Centre de santé HLM;Centre de santé HLM;336
+LISTE_HOPITAUX_173;PCS_173;Centre de santé Khadim rassoul;Centre de santé Khadim rassoul;337
+LISTE_HOPITAUX_142;PCS_142;Centre de santé Kounoune;Centre de santé Kounoune;338
+LISTE_HOPITAUX_541;PCS_541;Centre de santé Mame seynabou  ndaw;Centre de santé Mame seynabou  ndaw;339
+LISTE_HOPITAUX_187;PCS_187;Centre de santé Massamba Sall;Centre de santé Massamba Sall;340
+LISTE_HOPITAUX_416;PCS_416;CENTREDE SANTE MEDICO SOCIAL SOPE NABI;CENTREDE SANTE MEDICO SOCIAL SOPE NABI;341
+LISTE_HOPITAUX_747;PCS_747;Centre de santé Médina yoro foula;Centre de santé Médina yoro foula;342
+LISTE_HOPITAUX_718;PCS_718;Centre de santé psychiatrique  émile badiane;Centre de santé psychiatrique  émile badiane;343
+LISTE_HOPITAUX_68;PCS_68;Centre de Santé Tefess;Centre de Santé Tefess;344
+LISTE_HOPITAUX_500;PCS_500;Centre de santé Thiadiaye;Centre de santé Thiadiaye;345
+LISTE_HOPITAUX_716;PCS_716;Centre médical de garnison de Ziguinchor;Centre médical de garnison de Ziguinchor;346
+LISTE_HOPITAUX_717;PCS_717;Centre médical de kandialang;Centre médical de kandialang;347
+LISTE_HOPITAUX_460;PCS_460;Centre urbain de Bakel;Centre urbain de Bakel;348
+LISTE_HOPITAUX_65;PCS_65;Clinique 18 Safar;Clinique 18 Safar;349
+LISTE_HOPITAUX_409;PCS_409;Clinique 24/24;Clinique 24/24;350
+LISTE_HOPITAUX_487;PCS_487;Clinique Ababacar Sy;Clinique Ababacar Sy;352
+LISTE_HOPITAUX_149;PCS_149;Clinique Adémyse;Clinique Adémyse;353
+LISTE_HOPITAUX_488;PCS_488;Clinique Adja Ndiémé;Clinique Adja Ndiémé;354
+LISTE_HOPITAUX_528;PCS_528;Clinique Aley Tall;Clinique Aley Tall;355
+LISTE_HOPITAUX_79;PCS_79;Clinique Al Mansour Pole Mére-Enfant;Clinique Al Mansour Pole Mére-Enfant;356
+LISTE_HOPITAUX_264;PCS_264;Clinique Ama;Clinique Ama;357
+LISTE_HOPITAUX_266;PCS_266;Clinique Amadou Lamine BA;Clinique Amadou Lamine BA;358
+LISTE_HOPITAUX_570;PCS_570;Clinique Amdalaye 4;Clinique Amdalaye 4;359
+LISTE_HOPITAUX_629;PCS_629;CLINIQUE ASECNA;CLINIQUE ASECNA;360
+LISTE_HOPITAUX_80;PCS_80;Clinique Bilbassi;Clinique Bilbassi;362
+LISTE_HOPITAUX_712;PCS_712;Clinique Cabinet  la joanne de ziguincho;Clinique Cabinet  la joanne de ziguincho;363
+LISTE_HOPITAUX_178;PCS_178;clinique Camed;clinique Camed;364
+LISTE_HOPITAUX_92;PCS_92;Clinique Casao;Clinique Casao;365
+LISTE_HOPITAUX_715;PCS_715;Clinique Casa Urgence de Ziguinchor;Clinique Casa Urgence de Ziguinchor;366
+LISTE_HOPITAUX_263;PCS_263;Clinique Charles;Clinique Charles;367
+LISTE_HOPITAUX_154;PCS_154;Clinique cheick Anta DIOP;Clinique cheick Anta DIOP;368
+LISTE_HOPITAUX_626;PCS_626;CLINIQUE CHEIKH AHMADOU BAMBA;CLINIQUE CHEIKH AHMADOU BAMBA;369
+LISTE_HOPITAUX_60;PCS_60;Clinique Cheikh anta;Clinique Cheikh anta;370
+LISTE_HOPITAUX_177;PCS_177;Clinique Cheikhoul khadim;Clinique Cheikhoul khadim;371
+LISTE_HOPITAUX_491;PCS_491;Clinique Cité enseignant;Clinique Cité enseignant;372
+LISTE_HOPITAUX_719;PCS_719;Clinique Commissariat de police;Clinique Commissariat de police;373
+LISTE_HOPITAUX_621;PCS_621;Clinique coulibaly;Clinique coulibaly;374
+LISTE_HOPITAUX_408;PCS_408;Clinique Dabakh malick;Clinique Dabakh malick;375
+LISTE_HOPITAUX_481;PCS_481;Clinique de Alphonse;Clinique de Alphonse;376
+LISTE_HOPITAUX_338;PCS_338;Clinique de Baba Top;Clinique de Baba Top;377
+LISTE_HOPITAUX_879;PCS_879;Clinique de Bakline Paléne;Clinique de Bakline Paléne;378
+LISTE_HOPITAUX_125;PCS_125;Clinique de Bamtaré;Clinique de Bamtaré;379
+LISTE_HOPITAUX_339;PCS_339;Clinique de Binetou Rassoul;Clinique de Binetou Rassoul;380
+LISTE_HOPITAUX_572;PCS_572;Clinique de Cathodique;Clinique de Cathodique;381
+LISTE_HOPITAUX_321;PCS_321;Clinique de Diarama;Clinique de Diarama;382
+LISTE_HOPITAUX_768;PCS_768;Clinique de diohine;Clinique de diohine;383
+LISTE_HOPITAUX_44;PCS_44;Clinique de fara Wade de saint louis;Clinique de fara Wade de saint louis;384
+LISTE_HOPITAUX_61;PCS_61;Clinique de Feu Salba Fall;Clinique de Feu Salba Fall;385
+LISTE_HOPITAUX_139;PCS_139;Clinique de khadim Rassoul;Clinique de khadim Rassoul;386
+LISTE_HOPITAUX_860;PCS_860;Clinique de Koudiadiene;Clinique de Koudiadiene;387
+LISTE_HOPITAUX_4;PCS_4;Clinique de l'amitié;Clinique de l'amitié;388
+LISTE_HOPITAUX_327;PCS_327;Clinique de Lamp fall;Clinique de Lamp fall;389
+LISTE_HOPITAUX_87;PCS_87;Clinique de Lansal;Clinique de Lansal;390
+LISTE_HOPITAUX_754;PCS_754;Clinique de Lansar;Clinique de Lansar;391
+LISTE_HOPITAUX_140;PCS_140;Clinique de Madame Ndoye;Clinique de Madame Ndoye;392
+LISTE_HOPITAUX_126;PCS_126;Clinique de major dieye;Clinique de major dieye;393
+LISTE_HOPITAUX_124;PCS_124;Clinique de MI SALAM;Clinique de MI SALAM;394
+LISTE_HOPITAUX_147;PCS_147;Clinique de plateau du Lac;Clinique de plateau du Lac;395
+LISTE_HOPITAUX_482;PCS_482;Clinique de Plateau Médical;Clinique de Plateau Médical;396
+LISTE_HOPITAUX_857;PCS_857;Clinique de Saint thérése;Clinique de Saint thérése;397
+LISTE_HOPITAUX_344;PCS_344;Clinique de Sarr;Clinique de Sarr;398
+LISTE_HOPITAUX_777;PCS_777;Clinique de Thierno Kandji;Clinique de Thierno Kandji;399
+LISTE_HOPITAUX_343;PCS_343;Clinique de Tidiane bodian;Clinique de Tidiane bodian;400
+LISTE_HOPITAUX_146;PCS_146;Clinique de Ya cheikh;Clinique de Ya cheikh;401
+LISTE_HOPITAUX_43;PCS_43;Clinique Dioum de saint louis;Clinique Dioum de saint louis;402
+LISTE_HOPITAUX_622;PCS_622;Clinique doctor kande;Clinique doctor kande;403
+LISTE_HOPITAUX_94;PCS_94;Clinique du Cap;Clinique du Cap;404
+LISTE_HOPITAUX_82;PCS_82;Clinique Ennaus;Clinique Ennaus;405
+LISTE_HOPITAUX_721;PCS_721;Clinique établissement industriel de ziguinchor;Clinique établissement industriel de ziguinchor;406
+LISTE_HOPITAUX_627;PCS_627;CLINIQUE EVA MARIE CAUL SECK;CLINIQUE EVA MARIE CAUL SECK;407
+LISTE_HOPITAUX_417;PCS_417;CLINIQUE GABINET DR DANIORO;CLINIQUE GABINET DR DANIORO;408
+LISTE_HOPITAUX_414;PCS_414;CLINIQUE GABINET MEDICAL KANDE;CLINIQUE GABINET MEDICAL KANDE;409
+LISTE_HOPITAUX_113;PCS_113;Clinique Internationale;Clinique Internationale;410
+LISTE_HOPITAUX_496;PCS_496;Clinique Kawsara;Clinique Kawsara;411
+LISTE_HOPITAUX_490;PCS_490;Clinique KAWSARA;Clinique KAWSARA;412
+LISTE_HOPITAUX_415;PCS_415;CLINIQUE KELEBANA;CLINIQUE KELEBANA;413
+LISTE_HOPITAUX_492;PCS_492;Clinique KERE YIWE;Clinique KERE YIWE;414
+LISTE_HOPITAUX_628;PCS_628;CLINIQUE MACHALAH;CLINIQUE MACHALAH;415
+LISTE_HOPITAUX_91;PCS_91;Clinique Madelaine;Clinique Madelaine;416
+LISTE_HOPITAUX_9;PCS_9;Clinique Madji;Clinique Madji;417
+LISTE_HOPITAUX_282;PCS_282;CLINIQUE MAIMOUNA;CLINIQUE MAIMOUNA;418
+LISTE_HOPITAUX_461;PCS_461;Clinique M. Ndiaye;Clinique M. Ndiaye;419
+LISTE_HOPITAUX_782;PCS_782;Clinique Moussa Siré Thiam;Clinique Moussa Siré Thiam;420
+LISTE_HOPITAUX_462;PCS_462;Clinique M. Sow;Clinique M. Sow;421
+LISTE_HOPITAUX_66;PCS_66;Clinique Muhammed Fadel;Clinique Muhammed Fadel;422
+LISTE_HOPITAUX_197;PCS_197;CLINIQUE NABY;CLINIQUE NABY;423
+LISTE_HOPITAUX_504;PCS_504;Clinique Notre Dame de la Paix;Clinique Notre Dame de la Paix;424
+LISTE_HOPITAUX_730;PCS_730;Clinique Paramédical  Saint Antoine de padoue;Clinique Paramédical  Saint Antoine de padoue;425
+LISTE_HOPITAUX_95;PCS_95;Clinique Pasteur;Clinique Pasteur;426
+LISTE_HOPITAUX_81;PCS_81;Clinique (Pramédical) Aida Kamoye;Clinique (Pramédical) Aida Kamoye;427
+LISTE_HOPITAUX_230;PCS_230;Clinique privée;Clinique privée;428
+LISTE_HOPITAUX_283;PCS_283;CLINIQUE RADA;CLINIQUE RADA;429
+LISTE_HOPITAUX_144;PCS_144;Clinique Rassoul;Clinique Rassoul;430
+LISTE_HOPITAUX_476;PCS_476;Clinique Sainte croix;Clinique Sainte croix;431
+LISTE_HOPITAUX_90;PCS_90;Clinique Samu Social;Clinique Samu Social;432
+LISTE_HOPITAUX_155;PCS_155;Clinique SOS CARDIO;Clinique SOS CARDIO;433
+LISTE_HOPITAUX_42;PCS_42;Clinique Suma assistance de saint louis;Clinique Suma assistance de saint louis;434
+LISTE_HOPITAUX_463;PCS_463;Clinique Sy;Clinique Sy;435
+LISTE_HOPITAUX_495;PCS_495;Clinique Tahibou diouf;Clinique Tahibou diouf;436
+LISTE_HOPITAUX_516;PCS_516;Clinique Thengori  arrondissement (djikesse);Clinique Thengori  arrondissement (djikesse);437
+LISTE_HOPITAUX_515;PCS_515;Clinique Thengori transgambiene;Clinique Thengori transgambiene;438
+LISTE_HOPITAUX_172;PCS_172;Clinique Ya yassine;Clinique Ya yassine;439
+LISTE_HOPITAUX_473;PCS_473;Croix Rouge;Croix Rouge;440
+LISTE_HOPITAUX_884;PCS_884;Croix-Rouge;Croix-Rouge;441
+LISTE_HOPITAUX_170;PCS_170;Dispensaire chez Camara;Dispensaire chez Camara;442
+LISTE_HOPITAUX_280;PCS_280;Dispensaire de la mission catholique;Dispensaire de la mission catholique;443
+LISTE_HOPITAUX_720;PCS_720;Dispensaire de santhiaba;Dispensaire de santhiaba;444
+LISTE_HOPITAUX_600;PCS_600;Dispensaire Municipal de Tam;Dispensaire Municipal de Tam;445
+LISTE_HOPITAUX_599;PCS_599;Dispensaire Municipal de Tambacounda;Dispensaire Municipal de Tambacounda;446
+LISTE_HOPITAUX_781;PCS_781;District sanitaire de Birkilane;District sanitaire de Birkilane;447
+LISTE_HOPITAUX_11;PCS_11;District sanitaire de Podor;District sanitaire de Podor;448
+LISTE_HOPITAUX_617;PCS_617;District sanitaire de vélingara;District sanitaire de vélingara;449
+LISTE_HOPITAUX_773;PCS_773;Hôpital de Bedouin;Hôpital de Bedouin;450
+LISTE_HOPITAUX_774;PCS_774;Hôpital de Dalal Diam;Hôpital de Dalal Diam;451
+LISTE_HOPITAUX_158;PCS_158;Hôpital de DixiŠme;Hôpital de DixiŠme;452
+LISTE_HOPITAUX_270;PCS_270;Hôpital de Gandiaye;Hôpital de Gandiaye;453
+LISTE_HOPITAUX_226;PCS_226;Hôpital de Gossas;Hôpital de Gossas;454
+LISTE_HOPITAUX_345;PCS_345;Hôpital de Ibrahim Niass;Hôpital de Ibrahim Niass;455
+LISTE_HOPITAUX_86;PCS_86;Hopital de Keur Massar;Hopital de Keur Massar;456
+LISTE_HOPITAUX_637;PCS_637;Hopital de la paix de Ziguinchor;Hopital de la paix de Ziguinchor;457
+LISTE_HOPITAUX_709;PCS_709;Hôpital de la paix de Ziguinchor;Hôpital de la paix de Ziguinchor;458
+LISTE_HOPITAUX_51;PCS_51;hôpital de Lubké;hôpital de Lubké;459
+LISTE_HOPITAUX_331;PCS_331;Hôpital de Mbacké;Hôpital de Mbacké;460
+LISTE_HOPITAUX_138;PCS_138;Hôpital de Pikine;Hôpital de Pikine;461
+LISTE_HOPITAUX_755;PCS_755;Hôpital de Pikine;Hôpital de Pikine;462
+LISTE_HOPITAUX_135;PCS_135;Hôpital de Roi bodin;Hôpital de Roi bodin;463
+LISTE_HOPITAUX_123;PCS_123;Hôpital de ROI BODIN;Hôpital de ROI BODIN;464
+LISTE_HOPITAUX_83;PCS_83;Hopital de Thiaroy;Hopital de Thiaroy;465
+LISTE_HOPITAUX_192;PCS_192;HOPITAL DE YOUSSOU BARGANE;HOPITAL DE YOUSSOU BARGANE;466
+LISTE_HOPITAUX_287;PCS_287;Hôpital El hadji amadou sahir mbaye;Hôpital El hadji amadou sahir mbaye;467
+LISTE_HOPITAUX_153;PCS_153;Hopital fann;Hopital fann;468
+LISTE_HOPITAUX_129;PCS_129;Hopital Gaspard Camara de Dakar;Hopital Gaspard Camara de Dakar;469
+LISTE_HOPITAUX_2;PCS_2;Hôpital général Grand Yoff Idrissa Pouye;Hôpital général Grand Yoff Idrissa Pouye;472
+LISTE_HOPITAUX_67;PCS_67;Hôpital Grand Mbour;Hôpital Grand Mbour;473
+LISTE_HOPITAUX_722;PCS_722;Hôpital Infirmerie  camp militaire;Hôpital Infirmerie  camp militaire;474
+LISTE_HOPITAUX_347;PCS_347;Hôpital Institut d'hygiéne social;Hôpital Institut d'hygiéne social;475
+LISTE_HOPITAUX_89;PCS_89;Hôpital le Dantec;Hôpital le Dantec;476
+LISTE_HOPITAUX_285;PCS_285;Hôpital Maguette  lo;Hôpital Maguette  lo;477
+LISTE_HOPITAUX_188;PCS_188;Hôpital Mame Abdou;Hôpital Mame Abdou;478
+LISTE_HOPITAUX_302;PCS_302;Hôpital principal;Hôpital principal;479
+LISTE_HOPITAUX_93;PCS_93;Hôpital Principal;Hôpital Principal;480
+LISTE_HOPITAUX_306;PCS_306;Hôpital régional de kaffrine;Hôpital régional de kaffrine;481
+LISTE_HOPITAUX_262;PCS_262;Hôpital régional de kolda;Hôpital régional de kolda;482
+LISTE_HOPITAUX_322;PCS_322;Hôpital Régional de Matam;Hôpital Régional de Matam;483
+LISTE_HOPITAUX_157;PCS_157;Hôpital Régional de Thiés;Hôpital Régional de Thiés;484
+LISTE_HOPITAUX_636;PCS_636;Hopital regional de ZIGUINCHOR;Hopital regional de ZIGUINCHOR;485
+LISTE_HOPITAUX_708;PCS_708;Hôpital régional de ziguinchor;Hôpital régional de ziguinchor;486
+LISTE_HOPITAUX_228;PCS_228;Hôpital Régional fatick;Hôpital Régional fatick;487
+LISTE_HOPITAUX_200;PCS_200;Hôpital Saint Jean de Dieu;Hôpital Saint Jean de Dieu;488
+LISTE_HOPITAUX_567;PCS_567;Hopital Thiaroye;Hopital Thiaroye;489
+LISTE_HOPITAUX_639;PCS_639;Infirmerie camp militaire de Ziguinchor;Infirmerie camp militaire de Ziguinchor;490
+LISTE_HOPITAUX_723;PCS_723;Maternité Belfort;Maternité Belfort;491
+LISTE_HOPITAUX_638;PCS_638;Maternité belfort de Ziguinchor;Maternité belfort de Ziguinchor;492
+LISTE_HOPITAUX_641;PCS_641;Maternité  Bernadette la Croix;Maternité  Bernadette la Croix;493
+LISTE_HOPITAUX_724;PCS_724;Maternité boucotte sud;Maternité boucotte sud;494
+LISTE_HOPITAUX_640;PCS_640;Maternité boukotte sud de Ziguinchor;Maternité boukotte sud de Ziguinchor;495
+LISTE_HOPITAUX_667;PCS_667;Maternité de Bango;Maternité de Bango;496
+LISTE_HOPITAUX_725;PCS_725;Maternité de Bernadette la croix;Maternité de Bernadette la croix;497
+LISTE_HOPITAUX_701;PCS_701;Maternité de bloc;Maternité de bloc;498
+LISTE_HOPITAUX_88;PCS_88;Maternité de Boune;Maternité de Boune;499
+LISTE_HOPITAUX_171;PCS_171;Maternité de Dalifort;Maternité de Dalifort;500
+LISTE_HOPITAUX_702;PCS_702;Maternité de diendé;Maternité de diendé;501
+LISTE_HOPITAUX_635;PCS_635;Maternité de Ediamath;Maternité de Ediamath;502
+LISTE_HOPITAUX_726;PCS_726;Maternité de grand Dakar;Maternité de grand Dakar;503
+LISTE_HOPITAUX_642;PCS_642;Maternité de grand dakar de Ziguinchor;Maternité de grand dakar de Ziguinchor;504
+LISTE_HOPITAUX_643;PCS_643;Maternité de kandé de ZIguinchor;Maternité de kandé de ZIguinchor;505
+LISTE_HOPITAUX_668;PCS_668;Maternité de Khor ;Maternité de Khor ;506
+LISTE_HOPITAUX_728;PCS_728;Maternité de  lyndiane;Maternité de  lyndiane;507
+LISTE_HOPITAUX_645;PCS_645;Maternité de lyndiane de Ziguinchor;Maternité de lyndiane de Ziguinchor;508
+LISTE_HOPITAUX_633;PCS_633;Maternité de Mlomp;Maternité de Mlomp;509
+LISTE_HOPITAUX_634;PCS_634;Maternité de Mlomp kewaguir;Maternité de Mlomp kewaguir;510
+LISTE_HOPITAUX_729;PCS_729;Maternité de nema;Maternité de nema;511
+LISTE_HOPITAUX_662;PCS_662;Maternité de Ngallele;Maternité de Ngallele;512
+LISTE_HOPITAUX_695;PCS_695;Maternité de Ngoye;Maternité de Ngoye;513
+LISTE_HOPITAUX_865;PCS_865;Maternité de Pire;Maternité de Pire;514
+LISTE_HOPITAUX_598;PCS_598;Maternité de Tambacounda;Maternité de Tambacounda;515
+LISTE_HOPITAUX_700;PCS_700;Maternité de tourécounda;Maternité de tourécounda;516
+LISTE_HOPITAUX_85;PCS_85;Maternité de Yeumbeul;Maternité de Yeumbeul;517
+LISTE_HOPITAUX_3;PCS_3;Maternité Grand Yoff 1;Maternité Grand Yoff 1;518
+LISTE_HOPITAUX_727;PCS_727;Maternité Kande de Ziguinchor;Maternité Kande de Ziguinchor;519
+LISTE_HOPITAUX_189;PCS_189;Maternité Médine;Maternité Médine;520
+LISTE_HOPITAUX_411;PCS_411;MATERNITE MUNICIPAL N°2;MATERNITE MUNICIPAL N°2;521
+LISTE_HOPITAUX_646;PCS_646;Maternité  néma de Ziguinchor;Maternité  néma de Ziguinchor;522
+LISTE_HOPITAUX_714;PCS_714;Maternité paramédical de boucotte sud;Maternité paramédical de boucotte sud;523
+LISTE_HOPITAUX_29;PCS_29;oste de santé de Ross  Bethio;oste de santé de Ross  Bethio;524
+LISTE_HOPITAUX_647;PCS_647;Paramedical Antoine de padou de Ziguinchor;Paramedical Antoine de padou de Ziguinchor;525
+LISTE_HOPITAUX_531;PCS_531;Poste de santé 04-mai;Poste de santé 04-mai;526
+LISTE_HOPITAUX_549;PCS_549;Poste de santé Arafat;Poste de santé Arafat;528
+LISTE_HOPITAUX_190;PCS_190;Poste de santé Baba Alima;Poste de santé Baba Alima;530
+LISTE_HOPITAUX_499;PCS_499;Poste de santé Badioure;Poste de santé Badioure;531
+LISTE_HOPITAUX_493;PCS_493;Poste de santé Bambilor;Poste de santé Bambilor;532
+LISTE_HOPITAUX_141;PCS_141;Poste de santé BAMBILOR;Poste de santé BAMBILOR;533
+LISTE_HOPITAUX_184;PCS_184;Poste de santé BAMBILOR;Poste de santé BAMBILOR;534
+LISTE_HOPITAUX_521;PCS_521;Poste de santé Bokidiawe 1;Poste de santé Bokidiawe 1;535
+LISTE_HOPITAUX_522;PCS_522;Poste de santé Bokidiawe 2;Poste de santé Bokidiawe 2;536
+LISTE_HOPITAUX_711;PCS_711;Poste de Santé Bon samaritain de Ziguinchor;Poste de Santé Bon samaritain de Ziguinchor;537
+LISTE_HOPITAUX_127;PCS_127;Poste de santé Bourguiba;Poste de santé Bourguiba;538
+LISTE_HOPITAUX_618;PCS_618;Poste de santé Croix rouge;Poste de santé Croix rouge;539
+LISTE_HOPITAUX_444;PCS_444;Poste de santé  d'Agman lidoubé;Poste de santé  d'Agman lidoubé;540
+LISTE_HOPITAUX_440;PCS_440;Poste de santé d'Agnam civol;Poste de santé d'Agnam civol;541
+LISTE_HOPITAUX_442;PCS_442;Poste de santé  d'Agnam goly;Poste de santé  d'Agnam goly;542
+LISTE_HOPITAUX_441;PCS_441;Poste de santé d'Agnam thiodaye;Poste de santé d'Agnam thiodaye;543
+LISTE_HOPITAUX_518;PCS_518;Poste de santé d?AMA;Poste de santé d?AMA;544
+LISTE_HOPITAUX_166;PCS_166;Poste de santé DAROU KHANE;Poste de santé DAROU KHANE;545
+LISTE_HOPITAUX_167;PCS_167;Poste de santé DAROU RAHMANE;Poste de santé DAROU RAHMANE;546
+LISTE_HOPITAUX_533;PCS_533;Poste de santé Darou salam;Poste de santé Darou salam;547
+LISTE_HOPITAUX_117;PCS_117;Poste de santé de Abattoir Ndagane;Poste de santé de Abattoir Ndagane;548
+LISTE_HOPITAUX_625;PCS_625;POSTE DE SANTE DE AINOUMADY;POSTE DE SANTE DE AINOUMADY;549
+LISTE_HOPITAUX_590;PCS_590;Poste de sante de Amar;Poste de sante de Amar;550
+LISTE_HOPITAUX_585;PCS_585;Poste de Santé de Amdalaye tessan;Poste de Santé de Amdalaye tessan;551
+LISTE_HOPITAUX_291;PCS_291;Poste de Santé de Arthierie nord;Poste de Santé de Arthierie nord;552
+LISTE_HOPITAUX_609;PCS_609;Poste de Santé de Bambadinka;Poste de Santé de Bambadinka;553
+LISTE_HOPITAUX_748;PCS_748;Poste de santé de Bandafassi;Poste de santé de Bandafassi;554
+LISTE_HOPITAUX_897;PCS_897;Poste de Santé de Bandegne;Poste de Santé de Bandegne;555
+LISTE_HOPITAUX_519;PCS_519;Poste de santé de Bandionkoto;Poste de santé de Bandionkoto;556
+LISTE_HOPITAUX_657;PCS_657;Poste de Santé de Bango ;Poste de Santé de Bango ;557
+LISTE_HOPITAUX_611;PCS_611;Poste de Sante de BANTAKO;Poste de Sante de BANTAKO;558
+LISTE_HOPITAUX_691;PCS_691;Poste de Santé de Batal;Poste de Santé de Batal;559
+LISTE_HOPITAUX_785;PCS_785;Poste de santé de Benteigné;Poste de santé de Benteigné;560
+LISTE_HOPITAUX_762;PCS_762;Poste de Santé de Bicole;Poste de Santé de Bicole;561
+LISTE_HOPITAUX_602;PCS_602;Poste de Santé de Bira;Poste de Santé de Bira;562
+LISTE_HOPITAUX_698;PCS_698;Poste de santé de bloc;Poste de santé de bloc;563
+LISTE_HOPITAUX_398;PCS_398;Poste de sante de Boke namari;Poste de sante de Boke namari;564
+LISTE_HOPITAUX_390;PCS_390;Poste de sante de Boki Dialloube;Poste de sante de Boki Dialloube;565
+LISTE_HOPITAUX_595;PCS_595;Poste de sante de Botou;Poste de sante de Botou;566
+LISTE_HOPITAUX_421;PCS_421;Poste de santé de Boukhou;Poste de santé de Boukhou;567
+LISTE_HOPITAUX_771;PCS_771;Poste de Santé de Boumouda;Poste de Santé de Boumouda;568
+LISTE_HOPITAUX_259;PCS_259;Poste de Santé de Bouna kane;Poste de Santé de Bouna kane;569
+LISTE_HOPITAUX_334;PCS_334;Poste de santé de Boustane;Poste de santé de Boustane;570
+LISTE_HOPITAUX_670;PCS_670;Poste de Santé de Boyinadji;Poste de Santé de Boyinadji;571
+LISTE_HOPITAUX_33;PCS_33;Poste de Santé de Bransan;Poste de Santé de Bransan;572
+LISTE_HOPITAUX_480;PCS_480;Poste de santé de Chantier 2;Poste de santé de Chantier 2;573
+LISTE_HOPITAUX_72;PCS_72;Poste de Santé de Chateau d'Eau Nord;Poste de Santé de Chateau d'Eau Nord;574
+LISTE_HOPITAUX_858;PCS_858;Poste de Santé de Cherif lo;Poste de Santé de Cherif lo;575
+LISTE_HOPITAUX_423;PCS_423;Poste de santé de Dagga;Poste de santé de Dagga;576
+LISTE_HOPITAUX_246;PCS_246;Poste de Santé de Dagga Sambe ;Poste de Santé de Dagga Sambe ;577
+LISTE_HOPITAUX_96;PCS_96;Poste de Santé de Dalaba;Poste de Santé de Dalaba;578
+LISTE_HOPITAUX_802;PCS_802;Poste de Santé de Dalla ngabou;Poste de Santé de Dalla ngabou;579
+LISTE_HOPITAUX_902;PCS_902;Poste de Santé de Dara khara;Poste de Santé de Dara khara;580
+LISTE_HOPITAUX_231;PCS_231;Poste de Santé de Darel;Poste de Santé de Darel;581
+LISTE_HOPITAUX_888;PCS_888;Poste de Santé de Darou kosso;Poste de Santé de Darou kosso;582
+LISTE_HOPITAUX_887;PCS_887;Poste de Santé de Darou miname;Poste de Santé de Darou miname;583
+LISTE_HOPITAUX_814;PCS_814;Poste de Santé de Darou nahim;Poste de Santé de Darou nahim;584
+LISTE_HOPITAUX_378;PCS_378;Poste de sante de Darou Salam;Poste de sante de Darou Salam;585
+LISTE_HOPITAUX_78;PCS_78;Poste de Santé de Darou Salam;Poste de Santé de Darou Salam;586
+LISTE_HOPITAUX_332;PCS_332;Poste de Santé de Darou Salam;Poste de Santé de Darou Salam;587
+LISTE_HOPITAUX_886;PCS_886;Poste de Santé de Darou wahab;Poste de Santé de Darou wahab;588
+LISTE_HOPITAUX_682;PCS_682;Poste de Santé de Darsalam;Poste de Santé de Darsalam;589
+LISTE_HOPITAUX_376;PCS_376;Poste de Santé de Dego;Poste de Santé de Dego;590
+LISTE_HOPITAUX_589;PCS_589;Poste de sante de Dembo coly;Poste de sante de Dembo coly;591
+LISTE_HOPITAUX_443;PCS_443;Poste de santé de diafane sorokoum;Poste de santé de diafane sorokoum;592
+LISTE_HOPITAUX_341;PCS_341;Poste de santé de Dialegne;Poste de santé de Dialegne;593
+LISTE_HOPITAUX_116;PCS_116;Poste de santé de Dialeme;Poste de santé de Dialeme;594
+LISTE_HOPITAUX_380;PCS_380;Poste de sante de Diamageune;Poste de sante de Diamageune;595
+LISTE_HOPITAUX_118;PCS_118;Poste de santé de Diamageune;Poste de santé de Diamageune;596
+LISTE_HOPITAUX_35;PCS_35;Poste de santé de Diamaguene;Poste de santé de Diamaguene;597
+LISTE_HOPITAUX_877;PCS_877;Poste de Santé de Diamaguene;Poste de Santé de Diamaguene;598
+LISTE_HOPITAUX_49;PCS_49;Poste de Santé de Diamagueune;Poste de Santé de Diamagueune;599
+LISTE_HOPITAUX_309;PCS_309;Poste de santé de Diamagueune centre;Poste de santé de Diamagueune centre;600
+LISTE_HOPITAUX_310;PCS_310;Poste de santé de Diamagueune t‚p‚;Poste de santé de Diamagueune t‚p‚;601
+LISTE_HOPITAUX_77;PCS_77;Poste de santé de Diameguene;Poste de santé de Diameguene;602
+LISTE_HOPITAUX_325;PCS_325;Poste de Santé de Diamel;Poste de Santé de Diamel;603
+LISTE_HOPITAUX_349;PCS_349;Poste de santé de Diare;Poste de santé de Diare;604
+LISTE_HOPITAUX_757;PCS_757;Poste de Santé de Diaroume;Poste de Santé de Diaroume;605
+LISTE_HOPITAUX_765;PCS_765;Poste de Santé de Diarrere;Poste de Santé de Diarrere;606
+LISTE_HOPITAUX_422;PCS_422;Poste de santé de Diass;Poste de santé de Diass;607
+LISTE_HOPITAUX_467;PCS_467;Poste de santé de Diemane;Poste de santé de Diemane;608
+LISTE_HOPITAUX_696;PCS_696;Poste de santé de diendé;Poste de santé de diendé;609
+LISTE_HOPITAUX_880;PCS_880;Poste de Santé de Dimb Bapp;Poste de Santé de Dimb Bapp;610
+LISTE_HOPITAUX_767;PCS_767;Poste de Santé de Diohine;Poste de Santé de Diohine;611
+LISTE_HOPITAUX_214;PCS_214;Poste de santé de Diokhar;Poste de santé de Diokhar;612
+LISTE_HOPITAUX_196;PCS_196;POSTE DE SANTE DE DIOKOUL KHER;POSTE DE SANTE DE DIOKOUL KHER;613
+LISTE_HOPITAUX_195;PCS_195;POSTE DE SANTE DE DIOKOUL WAGUE;POSTE DE SANTE DE DIOKOUL WAGUE;614
+LISTE_HOPITAUX_389;PCS_389;Poste de sante de Diongui;Poste de sante de Diongui;615
+LISTE_HOPITAUX_703;PCS_703;Poste de santé de Diouroup;Poste de santé de Diouroup;616
+LISTE_HOPITAUX_731;PCS_731;Poste de santé  de djibock;Poste de santé  de djibock;617
+LISTE_HOPITAUX_438;PCS_438;Poste de santé de Djilakh;Poste de santé de Djilakh;618
+LISTE_HOPITAUX_680;PCS_680;Poste de Santé de djinkord Peul;Poste de Santé de djinkord Peul;619
+LISTE_HOPITAUX_769;PCS_769;Poste de Santé de Djiredji;Poste de Santé de Djiredji;620
+LISTE_HOPITAUX_779;PCS_779;Poste de Santé de Doudou;Poste de Santé de Doudou;621
+LISTE_HOPITAUX_523;PCS_523;Poste de santé de Doumga ouro alpha;Poste de santé de Doumga ouro alpha;622
+LISTE_HOPITAUX_524;PCS_524;Poste de santé de Doundou;Poste de santé de Doundou;623
+LISTE_HOPITAUX_478;PCS_478;Poste de santé de Elizabeth Diouf;Poste de santé de Elizabeth Diouf;624
+LISTE_HOPITAUX_466;PCS_466;Poste de santé de Fadial;Poste de santé de Fadial;625
+LISTE_HOPITAUX_479;PCS_479;Poste de santé de Fadiouth;Poste de santé de Fadiouth;626
+LISTE_HOPITAUX_75;PCS_75;Poste de Santé de Fallokh Mbour;Poste de Santé de Fallokh Mbour;627
+LISTE_HOPITAUX_304;PCS_304;Poste de santé de Farabougou;Poste de santé de Farabougou;628
+LISTE_HOPITAUX_844;PCS_844;Poste de Santé de Fass diacksao;Poste de Santé de Fass diacksao;629
+LISTE_HOPITAUX_379;PCS_379;Poste de sante de Fass hlm;Poste de sante de Fass hlm;630
+LISTE_HOPITAUX_97;PCS_97;Poste de Santé de Fatiga;Poste de Santé de Fatiga;631
+LISTE_HOPITAUX_704;PCS_704;Poste de santé de Fayile;Poste de santé de Fayile;632
+LISTE_HOPITAUX_534;PCS_534;Poste de santé de Fissel Escale;Poste de santé de Fissel Escale;633
+LISTE_HOPITAUX_681;PCS_681;Poste de Santé de fode kounda Ansou;Poste de Santé de fode kounda Ansou;634
+LISTE_HOPITAUX_669;PCS_669;Poste de Santé de F‚t‚ Ni‚b‚;Poste de Santé de F‚t‚ Ni‚b‚;635
+LISTE_HOPITAUX_258;PCS_258;Poste de Santé de Gadapara;Poste de Santé de Gadapara;636
+LISTE_HOPITAUX_766;PCS_766;Poste de Santé de Gadiak;Poste de Santé de Gadiak;637
+LISTE_HOPITAUX_100;PCS_100;Poste de Santé de Gankette balla;Poste de Santé de Gankette balla;638
+LISTE_HOPITAUX_525;PCS_525;Poste de santé de Gaol;Poste de santé de Gaol;639
+LISTE_HOPITAUX_798;PCS_798;Poste de Santé de Gappo;Poste de Santé de Gappo;640
+LISTE_HOPITAUX_787;PCS_787;Poste de Santé de Gawane;Poste de Santé de Gawane;641
+LISTE_HOPITAUX_876;PCS_876;Poste de Santé de Gawane;Poste de Santé de Gawane;642
+LISTE_HOPITAUX_395;PCS_395;Poste de sante de Gayekada;Poste de sante de Gayekada;643
+LISTE_HOPITAUX_281;PCS_281;Poste de santé de goudomp;Poste de santé de goudomp;644
+LISTE_HOPITAUX_601;PCS_601;Poste de Santé de Gouille;Poste de Santé de Gouille;645
+LISTE_HOPITAUX_607;PCS_607;Poste de Santé de Gouloumbou;Poste de Santé de Gouloumbou;646
+LISTE_HOPITAUX_692;PCS_692;Poste de Santé de Gourgourene;Poste de Santé de Gourgourene;647
+LISTE_HOPITAUX_160;PCS_160;Poste de Santé de Grand Thies;Poste de Santé de Grand Thies;648
+LISTE_HOPITAUX_571;PCS_571;Poste de santé de Guelor Wolof;Poste de santé de Guelor Wolof;649
+LISTE_HOPITAUX_539;PCS_539;Poste de santé de Guenelenne;Poste de santé de Guenelenne;650
+LISTE_HOPITAUX_161;PCS_161;Poste de Santé de Guente;Poste de Santé de Guente;651
+LISTE_HOPITAUX_927;PCS_927;Poste de Santé de Gueoul;Poste de Santé de Gueoul;652
+LISTE_HOPITAUX_435;PCS_435;Poste de santé de Guereo;Poste de santé de Guereo;653
+LISTE_HOPITAUX_803;PCS_803;Poste de Santé de Guigan;Poste de Santé de Guigan;654
+LISTE_HOPITAUX_39;PCS_39;Poste de Santé de  Guinaw Rail;Poste de Santé de  Guinaw Rail;655
+LISTE_HOPITAUX_122;PCS_122;Poste de Santé de HAMO TEFESS;Poste de Santé de HAMO TEFESS;656
+LISTE_HOPITAUX_856;PCS_856;Poste de Santé de Henriette husnier boigny;Poste de Santé de Henriette husnier boigny;657
+LISTE_HOPITAUX_164;PCS_164;Poste de Santé de Hersent;Poste de Santé de Hersent;658
+LISTE_HOPITAUX_194;PCS_194;Poste de Santé de HLM;Poste de Santé de HLM;659
+LISTE_HOPITAUX_182;PCS_182;Poste de Santé de Imam kaire;Poste de Santé de Imam kaire;660
+LISTE_HOPITAUX_913;PCS_913;Poste de Santé de Kab gaye;Poste de Santé de Kab gaye;661
+LISTE_HOPITAUX_308;PCS_308;Poste de santé de Kaffrine 2;Poste de santé de Kaffrine 2;662
+LISTE_HOPITAUX_312;PCS_312;Poste de santé de Kahi;Poste de santé de Kahi;663
+LISTE_HOPITAUX_784;PCS_784;Poste de santé de kandam;Poste de santé de kandam;664
+LISTE_HOPITAUX_644;PCS_644;Poste de santé de kandé 2;Poste de santé de kandé 2;665
+LISTE_HOPITAUX_320;PCS_320;Poste de santé de kanel;Poste de santé de kanel;666
+LISTE_HOPITAUX_348;PCS_348;Poste de santé de Karantaba;Poste de santé de Karantaba;667
+LISTE_HOPITAUX_396;PCS_396;Poste de sante de Karawoyndou;Poste de sante de Karawoyndou;668
+LISTE_HOPITAUX_353;PCS_353;Poste de santé de Kathiote;Poste de santé de Kathiote;669
+LISTE_HOPITAUX_53;PCS_53;poste de santé de Keur Cheikh Ibra;poste de santé de Keur Cheikh Ibra;670
+LISTE_HOPITAUX_793;PCS_793;Poste de Santé de Keur Gane;Poste de Santé de Keur Gane;671
+LISTE_HOPITAUX_834;PCS_834;Poste de Santé de Keur khar diop;Poste de Santé de Keur khar diop;672
+LISTE_HOPITAUX_102;PCS_102;Poste de Santé de keur Momar Sarr;Poste de Santé de keur Momar Sarr;673
+LISTE_HOPITAUX_290;PCS_290;Poste de Santé de Keur serigne louga est;Poste de Santé de Keur serigne louga est;674
+LISTE_HOPITAUX_289;PCS_289;Poste de Santé de Keur serigne louga Nord;Poste de Santé de Keur serigne louga Nord;675
+LISTE_HOPITAUX_244;PCS_244;Poste de Santé de Keur soce;Poste de Santé de Keur soce;676
+LISTE_HOPITAUX_867;PCS_867;Poste de Santé de Kƒ;Poste de Santé de Kƒ;677
+LISTE_HOPITAUX_845;PCS_845;Poste de Santé de Khandane;Poste de Santé de Khandane;678
+LISTE_HOPITAUX_209;PCS_209;Poste de santé de Khémé;Poste de santé de Khémé;679
+LISTE_HOPITAUX_658;PCS_658;Poste de Santé de Khor;Poste de Santé de Khor;680
+LISTE_HOPITAUX_783;PCS_783;Poste de Santé de Kiréne;Poste de Santé de Kiréne;681
+LISTE_HOPITAUX_842;PCS_842;Poste de Santé de Koul;Poste de Santé de Koul;682
+LISTE_HOPITAUX_293;PCS_293;Poste de Santé de Koumpeul ;Poste de Santé de Koumpeul ;683
+LISTE_HOPITAUX_710;PCS_710;Poste de santé de l'Agence de musulman d'Afrique;Poste de santé de l'Agence de musulman d'Afrique;684
+LISTE_HOPITAUX_792;PCS_792;Poste de Santé de Lagnar;Poste de Santé de Lagnar;685
+LISTE_HOPITAUX_245;PCS_245;Poste de Santé de Lamarame;Poste de Santé de Lamarame;686
+LISTE_HOPITAUX_828;PCS_828;Poste de Santé de Lebou  est;Poste de Santé de Lebou  est;687
+LISTE_HOPITAUX_99;PCS_99;Poste de Santé de Loboudou;Poste de Santé de Loboudou;688
+LISTE_HOPITAUX_914;PCS_914;Poste de Santé de Lompoul sur mer;Poste de Santé de Lompoul sur mer;689
+LISTE_HOPITAUX_586;PCS_586;Poste de santé de Louly Bentagne;Poste de santé de Louly Bentagne;690
+LISTE_HOPITAUX_576;PCS_576;Poste de santé de Louly  Bétengné;Poste de santé de Louly  Bétengné;691
+LISTE_HOPITAUX_577;PCS_577;Poste de santé de Louly  Ndia;Poste de santé de Louly  Ndia;692
+LISTE_HOPITAUX_588;PCS_588;Poste de santé de Louly Ngogom;Poste de santé de Louly Ngogom;693
+LISTE_HOPITAUX_587;PCS_587;Poste de santé de Louly Sindiane;Poste de santé de Louly Sindiane;694
+LISTE_HOPITAUX_649;PCS_649;Poste de santé de lyndiane Ziguinchor;Poste de santé de lyndiane Ziguinchor;695
+LISTE_HOPITAUX_292;PCS_292;Poste de Santé de Mabo;Poste de Santé de Mabo;696
+LISTE_HOPITAUX_375;PCS_375;Poste de Santé de Madame ndiaye;Poste de Santé de Madame ndiaye;697
+LISTE_HOPITAUX_612;PCS_612;Poste de Sante de  MAKO;Poste de Sante de  MAKO;698
+LISTE_HOPITAUX_36;PCS_36;Poste de Santé de Malicounda Wolof keur Ma‹ssa;Poste de Santé de Malicounda Wolof keur Ma‹ssa;699
+LISTE_HOPITAUX_32;PCS_32;Poste de Santé  de  Mamakhona;Poste de Santé  de  Mamakhona;700
+LISTE_HOPITAUX_878;PCS_878;Poste de Santé de Mame Cheikh Anta Mbacke;Poste de Santé de Mame Cheikh Anta Mbacke;701
+LISTE_HOPITAUX_881;PCS_881;Poste de Santé de Mame Seynabou Ndiaye Paléne;Poste de Santé de Mame Seynabou Ndiaye Paléne;702
+LISTE_HOPITAUX_294;PCS_294;Poste de Santé de Mampatim;Poste de Santé de Mampatim;703
+LISTE_HOPITAUX_501;PCS_501;Poste de santé de Mangoule;Poste de santé de Mangoule;704
+LISTE_HOPITAUX_517;PCS_517;Poste de santé de Manguiline;Poste de santé de Manguiline;705
+LISTE_HOPITAUX_605;PCS_605;Poste de sante de Marché Marinière;Poste de sante de Marché Marinière;706
+LISTE_HOPITAUX_311;PCS_311;Poste de Santé de Marsasoum;Poste de Santé de Marsasoum;707
+LISTE_HOPITAUX_780;PCS_780;Poste de Santé de Ma Salam;Poste de Santé de Ma Salam;708
+LISTE_HOPITAUX_885;PCS_885;Poste de Santé de Mbadiane;Poste de Santé de Mbadiane;709
+LISTE_HOPITAUX_542;PCS_542;Poste de santé de Mbafaye;Poste de santé de Mbafaye;710
+LISTE_HOPITAUX_59;PCS_59;poste de santé de Mbakhane;poste de santé de Mbakhane;711
+LISTE_HOPITAUX_527;PCS_527;Poste de santé de Mbakhna;Poste de santé de Mbakhna;712
+LISTE_HOPITAUX_537;PCS_537;Poste de santé de Mbalamsone;Poste de santé de Mbalamsone;713
+LISTE_HOPITAUX_223;PCS_223;Poste de Santé de Mbaling;Poste de Santé de Mbaling;714
+LISTE_HOPITAUX_816;PCS_816;Poste de Santé de Mbam;Poste de Santé de Mbam;715
+LISTE_HOPITAUX_275;PCS_275;Poste de sante de Mbarigo;Poste de sante de Mbarigo;716
+LISTE_HOPITAUX_391;PCS_391;Poste de sante de Mbayebé salsalbé;Poste de sante de Mbayebé salsalbé;717
+LISTE_HOPITAUX_354;PCS_354;Poste de santé de Mbelbouk;Poste de santé de Mbelbouk;718
+LISTE_HOPITAUX_764;PCS_764;Poste de Santé de Mbétite;Poste de Santé de Mbétite;719
+LISTE_HOPITAUX_469;PCS_469;Poste de santé de Mbodiene;Poste de santé de Mbodiene;720
+LISTE_HOPITAUX_218;PCS_218;Poste de Santé de Mbouléme;Poste de Santé de Mbouléme;721
+LISTE_HOPITAUX_540;PCS_540;Poste de santé de Mboulouctene secco;Poste de santé de Mboulouctene secco;722
+LISTE_HOPITAUX_73;PCS_73;Poste de Santé de Mbour Toucouleurr;Poste de Santé de Mbour Toucouleurr;723
+LISTE_HOPITAUX_329;PCS_329;Poste de santé de M‚dina baye;Poste de santé de M‚dina baye;724
+LISTE_HOPITAUX_377;PCS_377;Poste de Santé de Medina Gounass;Poste de Santé de Medina Gounass;725
+LISTE_HOPITAUX_374;PCS_374;Poste de Santé de Médina gounass;Poste de Santé de Médina gounass;726
+LISTE_HOPITAUX_772;PCS_772;Poste de Santé de Médina souani;Poste de Santé de Médina souani;727
+LISTE_HOPITAUX_356;PCS_356;Poste de santé de Médina Tabakh;Poste de santé de Médina Tabakh;728
+LISTE_HOPITAUX_56;PCS_56;poste de santé de Médinatoul;poste de santé de Médinatoul;729
+LISTE_HOPITAUX_458;PCS_458;Poste de santé de Medine;Poste de santé de Medine;730
+LISTE_HOPITAUX_76;PCS_76;Poste de Santé de Médine;Poste de Santé de Médine;731
+LISTE_HOPITAUX_832;PCS_832;Poste de Santé de Mekhe village;Poste de Santé de Mekhe village;732
+LISTE_HOPITAUX_830;PCS_830;Poste de Santé de Meouane;Poste de Santé de Meouane;733
+LISTE_HOPITAUX_574;PCS_574;Poste de Santé de Missirah;Poste de Santé de Missirah;734
+LISTE_HOPITAUX_630;PCS_630;Poste de Santé de Mlomp;Poste de Santé de Mlomp;735
+LISTE_HOPITAUX_663;PCS_663;Poste de Santé de Nabadji civol;Poste de Santé de Nabadji civol;736
+LISTE_HOPITAUX_326;PCS_326;Poste de Santé de Nawel;Poste de Santé de Nawel;737
+LISTE_HOPITAUX_829;PCS_829;Poste de Santé de N'ayez djite;Poste de Santé de N'ayez djite;738
+LISTE_HOPITAUX_13;PCS_13;Poste de Santé de Ndakar;Poste de Santé de Ndakar;739
+LISTE_HOPITAUX_55;PCS_55;poste de santé de Ndayane;poste de santé de Ndayane;740
+LISTE_HOPITAUX_432;PCS_432;Poste de santé de Ndayane;Poste de santé de Ndayane;741
+LISTE_HOPITAUX_17;PCS_17;poste de santé de NDEREPPE;poste de santé de NDEREPPE;742
+LISTE_HOPITAUX_566;PCS_566;Poste de santé de Ndiaganiao;Poste de santé de Ndiaganiao;743
+LISTE_HOPITAUX_758;PCS_758;Poste de Santé de Ndiama;Poste de Santé de Ndiama;744
+LISTE_HOPITAUX_465;PCS_465;Poste de santé de Ndianda;Poste de santé de Ndianda;745
+LISTE_HOPITAUX_776;PCS_776;Poste de santé de Ndiareme Limamoulaye;Poste de santé de Ndiareme Limamoulaye;746
+LISTE_HOPITAUX_568;PCS_568;Poste de santé de Ndiareo;Poste de santé de Ndiareo;747
+LISTE_HOPITAUX_859;PCS_859;Poste de Santé de Ndiassane;Poste de Santé de Ndiassane;748
+LISTE_HOPITAUX_394;PCS_394;Poste de sante de Ndiayenne Peul;Poste de sante de Ndiayenne Peul;749
+LISTE_HOPITAUX_822;PCS_822;Poste de Santé de Ndiene lagane;Poste de Santé de Ndiene lagane;750
+LISTE_HOPITAUX_898;PCS_898;Poste de Santé de Ndieye;Poste de Santé de Ndieye;751
+LISTE_HOPITAUX_101;PCS_101;Poste de Santé de Ndimb;Poste de Santé de Ndimb;752
+LISTE_HOPITAUX_40;PCS_40;Poste de Santé de  Ndioloffene;Poste de Santé de  Ndioloffene;753
+LISTE_HOPITAUX_705;PCS_705;Poste de santé de Ndiongolor;Poste de santé de Ndiongolor;754
+LISTE_HOPITAUX_215;PCS_215;Poste de santé de N’dioudiouf;Poste de santé de N’dioudiouf;755
+LISTE_HOPITAUX_835;PCS_835;Poste de Santé de Ndombine;Poste de Santé de Ndombine;756
+LISTE_HOPITAUX_673;PCS_673;Poste de Santé de NDONDOL;Poste de Santé de NDONDOL;757
+LISTE_HOPITAUX_336;PCS_336;Poste de santé de Ndorong;Poste de santé de Ndorong;758
+LISTE_HOPITAUX_330;PCS_330;Poste de santé de Ndorong;Poste de santé de Ndorong;759
+LISTE_HOPITAUX_653;PCS_653;Poste de Santé de Ndouloumadji Dembe;Poste de Santé de Ndouloumadji Dembe;760
+LISTE_HOPITAUX_652;PCS_652;Poste de Santé de Ndouloumadji founebe;Poste de Santé de Ndouloumadji founebe;761
+LISTE_HOPITAUX_679;PCS_679;Poste de Santé de NETTEBOULO;Poste de Santé de NETTEBOULO;762
+LISTE_HOPITAUX_833;PCS_833;Poste de Santé de Ngaham1;Poste de Santé de Ngaham1;763
+LISTE_HOPITAUX_656;PCS_656;Poste de sante de Ngallele;Poste de sante de Ngallele;764
+LISTE_HOPITAUX_827;PCS_827;Poste de Santé de Ngaye diagne;Poste de Santé de Ngaye diagne;765
+LISTE_HOPITAUX_314;PCS_314;Poste de santé de Ngodiba;Poste de santé de Ngodiba;766
+LISTE_HOPITAUX_791;PCS_791;Poste de Santé de Ngohe;Poste de Santé de Ngohe;767
+LISTE_HOPITAUX_690;PCS_690;Poste de Santé de Ngoye;Poste de Santé de Ngoye;768
+LISTE_HOPITAUX_451;PCS_451;Poste de santé de NGUEKOKH 1;Poste de santé de NGUEKOKH 1;769
+LISTE_HOPITAUX_452;PCS_452;Poste de santé de NGUEKOKH  2;Poste de santé de NGUEKOKH  2;770
+LISTE_HOPITAUX_464;PCS_464;Poste de santé de Ngueniene;Poste de santé de Ngueniene;771
+LISTE_HOPITAUX_436;PCS_436;Poste de santé de Nguerigno;Poste de santé de Nguerigno;772
+LISTE_HOPITAUX_928;PCS_928;Poste de Santé de Nguourane;Poste de Santé de Nguourane;773
+LISTE_HOPITAUX_367;PCS_367;Poste de sante de Ninefecha;Poste de sante de Ninefecha;774
+LISTE_HOPITAUX_384;PCS_384;Poste de sante de Nyassia;Poste de sante de Nyassia;775
+LISTE_HOPITAUX_825;PCS_825;Poste de Santé de Ouadiour;Poste de Santé de Ouadiour;776
+LISTE_HOPITAUX_333;PCS_333;Poste de Santé de Paléne;Poste de Santé de Paléne;777
+LISTE_HOPITAUX_342;PCS_342;Poste de santé de Parcelles;Poste de santé de Parcelles;778
+LISTE_HOPITAUX_340;PCS_340;Poste de santé de Parcelles Assainies;Poste de santé de Parcelles Assainies;779
+LISTE_HOPITAUX_823;PCS_823;Poste de Santé de Patar;Poste de Santé de Patar;780
+LISTE_HOPITAUX_796;PCS_796;Poste de Santé de Pattar;Poste de Santé de Pattar;781
+LISTE_HOPITAUX_899;PCS_899;Poste de Santé de Pekh;Poste de Santé de Pekh;782
+LISTE_HOPITAUX_38;PCS_38;Poste de Santé  de Pikine;Poste de Santé  de Pikine;783
+LISTE_HOPITAUX_866;PCS_866;Poste de Santé de Pire gourey;Poste de Santé de Pire gourey;784
+LISTE_HOPITAUX_606;PCS_606;Poste de Sante de Plateau;Poste de Sante de Plateau;785
+LISTE_HOPITAUX_360;PCS_360;Poste de Santé de PMI de la Médina;Poste de Santé de PMI de la Médina;786
+LISTE_HOPITAUX_220;PCS_220;Poste de Santé de Pointe  Saréne;Poste de Santé de Pointe  Saréne;787
+LISTE_HOPITAUX_232;PCS_232;Poste de santé de Pokhal;Poste de santé de Pokhal;788
+LISTE_HOPITAUX_431;PCS_431;Poste de santé de Popenguine sérére;Poste de santé de Popenguine sérére;789
+LISTE_HOPITAUX_163;PCS_163;Poste de Santé de Randoulene;Poste de Santé de Randoulene;790
+LISTE_HOPITAUX_274;PCS_274;Poste de sante de Rao;Poste de sante de Rao;791
+LISTE_HOPITAUX_15;PCS_15;Poste de Santé de Réfane;Poste de Santé de Réfane;792
+LISTE_HOPITAUX_16;PCS_16;Poste de santé de  REWOU MAWO;Poste de santé de  REWOU MAWO;793
+LISTE_HOPITAUX_221;PCS_221;Poste de Santé de Roff;Poste de Santé de Roff;794
+LISTE_HOPITAUX_28;PCS_28;Poste de Santé de Ross Bethio;Poste de Santé de Ross Bethio;795
+LISTE_HOPITAUX_31;PCS_31;Poste de Santé de Sabodala;Poste de Santé de Sabodala;796
+LISTE_HOPITAUX_526;PCS_526;Poste de santé de Sadel;Poste de santé de Sadel;797
+LISTE_HOPITAUX_393;PCS_393;Poste de sante de Saldé;Poste de sante de Saldé;798
+LISTE_HOPITAUX_483;PCS_483;Poste de santé de Saly carrefour;Poste de santé de Saly carrefour;799
+LISTE_HOPITAUX_185;PCS_185;Poste de santé de Saly tapé;Poste de santé de Saly tapé;800
+LISTE_HOPITAUX_893;PCS_893;Poste de Santé de Sam yabal;Poste de Santé de Sam yabal;801
+LISTE_HOPITAUX_575;PCS_575;Poste de santé de SANDIARA;Poste de santé de SANDIARA;802
+LISTE_HOPITAUX_350;PCS_350;Poste de santé de Sandiniery;Poste de santé de Sandiniery;803
+LISTE_HOPITAUX_608;PCS_608;Poste de Santé de Sankagne;Poste de Santé de Sankagne;804
+LISTE_HOPITAUX_34;PCS_34;Poste de Santé de santé de Tenkoto;Poste de Santé de santé de Tenkoto;805
+LISTE_HOPITAUX_71;PCS_71;Poste de Santé de Santessou;Poste de Santé de Santessou;806
+LISTE_HOPITAUX_752;PCS_752;Poste de Santé de Santeu  yalla;Poste de Santé de Santeu  yalla;807
+LISTE_HOPITAUX_355;PCS_355;Poste de santé de Santhie Gal Ngon;Poste de santé de Santhie Gal Ngon;808
+LISTE_HOPITAUX_288;PCS_288;Poste de Santé de Santiaba sud;Poste de Santé de Santiaba sud;809
+LISTE_HOPITAUX_213;PCS_213;Poste de santé de Saokhom2;Poste de santé de Saokhom2;810
+LISTE_HOPITAUX_738;PCS_738;Poste de Santé de Sare bidji;Poste de Santé de Sare bidji;811
+LISTE_HOPITAUX_739;PCS_739;Poste de Santé de Sare bilali;Poste de Santé de Sare bilali;812
+LISTE_HOPITAUX_261;PCS_261;Poste de Santé de Sare moussa;Poste de Santé de Sare moussa;813
+LISTE_HOPITAUX_740;PCS_740;Poste de Santé de Sare moussa sow;Poste de Santé de Sare moussa sow;814
+LISTE_HOPITAUX_69;PCS_69;Poste de Santé de Sauthie;Poste de Santé de Sauthie;815
+LISTE_HOPITAUX_457;PCS_457;Poste de santé de Scale;Poste de santé de Scale;816
+LISTE_HOPITAUX_664;PCS_664;Poste de Santé de Sédo;Poste de Santé de Sédo;817
+LISTE_HOPITAUX_707;PCS_707;Poste de santé de Senghor;Poste de santé de Senghor;818
+LISTE_HOPITAUX_208;PCS_208;Poste de santé de Sessene;Poste de santé de Sessene;819
+LISTE_HOPITAUX_260;PCS_260;Poste de Santé de Sikilo ilele;Poste de Santé de Sikilo ilele;820
+LISTE_HOPITAUX_159;PCS_159;Poste de Santé de Silma;Poste de Santé de Silma;821
+LISTE_HOPITAUX_434;PCS_434;Poste de santé de Sindia;Poste de santé de Sindia;822
+LISTE_HOPITAUX_770;PCS_770;Poste de Santé de Sinkere;Poste de Santé de Sinkere;823
+LISTE_HOPITAUX_593;PCS_593;Poste de sante de Sinthiou Malem;Poste de sante de Sinthiou Malem;824
+LISTE_HOPITAUX_222;PCS_222;Poste de Santé de Sinthiou  Mbadane;Poste de Santé de Sinthiou  Mbadane;825
+LISTE_HOPITAUX_763;PCS_763;Poste de Santé de Sobeme;Poste de Santé de Sobeme;826
+LISTE_HOPITAUX_882;PCS_882;Poste de Santé de Sokhna Mai Koubra;Poste de Santé de Sokhna Mai Koubra;827
+LISTE_HOPITAUX_216;PCS_216;Poste de Santé de Sombel Diop;Poste de Santé de Sombel Diop;828
+LISTE_HOPITAUX_446;PCS_446;Poste de santé de Somone;Poste de santé de Somone;829
+LISTE_HOPITAUX_313;PCS_313;Poste de santé de Sorokogne;Poste de santé de Sorokogne;830
+LISTE_HOPITAUX_324;PCS_324;Poste de Santé de Soubalo;Poste de Santé de Soubalo;831
+LISTE_HOPITAUX_219;PCS_219;Poste de Santé de Soussane Bambara;Poste de Santé de Soussane Bambara;832
+LISTE_HOPITAUX_502;PCS_502;Poste de santé de Soutou;Poste de santé de Soutou;833
+LISTE_HOPITAUX_706;PCS_706;Poste de santé de Sowane;Poste de santé de Sowane;834
+LISTE_HOPITAUX_162;PCS_162;Poste de Santé de Tagui kaw;Poste de Santé de Tagui kaw;835
+LISTE_HOPITAUX_666;PCS_666;Poste de Santé de Taiba;Poste de Santé de Taiba;836
+LISTE_HOPITAUX_815;PCS_815;Poste de Santé de Taiba Thiekene;Poste de Santé de Taiba Thiekene;837
+LISTE_HOPITAUX_810;PCS_810;Poste de Santé de Taif;Poste de Santé de Taif;838
+LISTE_HOPITAUX_597;PCS_597;Poste de Santé de Tambacounda;Poste de Santé de Tambacounda;839
+LISTE_HOPITAUX_505;PCS_505;Poste de santé de Tandiman;Poste de santé de Tandiman;840
+LISTE_HOPITAUX_503;PCS_503;Poste de santé de Tendieme;Poste de santé de Tendieme;841
+LISTE_HOPITAUX_437;PCS_437;Poste de santé de Tene Toubab;Poste de santé de Tene Toubab;842
+LISTE_HOPITAUX_497;PCS_497;Poste de santé de Thengori arrondissement;Poste de santé de Thengori arrondissement;843
+LISTE_HOPITAUX_498;PCS_498;Poste de santé de Thengori Transgambienne;Poste de santé de Thengori Transgambienne;844
+LISTE_HOPITAUX_749;PCS_749;Poste de santé de Thiabédji;Poste de santé de Thiabédji;845
+LISTE_HOPITAUX_826;PCS_826;Poste de Santé de Thianaba;Poste de Santé de Thianaba;846
+LISTE_HOPITAUX_136;PCS_136;Poste de santé de Thiaroye Gare;Poste de santé de Thiaroye Gare;847
+LISTE_HOPITAUX_426;PCS_426;Poste de santé de Thicky;Poste de santé de Thicky;848
+LISTE_HOPITAUX_896;PCS_896;Poste de Santé de Thiedé Nganado;Poste de Santé de Thiedé Nganado;849
+LISTE_HOPITAUX_797;PCS_797;Poste de Santé de Thiobe;Poste de Santé de Thiobe;850
+LISTE_HOPITAUX_750;PCS_750;Poste de santé de Thiokétian;Poste de santé de Thiokétian;851
+LISTE_HOPITAUX_665;PCS_665;Poste de Santé de Tiaréne;Poste de Santé de Tiaréne;852
+LISTE_HOPITAUX_655;PCS_655;Poste de Santé de Tiguéré;Poste de Santé de Tiguéré;853
+LISTE_HOPITAUX_538;PCS_538;Poste de santé de Tocomack;Poste de santé de Tocomack;854
+LISTE_HOPITAUX_424;PCS_424;Poste de santé de Toglou;Poste de santé de Toglou;855
+LISTE_HOPITAUX_610;PCS_610;Poste de Sante de TOMORONKOTO;Poste de Sante de TOMORONKOTO;856
+LISTE_HOPITAUX_407;PCS_407;Poste de sante de Touba diacsao;Poste de sante de Touba diacsao;857
+LISTE_HOPITAUX_831;PCS_831;Poste de Santé de Touba fall;Poste de Santé de Touba fall;858
+LISTE_HOPITAUX_806;PCS_806;Poste de Santé de Touba Fall;Poste de Santé de Touba Fall;859
+LISTE_HOPITAUX_843;PCS_843;Poste de Santé de Touba kane;Poste de Santé de Touba kane;860
+LISTE_HOPITAUX_697;PCS_697;Poste de santé de tourecounda;Poste de santé de tourecounda;861
+LISTE_HOPITAUX_70;PCS_70;Poste de Santé de Trypano;Poste de Santé de Trypano;862
+LISTE_HOPITAUX_268;PCS_268;Poste de Santé de Urbain 1;Poste de Santé de Urbain 1;863
+LISTE_HOPITAUX_269;PCS_269;Poste de Santé de urbain 2;Poste de Santé de urbain 2;864
+LISTE_HOPITAUX_74;PCS_74;Poste de Santé de Varedo;Poste de Santé de Varedo;865
+LISTE_HOPITAUX_168;PCS_168;Poste de santé de WAKHINANE NIMZATT;Poste de santé de WAKHINANE NIMZATT;866
+LISTE_HOPITAUX_303;PCS_303;Poste de santé de Walo;Poste de santé de Walo;867
+LISTE_HOPITAUX_217;PCS_217;Poste de Santé de Warang;Poste de Santé de Warang;868
+LISTE_HOPITAUX_392;PCS_392;Poste de sante de Wassatake;Poste de sante de Wassatake;869
+LISTE_HOPITAUX_654;PCS_654;Poste de Santé de Woudourou;Poste de Santé de Woudourou;870
+LISTE_HOPITAUX_397;PCS_397;Poste de sante de Yawoldé  Yirlabé;Poste de sante de Yawoldé  Yirlabé;871
+LISTE_HOPITAUX_674;PCS_674;Poste de Santé de YAYE;Poste de Santé de YAYE;872
+LISTE_HOPITAUX_778;PCS_778;Poste de Santé de Yaye Aram Ndiaye;Poste de Santé de Yaye Aram Ndiaye;873
+LISTE_HOPITAUX_624;PCS_624;POSTE DE SANTE DE YEUMBEUL DIAMALAYE;POSTE DE SANTE DE YEUMBEUL DIAMALAYE;874
+LISTE_HOPITAUX_206;PCS_206;Poste de santé Diakhao;Poste de santé Diakhao;875
+LISTE_HOPITAUX_551;PCS_551;Poste de santé Dibyatte;Poste de santé Dibyatte;876
+LISTE_HOPITAUX_471;PCS_471;Poste de santé DVF ( Derrière de la Voie ferrée);Poste de santé DVF ( Derrière de la Voie ferrée);877
+LISTE_HOPITAUX_24;PCS_24;Poste de santé El Hadj Gallo Dia;Poste de santé El Hadj Gallo Dia;878
+LISTE_HOPITAUX_54;PCS_54;poste de santé Elizabeth Diouf;poste de santé Elizabeth Diouf;879
+LISTE_HOPITAUX_152;PCS_152;Poste de santé Fann Hock;Poste de santé Fann Hock;880
+LISTE_HOPITAUX_174;PCS_174;Poste de santé Fass mbao;Poste de santé Fass mbao;881
+LISTE_HOPITAUX_564;PCS_564;Poste de santé Fass mbao;Poste de santé Fass mbao;882
+LISTE_HOPITAUX_273;PCS_273;Poste de santé Gandon;Poste de santé Gandon;883
+LISTE_HOPITAUX_151;PCS_151;Poste de santé George  Lao;Poste de santé George  Lao;884
+LISTE_HOPITAUX_64;PCS_64;Poste de santé Héliport;Poste de santé Héliport;885
+LISTE_HOPITAUX_131;PCS_131;Poste de santé HLM;Poste de santé HLM;886
+LISTE_HOPITAUX_8;PCS_8;Poste de santé HLM Grand Yoff;Poste de santé HLM Grand Yoff;887
+LISTE_HOPITAUX_7;PCS_7;Poste de santé HLM Patte d'oie;Poste de santé HLM Patte d'oie;888
+LISTE_HOPITAUX_650;PCS_650;Poste de santé kandialang 1 de Ziguinchor;Poste de santé kandialang 1 de Ziguinchor;889
+LISTE_HOPITAUX_735;PCS_735;Poste de santé kandialang I;Poste de santé kandialang I;890
+LISTE_HOPITAUX_734;PCS_734;Poste de santé kandialang I;Poste de santé kandialang I;891
+LISTE_HOPITAUX_651;PCS_651;Poste de Santé kandianlang 2 de Ziguinchor;Poste de Santé kandianlang 2 de Ziguinchor;892
+LISTE_HOPITAUX_207;PCS_207;Poste de santé Kawsara;Poste de santé Kawsara;893
+LISTE_HOPITAUX_545;PCS_545;Poste de santé Keur aline ndiaye;Poste de santé Keur aline ndiaye;894
+LISTE_HOPITAUX_227;PCS_227;Poste de santé keur El Hadj;Poste de santé keur El Hadj;895
+LISTE_HOPITAUX_201;PCS_201;Poste de santé Keur Issa;Poste de santé Keur Issa;896
+LISTE_HOPITAUX_143;PCS_143;Poste de santé Keur Ndiaye Lo;Poste de santé Keur Ndiaye Lo;897
+LISTE_HOPITAUX_57;PCS_57;poste de santé Keur Sérigne Mbaye Sarr;poste de santé Keur Sérigne Mbaye Sarr;898
+LISTE_HOPITAUX_494;PCS_494;Poste de santé Keur yiw;Poste de santé Keur yiw;899
+LISTE_HOPITAUX_5;PCS_5;Poste de santé Kharr Yalla;Poste de santé Kharr Yalla;900
+LISTE_HOPITAUX_413;PCS_413;POSTE DE SANTE KHOUROUNAR;POSTE DE SANTE KHOUROUNAR;901
+LISTE_HOPITAUX_489;PCS_489;Poste de santé Kounoune;Poste de santé Kounoune;902
+LISTE_HOPITAUX_137;PCS_137;Poste de sante la Rochette;Poste de sante la Rochette;903
+LISTE_HOPITAUX_468;PCS_468;Poste de santé Leona Nord;Poste de santé Leona Nord;904
+LISTE_HOPITAUX_530;PCS_530;Poste de santé Mamadou Diallo;Poste de santé Mamadou Diallo;905
+LISTE_HOPITAUX_202;PCS_202;Poste de santé Médina  Fall 1;Poste de santé Médina  Fall 1;906
+LISTE_HOPITAUX_203;PCS_203;Poste de santé Médina Fall 2;Poste de santé Médina Fall 2;907
+LISTE_HOPITAUX_233;PCS_233;Poste de santé metteur;Poste de santé metteur;908
+LISTE_HOPITAUX_562;PCS_562;Poste de santé Nasroul lahi;Poste de santé Nasroul lahi;909
+LISTE_HOPITAUX_176;PCS_176;Poste de santé nassroul lahi;Poste de santé nassroul lahi;910
+LISTE_HOPITAUX_234;PCS_234;Poste de santé Ndiaye ndiaye;Poste de santé Ndiaye ndiaye;911
+LISTE_HOPITAUX_205;PCS_205;Poste de santé Nguinth;Poste de santé Nguinth;912
+LISTE_HOPITAUX_204;PCS_204;Poste de santé Poniène;Poste de santé Poniène;913
+LISTE_HOPITAUX_199;PCS_199;Poste de santé privé catholique;Poste de santé privé catholique;914
+LISTE_HOPITAUX_532;PCS_532;Poste de santé Santhia ba;Poste de santé Santhia ba;915
+LISTE_HOPITAUX_547;PCS_547;Poste de santé Sarsarat;Poste de santé Sarsarat;916
+LISTE_HOPITAUX_26;PCS_26;Poste de santé Sidathi Fall;Poste de santé Sidathi Fall;917
+LISTE_HOPITAUX_536;PCS_536;Poste de santé Sidy  maguett  Guisse;Poste de santé Sidy  maguett  Guisse;918
+LISTE_HOPITAUX_619;PCS_619;Poste de santé Sinthia afia;Poste de santé Sinthia afia;919
+LISTE_HOPITAUX_1;PCS_1;Poste de Santé Sinthiou Bamambé;Poste de Santé Sinthiou Bamambé;920
+LISTE_HOPITAUX_563;PCS_563;Poste de santé Taif;Poste de santé Taif;921
+LISTE_HOPITAUX_175;PCS_175;Poste de santé Taif;Poste de santé Taif;922
+LISTE_HOPITAUX_620;PCS_620;Poste de santé Thianka;Poste de santé Thianka;923
+LISTE_HOPITAUX_565;PCS_565;Poste de santé Thiaroye;Poste de santé Thiaroye;924
+LISTE_HOPITAUX_25;PCS_25;Poste de santé Thiaroye Miname;Poste de santé Thiaroye Miname;925
+LISTE_HOPITAUX_550;PCS_550;Poste de santé Yari dakhar;Poste de santé Yari dakhar;926
+LISTE_HOPITAUX_27;PCS_27;Poste de santé Yeumbeul Sud;Poste de santé Yeumbeul Sud;927
+LISTE_HOPITAUX_604;PCS_604;Poste Sante de Gourel Diadié;Poste Sante de Gourel Diadié;928
+LISTE_HOPITAUX_385;PCS_385;Poste sante de kaguitte;Poste sante de kaguitte;929
+LISTE_HOPITAUX_732;PCS_732;Poste santé de kande II;Poste santé de kande II;930
+LISTE_HOPITAUX_733;PCS_733;Poste santé de lyndiane;Poste santé de lyndiane;931
+LISTE_HOPITAUX_58;PCS_58;poste santé de Sessene;poste santé de Sessene;932
+LISTE_HOPITAUX_386;PCS_386;Poste sante de toubacouta;Poste sante de toubacouta;933
+LISTE_HOPITAUX_648;PCS_648;Poste Santé djibock de Ziguinchor;Poste Santé djibock de Ziguinchor;934
+LISTE_HOPITAUX_6;PCS_6;Samu Municipal;Samu Municipal;935

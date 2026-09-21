@@ -1,0 +1,271 @@
+apply plugin: "com.android.application"
+apply plugin: "com.facebook.react"
+import com.android.build.OutputFile
+
+/**
+ * React Native Gradle plugin (replaces react.gradle from RN 0.71). Defaults:
+ * bundles JS + assets for release variants only, entry file index.js.
+ */
+react {
+    // The plugin only skips bundling for variants listed here (default ["debug"]).
+    // With product flavors the debug variants are devDebug etc., so name them, or
+    // every debug APK gets a production bundle and stops loading from Metro.
+    debuggableVariants = ["devDebug", "quaDebug", "preprodDebug", "prodDebug"]
+
+    /* Autolinking (RN 0.75+: done by the plugin, replaces native_modules.gradle) */
+    autolinkLibrariesWithApp()
+}
+
+/**
+ * Set this to true to create two separate APKs instead of one:
+ *   - An APK that only works on ARM devices
+ *   - An APK that only works on x86 devices
+ */
+def enableSeparateBuildPerCPUArchitecture = false
+
+/**
+ * Run Proguard to shrink the Java bytecode in release builds.
+ */
+def enableProguardInReleaseBuilds = false
+
+/**
+ * The preferred build flavor of JavaScriptCore (only used when hermesEnabled=false).
+ */
+def jscFlavor = 'org.webkit:android-jsc:+'
+
+def reactNativeArchitectures() {
+    def value = project.getProperties().get("reactNativeArchitectures")
+    return value ? value.split(",") : ["armeabi-v7a", "x86", "x86_64", "arm64-v8a"]
+}
+def getLastModifiedTimestampDev() {
+    def jsonFile = file('../../src/configuration/ParamValuesDev.json')
+    return String.valueOf(jsonFile.lastModified())
+}
+def getLastModifiedTimestampProd() {
+    def jsonFile = file('../../src/configuration/ParamValuesProd.json')
+    return String.valueOf(jsonFile.lastModified())
+}
+def getLastModifiedTimestampPreprod() {
+    def jsonFile = file('../../src/configuration//ParamValuesPreprod.json')
+    return String.valueOf(jsonFile.lastModified())
+}
+def getLastModifiedTimestampQua() {
+    def jsonFile = file('../../src/configuration/ParamValuesQua.json')
+    return String.valueOf(jsonFile.lastModified())
+}
+// Short git SHA of the checkout, "-dirty" appended when the working tree has
+// changes to tracked files (untracked files are ignored). versionCode is 1 in
+// every flavor, so this is the only
+// way to tell which build is on a phone. Never fails the build.
+def getGitSha() {
+    try {
+        def sha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+        if (sha.isEmpty()) return "unknown"
+        def dirty = 'git status --porcelain --untracked-files=no'.execute([], project.rootDir).text.trim()
+        return dirty.isEmpty() ? sha : sha + "-dirty"
+    } catch (Exception ignored) {
+        return "unknown"
+    }
+}
+android {
+    namespace "com.crseneagalmobile"
+    packaging {
+        resources {
+            excludes += ["META-INF/DEPENDENCIES"]
+        }
+    }
+    ndkVersion rootProject.ext.ndkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdk rootProject.ext.compileSdkVersion
+
+    buildFeatures {
+        // AGP 8 defaults this to false; every buildConfigField and BuildConfig.DEBUG depends on it.
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "com.crseneagalmobile"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.1.4"
+        buildConfigField 'String', 'GIT_SHA', "\"${getGitSha()}\""
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    splits {
+        abi {
+            reset()
+            //enabled true
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false  // If true, also generate a universal APK
+            include (*reactNativeArchitectures())
+        }
+    }
+    signingConfigs {
+        // Every field APK is signed with this key (rule 1 of the upgrade plan): never rotate it.
+        debug {
+            storeFile file("../app/keystore/rro_debug.keystore")
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            // Caution! In production, you need to generate your own keystore file.
+            // see https://reactnative.dev/docs/signed-apk-android.
+            signingConfig signingConfigs.debug
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    flavorDimensions += ["Digitech"]
+    productFlavors {
+        dev {
+            dimension "Digitech"
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+            buildConfigField 'String', 'configPath', '"content://com.android.externalstorage.documents/document/primary%3ADocuments"'
+            buildConfigField 'String', 'configFilename', '"crsen-config-dev.json"'
+            buildConfigField 'String', 'uuidBebound', '"0123456789"'
+            buildConfigField 'int', 'timeoutBebound', '123456789'
+            buildConfigField 'String', 'pingUrl', '"une/url"'
+            buildConfigField 'String', 'realmCode', '"abcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefgh"'
+            buildConfigField 'Boolean', 'useBebound', 'false'
+            buildConfigField "long", "LAST_UPDATE", lastModifiedTimestampDev
+            
+        }
+         qua {
+            dimension "Digitech"
+            applicationIdSuffix ".test"
+            versionNameSuffix "-test"
+            buildConfigField 'String', 'configPath', '"content://com.android.externalstorage.documents/document/primary%3ADocuments"'
+            buildConfigField 'String', 'configFilename', '"crsen-config-test.json"'
+            buildConfigField 'String', 'uuidBebound', '"0123456789"'
+            buildConfigField 'int', 'timeoutBebound', '123456789'
+            buildConfigField 'String', 'pingUrl', '"une/url"'
+            buildConfigField 'String', 'realmCode', '"abcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefgh"'
+             buildConfigField 'Boolean', 'useBebound', 'false'
+             buildConfigField "long", "LAST_UPDATE", lastModifiedTimestampQua
+        }
+         preprod {
+            dimension "Digitech"
+            applicationIdSuffix ".preprod"
+            versionNameSuffix "-preprod"
+            buildConfigField 'String', 'configPath', '"content://com.android.externalstorage.documents/document/primary%3ADocuments"'
+            buildConfigField 'String', 'configFilename', '"crsen-config-pp.json"'
+            buildConfigField 'String', 'uuidBebound', '"0123456789"'
+            buildConfigField 'int', 'timeoutBebound', '123456789'
+            buildConfigField 'String', 'pingUrl', '"une/url"'
+            buildConfigField 'String', 'realmCode', '"abcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefgh"'
+             buildConfigField 'Boolean', 'useBebound', 'false'
+             buildConfigField "long", "LAST_UPDATE", lastModifiedTimestampPreprod
+        }
+         prod {
+            dimension "Digitech"
+            applicationIdSuffix ".prod"
+            versionNameSuffix ""
+            buildConfigField 'String', 'configPath', '"content://com.android.externalstorage.documents/document/primary%3ADocuments"'
+            buildConfigField 'String', 'configFilename', '"crsen-config.json"'
+            buildConfigField 'String', 'uuidBebound', '"0123456789"'
+            buildConfigField 'int', 'timeoutBebound', '123456789'
+            buildConfigField 'String', 'pingUrl', '"une/url"'
+            buildConfigField 'String', 'realmCode', '"abcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefghabcdefgh"'
+            buildConfigField 'Boolean', 'useBebound', 'false'
+             buildConfigField "long", "LAST_UPDATE", lastModifiedTimestampProd
+        }
+    }
+    sourceSets {
+        dev {
+            assets {
+                srcDirs 'src/dev/assets'
+            }
+        }
+        qua {
+            assets {
+                srcDirs 'src/qua/assets'
+            }
+        }
+		preprod {
+            assets {
+                srcDirs 'src/preprod/assets'
+            }
+        }
+		prod {
+            assets {
+                srcDirs 'src/prod/assets'
+            }
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def versionName = variant.versionName
+            //customize your app name by using variables
+            outputFileName = "senegal-civil-registry-${versionName}.apk"
+        }
+    }
+
+    // applicationVariants are e.g. debug, release
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            // For each separate APK per architecture, set a unique version code as described here:
+            // https://developer.android.com/studio/build/configure-apk-splits.html
+            // Example: versionCode 1 will generate 1001 for armeabi-v7a, 1002 for x86, etc.
+            def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
+            def abi = output.getFilter(OutputFile.ABI)
+            if (abi != null) {  // null for the universal-debug, universal-release variants
+                output.versionCodeOverride =
+                        defaultConfig.versionCode * 1000 + versionCodes.get(abi)
+            }
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.aar","*.jar"])
+    implementation files('libs/sdk-debug.aar')
+    implementation files('libs/konnect-debug.aar')
+    implementation files('libs/be_bound-debug.aar')
+    implementation files('libs/bbbb-debug.aar')
+    implementation files('libs/sweet_alert-debug.aar')
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+
+
+    def room_version = "2.3.0"
+
+    implementation ("com.google.guava:guava:31.0.1-android")
+    implementation 'com.github.umair13adil:RxLogs:1.0.14'
+    // Not used by our code, but RxLogs (PLog) pulls WorkManager 2.3.4 transitively, and
+    // 2.x < 2.7 crashes on PendingIntent mutability with targetSdk 31+. Keep the floor.
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+    // ProgressWheel is inflated by sweet_alert-debug.aar's loader layout, so this stays.
+    // Its POM drags in com.android.support:appcompat-v7:21 without using it; excluding that
+    // is what allows android.enableJetifier=false (checkJetifier reported nothing else).
+    implementation('com.pnikosis:materialish-progress:1.0') {
+        exclude group: 'com.android.support'
+    }
+    // Room runtime only: bbbb-debug.aar ships its generated *_Impl DAOs. No source in this
+    // module uses Room annotations, so room-compiler was never doing anything.
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.0'
+
+    // The version of react-native is set by the React Native Gradle Plugin
+    implementation("com.facebook.react:react-android")
+
+    if (hermesEnabled.toBoolean()) {
+        implementation("com.facebook.react:hermes-android")
+    } else {
+        implementation jscFlavor
+    }
+}
+
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"

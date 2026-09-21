@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Hermes (js-debug)",
+      "type": "node",
+      "request": "attach",
+      "address": "localhost",
+      "port": 8081,
+      "cwd": "${workspaceFolder}",
+      "sourceMaps": true,
+      "resolveSourceMapLocations": null,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      "continueOnAttach": true
+    },
+    {
+      "name": "Attach to Hermes (React Native Tools)",
+      "type": "reactnativedirect",
+      "request": "attach",
+      "cwd": "${workspaceFolder}",
+      "platform": "android",
+      "useHermesEngine": true,
+      "port": 8081,
+      "sourceMaps": true,
+      "trace": "verbose"
+    },
+    {
+      "name": "Launch Android dev (React Native Tools)",
+      "type": "reactnativedirect",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "platform": "android",
+      "useHermesEngine": true,
+      "runArguments": ["--variant=devDebug", "--appIdSuffix=dev"],
+      "sourceMaps": true,
+      "trace": "verbose"
+    }
+  ]
+}

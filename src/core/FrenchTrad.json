@@ -1,0 +1,251 @@
+{
+	"loading": {
+		"start": "Application configuration  ....",
+		"end": "Votre application est maintenant prête à être utilisée",
+		"problem": "Il y a eu un problème avec la configuration"
+	},
+	"label-input": {
+		"notificationCivilCenter":"Centre d'état civil de la notification",
+		"bplace": "Ville de naissance",
+		"bdate": "Date de naissance",
+		"numIdentFourni": "NIN du défunt fourni ?",
+		"numIdent": "Numéro de la pièce d'identification",
+		"numAutre": "Numéro autre pièce d’Identité",
+		"decesConnue": "Date de décès connue ?",
+		"decouvert": "Date de découverte du corps",
+		"heuredec": "Heure (du décès ou de découverte du corps)",
+		"sex": "Sexe",
+		"telephone": "Téléphone",
+		"names": "Prénom / Nom",
+		"relation": "Relation",
+		"attendant": {
+			"default": "Accompagnant",
+			"firstname": "Prénom de l'accompagnant",
+			"lastname": "Nom de l'accompagnant",
+			"gender": "Sexe de l'accompagnant",
+			"birth": {
+				"date": "Date de naissance de l'accompagnant"
+			},
+			"city": "Lieu de domicile de l'accompagnant",
+			"domicile": "Addresse de l'accompagnant",
+			"degre": "Lien de parenté",
+			"tel": "Téléphone de l'accompagnant"
+		},
+		"formation": "Formation sanitaire",
+		"office": {
+			"default": "Centre d'état civil",
+			"center": "Centre d'état civil de déclaration",
+			"declSecCenter": "Déclaration dans un centre d'état civil secondaire ?",
+			"annex": "Centre d'état civil secondaire"
+		},
+		"declaration": {
+			"number": "Numéro de déclaration",
+			"collection-point": "La déclaration à été faite dans le point de collecte"
+		},
+		"notification": {
+			"number": "Numéro de notification *",
+			"date": "Date de notification",
+			"hour": "Heure de notification",
+			"enter_ref": "* Saisir la référence"
+		},
+		"collecte": {
+			"date": "Date de la collecte d'information",
+			"hour": "Heure de la collecte d'information"
+		},
+		"birth": {
+			"number": "Numéro d'acouchement",
+			"date": "Date de naissance",
+			"hour": "Heure de naissance",
+			"place": {
+				"default": "Lieu d'acouchement",
+				"neighbourhoodStreetBirthcamp": "Quartier/Rue/Campement de la naissance",
+				"subprefectureCommuneVillage": "Sous-préfecture/Commune/Village de la naissance"
+			}
+		},
+		"delivery": {
+			"date": "Date de l'accouchement",
+			"hour": "Heure de l'accouchement",
+			"city": "Adresse du lieu de l'accouchement"
+		},
+		"death": {
+			"date": "Date du décès",
+			"hour": "Heure du décès"
+		},
+		"child": {
+			"birth": {
+				"alive": "Enfant né vivant",
+				"weight": "Poids de l'enfant à la naissance (gramme)",
+				"many": "Naissance multiple",
+				"manyTo": "Naissance multiple de"
+			},
+			"rating": "Rang de l'enfant (Jumeau)"
+		},
+		"firstname": {
+			"default": "Prénom",
+			"plural": "Prénoms"
+		},
+		"lastname": {
+			"default": "Nom",
+			"plural": "Noms"
+		},
+		"gender": {
+			"default": "Sexe"
+		},
+		"health-center": {
+			"default": "Structure sanitaire",
+			"selection": "Sélection d'une structure sanitaire"
+		},
+		"father": {
+			"known": "Père connu",
+			"deceased": "Père décédé",
+			"firstname": "Prénom du père",
+			"lastname": "Nom du père",
+			"birth": {
+				"place": "Lieu de naissance du père"
+			},
+			"death": {
+				"place": "Lieu de décès du père",
+				"date": {
+					"known": " Date de décès connue ?"
+				}
+			},
+			"residence": "Lieu de domicile du père",
+			"address": "Adresse de domicile du père",
+			"nationality": "Nationalité du père",
+			"date": {
+				"birth": "Date de naissance du père",
+				"death": "Date de décès du père"
+			},
+			"occupation": "Profession du père",
+			"telephone": {
+				"number": "Numéro de téléphone du père"
+			}
+
+		},
+		"mother": {
+			"deceased": "Mère décédé (à l'accouchement)",
+			"firstname": "Prénom de la mère",
+			"lastname": "Nom de la mère",
+			"birth": {
+				"place": "Lieu de naissance de la mère"
+			},
+			"death": {
+				"place": "Lieu de décès de la mère"
+			},
+			"residence": "Lieu de domicile de la mère",
+			"address": "Adresse de domicile de la mère",
+			"nationality": "Nationalité de la mère",
+			"date": {
+				"birth": "Date de naissance de la mère",
+				"death": "Date de décès de la mère"
+			},
+			"occupation": "Profession de la mère",
+			"telephone": {
+				"number": "Numéro de téléphone de la mère"
+			},
+			"same-residence": "Même domicile que le père"
+		},
+		"nni": {
+			"default": "Numéro national d'identification",
+			"question": "Numéro national d'identification ?"
+		},
+		"numIdent": "Numéro de la pièce d'identification",
+		"wedding": {
+			"isMarried": "Parents mariés ?",
+			"date": "Date de mariage des parents",
+			"subprefectureCommuneVillage": "Sous-préfecture/Commune/Village de mariage des parents"
+		},
+		"identifier": "Identifiant",
+		"password": {
+			"default": "Mot de passe"
+		}
+	},
+	"button": {
+		"next": "Suivant",
+		"prev": "Précédent",
+		"validate": {
+			"validate_1": "Enregistrer",
+			"validate_2": "Valider"
+		},
+		"duplicate": "Dupliquer",
+		"change": "Modifier",
+		"delete" : "Supprimer",
+		"signin": "Connexion",
+		"signout": "Déconnexion",
+		"signup": "S'enregistrer",
+		"password": {
+			"forgot": "Mot de passe oublié ?"
+		},
+		"noAccount": "Pas de compte ?",
+		"birth": "Naissance",
+		"death": "Décès",
+		"all": "Tous",
+		"status": {
+			"value": "Status",
+			"draft": "Brouillon",
+			"validate": "Validé",
+			"archive": "Archivé",
+			"error": "Erreur"
+		},
+		"send": "Envoyer",
+		"yes": "Oui",
+		"no": "Non",
+		"ok": "Ok"
+	},
+	"stepper": {
+		"child": "Enfant",
+		"father": "Père",
+		"mother": "Mère",
+		"defunct": "Défunt",
+		"parents": "Parents",
+		"death": "Décès",
+		"declaration": "Déclaration",
+		"notificationInformation": "Notification",
+		"birthInformation": "Naissance",
+		"attendantInformation": "Accompagnant"
+	},
+	"forms": {
+		"title": {
+			"parents": "Renseignement sur les parents",
+			"deces": "Renseignement sur le décès",
+			"contact": "Renseignement sur le contact",
+			"child": "Renseignement sur l'enfant",
+			"father": "Renseignement sur le père",
+			"mother": "Renseignement sur la mère",
+			"defunct": "Renseignement sur le défunt",
+			"death": "Renseignement sur le décès",
+			"declaration": "Renseignement sur la déclaration",
+			"notificationInformation": "Informations sur la notification",
+			"birthInformation": "Informations sur la naissance/accouchement",
+			"attendantInformation": "Informations sur l'accompagnant et la notification"
+		},
+		"processing": "Votre demande est en cours de traitement"
+	},
+	"message": {
+		"error": {
+			"forms": "Le formulaire comporte une ou plusieurs erreurs",
+			"type": "Point de collecte",
+			"bad_col_point": "Vous ne pouvez pas vous connecter sur cet appareil car votre point de collecte n’est pas identique",
+			"nniPattern": "Le format est incorrect. Format attendu ([1-2]{1}[0-9]{12})",
+			"bad_date_notification": "La date de naissance ne doit pas être supérieure à la date de notification",
+			"young_parent": "Attention ! L'un des parents est âgés de moins de 10 ans à la date de naissance de l'enfant.",
+			"blank_col_point": "Veuillez saisir un point de collecte pour ce téléphone",
+			"bad_weight": "Poids invalide, il doit être supérieur à 0 et inférieur ou égal à 9999 gr.",
+			"401": "Identifiant / mot de passe incorrect",
+			"500": "Impossible de s'identifier,erreur du serveur. Contacter le service technique",
+			"timeout": "Impossible de s'identifier, vérifier votre connexion"
+
+		},
+		"title": {
+			"warning": "Attention",
+			"result": "Résultat"
+		},
+		"confirmLeaveMessage": "Êtes vous sûr de vouloir quitter la saisie en cours ?"
+	},
+	"collect": {
+		"request": "Veuillez saisir un point de collecte pour ce téléphone.",
+		"holder": "Point de collecte",
+		"save": "Enregistrer",
+		"continue": "Continuer"
+	}
+}

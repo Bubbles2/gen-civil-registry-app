@@ -1,0 +1,224 @@
+{
+  "loading": {
+    "start": "Application configuration  ....",
+    "end": "Your application is now ready to be used",
+    "problem": "There was a problem with the configuration"
+  },
+  "label-input": {
+    "notificationCivilCenter":"Civil status center of notification",
+    "attendant":{
+      "default" : "",
+      "firstname":"Companion's first name",
+      "lastname":"Companion's last name",
+      "gender":"Companion's gender",
+      "birth":{
+        "date":"Companion's birth date"
+      },
+      "city":"Companion's place of residence",
+      "domicile":"Companion's address",
+      "degre":"Relationship link",
+      "tel":"Companion's phone number"
+
+    },
+    "formation":"Health training",
+    "office":{
+      "default":"Civil registry  center",
+      "center":"Civil registry  center",
+      "declSecCenter":"Declaration in a secondary civil registry center?",
+      "annex":"Secondary civil registry center"
+    },
+    "declaration": {
+      "number": "Declaration number",
+      "collection-point": "The declaration was made at the collection point"
+    },
+    "notification": {
+      "number": "Notification number",
+      "date": "Notification date",
+      "hour": "Notification time"
+    },
+    "collecte": {
+      "date": "Information collection date",
+      "hour": "Information collection time"
+    },
+    "birth": {
+      "number": "Birth number",
+      "date": "Birth date",
+      "hour": "Birth time",
+      "place": {
+        "default": "Place of birth",
+        "neighbourhoodStreetBirthcamp": "Birth neighborhood/Street/Camp",
+        "subprefectureCommuneVillage": "Subprefecture/Commune/Village of birth"
+      }
+    },
+    "delivery":{
+      "date": "Date of birth",
+      "hour": "Time of birth",
+      "city": "Address of birth place"
+    },
+    "death": {
+      "date": "Date of death",
+      "hour": "Time of death"
+    },
+    "child": {
+      "birth": {
+        "alive": "Child born alive",
+        "weight": "Child's birth weight (grams)",
+        "many": "Multiple birth",
+        "manyTo": "Multiple birth of"
+      },
+      "rating": "Child's rank (Twin)"
+    },
+    "firstname": {
+      "default": "First name",
+      "plural": "First names"
+    },
+    "lastname": {
+      "default": "Last name",
+      "plural": "Last names"
+    },
+    "gender": {
+      "default": "Gender"
+    },
+    "health-center": {
+      "default": "Health structure",
+      "selection": "Selection of a health structure"
+    },
+    "father": {
+      "known": "Father known",
+      "deceased": "Father deceased",
+      "firstname": "Father's first name",
+      "lastname": "Father's last name",
+      "birth":{
+        "place":"Father's place of birth"
+      },
+      "death":{
+        "place":"Father's place of death",
+        "date":{
+          "known" :"Date of death Known ?"
+        }
+      },
+      "residence":"Father's place of residence",
+      "address":"Father's home address",
+      "nationality": "Father's nationality",
+      "date": {
+        "birth": "Father's birth date",
+        "death": "Father's death date"
+      },
+      "occupation": "Father's profession",
+      "telephone": {
+        "number": "Father's phone number"
+      }
+
+    },
+    "mother": {
+      "deceased": "Mother Deceased (in childbirth)",
+      "firstname": "Mother's first name",
+      "lastname": "Mother's last name",
+      "birth":{
+        "place":"Mother's place of birth"
+      },
+      "death":{
+        "place":"Mother's place of death"
+      },
+      "residence":"Mother's place of residence",
+      "address":"Mother's home address",
+      "nationality": "Mother's nationality",
+      "date": {
+        "birth": "Mother's birth date",
+        "death": "Mother's death date"
+      },
+      "occupation": "Mother's profession",
+      "telephone": {
+        "number": "Mother's phone number"
+      },
+      "same-residence": "Mother same residence as the father"
+    },
+    "nni": {
+      "default":"National identification number",
+      "question":"National identification number?"
+    },
+    "numIdent":"Identification document number",
+    "wedding": {
+      "isMarried": "Parents married?",
+      "date": "Parents' wedding date",
+      "subprefectureCommuneVillage": "Subprefecture/Commune/Village of parents' wedding"
+    },
+    "identifier": "Identifier",
+    "password": {
+      "default": "Password"
+    }
+  },
+  "button": {
+    "next": "Next",
+    "prev": "Previous",
+    "validate": {
+      "validate_1": "Validation",
+      "validate_2": "Validate"
+    },
+    "duplicate":"Duplicate",
+    "change": "Modify",
+    "delete" : "Delete",
+    "signin": "Login",
+    "signout": "Logout",
+    "signup": "Register",
+    "password": {
+      "forgot": "Forgot password ?"
+    },
+    "noAccount": "No account?",
+    "birth": "Birth",
+    "death": "Death",
+    "all": "All",
+    "status": {
+      "value": "Status",
+      "draft": "Draft",
+      "validate": "Validated",
+      "archive": "Archived",
+      "error": "Error"
+    }
+  },
+  "stepper": {
+    "child": "Child",
+    "father": "Father",
+    "mother": "Mother",
+    "defunct": "Deceased",
+    "death": "Death",
+    "declaration": "Declaration",
+    "notificationInformation": "Notification",
+    "birthInformation" : "Birth",
+    "attendantInformation" : "Companion"
+  },
+  "forms": {
+    "title": {
+      "child": "Child information",
+      "father": "Father information",
+      "mother": "Mother information",
+      "defunct": "Deceased information",
+      "death": "Death information",
+      "declaration": "Declaration information",
+      "notificationInformation": "Notification information",
+      "birthInformation" : "Birth/delivery information",
+      "attendantInformation" : "Companion and notification information"
+    },
+    "processing": "Your request is being processed"
+  },
+  "message": {
+    "error": {
+      "forms": "The form contains one or more errors",
+      "type": "Collection point",
+      "bad_col_point": "You cannot log in on this device because your collection point does not match phone's",
+      "bad_date_notification": "The birth date must not be later than the notification date",
+      "young_parent": "One parent must be at least 10 years old",
+      "blank_col_point": "Please enter a collection point for this phone",
+      "401": "Identifier / password invalid",
+			"500": "Unable to log in, server error. Contact technical service",
+			"timeout": "Unable to log in, check your connection"
+    
+    }
+  },
+  "collect": {
+    "request": "Please enter a collection point for this phone.",
+    "holder": "Collection point",
+    "save": "Save",
+    "continue": "Continue"
+  }
+}

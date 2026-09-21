@@ -1,0 +1,15 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'crseneagalmobile'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+// Library modules that compile native code (realm, react-native-screens) take AGP's
+// default NDK unless told otherwise; AGP 8.5 defaults to 26.1, which is not installed.
+// Pin every Android library project to the same NDK as the app (see android/build.gradle).
+gradle.beforeProject { p ->
+    p.plugins.withId("com.android.library") {
+        p.android.ndkVersion = "25.1.8937393"
+    }
+}

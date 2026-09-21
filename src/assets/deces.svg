@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icones/deces</title>
+    <g id="Icones/deces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/navigation/x-light" transform="translate(4.000000, 4.000000)">
+            <g id="Group" transform="translate(-0.000000, -0.000000)">
+                <rect id="Rectangle" x="0" y="0" width="248" height="248"></rect>
+            </g>
+            <path d="M58.1980198,97.2970297 C58.1980198,60.6821912 87.880211,31 124.49505,31 C161.109888,31 190.792079,60.6821912 190.792079,97.2970297 L190.792079,209.63851 L58.1980198,209.63851 L58.1980198,97.2970297 Z M14,216.079208 L234.990099,216.079208 M100,118.841584 L149,119 M87,140.841584 L161,140.841584 M87,162.841584 L161,162.841584" id="Combined-Shape" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

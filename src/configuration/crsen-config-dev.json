@@ -1,0 +1,15 @@
+{
+	"notification":{
+		"auto-send":false,
+		"delay":60,
+		"network":"DATA-SMS"
+	},
+	"ws":{
+		"http":{
+			"schema":"https",
+			"domain":"senegal.digitech-development.com",
+			"port":"443",
+			"path":"/cityweb-mobile-gateway"
+		}
+	}
+}

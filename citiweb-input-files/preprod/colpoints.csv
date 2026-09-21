@@ -1,0 +1,928 @@
+"office_code";"code";"label";"type"
+"758";PCS_6;Samu Municipal;HEALTH
+"758";PCS_5;Poste de santé Kharr Yalla;HEALTH
+"758";PCS_7;Poste de santé HLM Patte d'oie;HEALTH
+"758";PCS_8;Poste de santé HLM Grand Yoff;HEALTH
+"758";PCS_3;Maternité Grand Yoff 1;HEALTH
+"758";PCS_2;Hôpital général Grand Yoff Idrissa Pouye;HEALTH
+"758";PCS_9;Clinique Madji;HEALTH
+"758";PCS_4;Clinique de l'amitié;HEALTH
+SC01;PCS_565;Poste de santé Thiaroye;HEALTH
+SC01;PCS_563;Poste de santé Taif;HEALTH
+SC01;PCS_562;Poste de santé Nasroul lahi;HEALTH
+SC01;PCS_564;Poste de santé Fass mbao;HEALTH
+SC01;PCS_567;Hopital Thiaroye;HEALTH
+SC01;PCS_570;Clinique Amdalaye 4;HEALTH
+SC01;PCS_569;Centre de santé de Mbao;HEALTH
+"934";PCS_413;POSTE DE SANTE KHOUROUNAR;HEALTH
+"934";PCS_411;MATERNITE MUNICIPAL N°2;HEALTH
+"934";PCS_415;CLINIQUE KELEBANA;HEALTH
+"934";PCS_414;CLINIQUE GABINET MEDICAL KANDE;HEALTH
+"934";PCS_417;CLINIQUE GABINET DR DANIORO;HEALTH
+"934";PCS_416;CENTREDE SANTE MEDICO SOCIAL SOPE NABI;HEALTH
+"934";PCS_412;CENTRE DE SANTE COMMUNAUTAIRE;HEALTH
+"934";PCS_410;Centre de sante BAYE TALLA DIOP;HEALTH
+"933";PCS_624;POSTE DE SANTE DE YEUMBEUL DIAMALAYE;HEALTH
+"933";PCS_625;POSTE DE SANTE DE AINOUMADY;HEALTH
+"933";PCS_628;CLINIQUE MACHALAH;HEALTH
+"933";PCS_627;CLINIQUE EVA MARIE CAUL SECK;HEALTH
+"933";PCS_626;CLINIQUE CHEIKH AHMADOU BAMBA;HEALTH
+"933";PCS_629;CLINIQUE ASECNA;HEALTH
+"933";PCS_623;CENTRE DE SANTE DE YEUMBEUL;HEALTH
+"925";PCS_27;Poste de santé Yeumbeul Sud;HEALTH
+"925";PCS_25;Poste de santé Thiaroye Miname;HEALTH
+"925";PCS_26;Poste de santé Sidathi Fall;HEALTH
+"925";PCS_24;Poste de santé El Hadj Gallo Dia;HEALTH
+"925";PCS_23;Centre de santé de Yeumbeul;HEALTH
+"212";PCS_58;poste santé de Sessene;HEALTH
+"212";PCS_57;poste de santé Keur Sérigne Mbaye Sarr;HEALTH
+"212";PCS_54;poste de santé Elizabeth Diouf;HEALTH
+"212";PCS_55;poste de santé de Ndayane;HEALTH
+"212";PCS_56;poste de santé de Médinatoul;HEALTH
+"212";PCS_59;poste de santé de Mbakhane;HEALTH
+"212";PCS_53;poste de santé de Keur Cheikh Ibra;HEALTH
+"212";PCS_51;hôpital de Lubké;HEALTH
+"212";PCS_61;Clinique de Feu Salba Fall;HEALTH
+"212";PCS_60;Clinique Cheikh anta;HEALTH
+"212";PCS_52;centre de santé de Diourbel;HEALTH
+"604";PCS_36;Poste de Santé de Malicounda Wolof keur Ma‹ssa;HEALTH
+"604";PCS_37;Case de Santé de Malicounda;HEALTH
+"770";PCS_194;Poste de Santé de HLM;HEALTH
+"770";PCS_195;POSTE DE SANTE DE DIOKOUL WAGUE;HEALTH
+"770";PCS_196;POSTE DE SANTE DE DIOKOUL KHER;HEALTH
+"770";PCS_192;HOPITAL DE YOUSSOU BARGANE;HEALTH
+"770";PCS_283;CLINIQUE RADA;HEALTH
+"770";PCS_197;CLINIQUE NABY;HEALTH
+"770";PCS_282;CLINIQUE MAIMOUNA;HEALTH
+"770";PCS_193;Centre de Santé de RUFISQUE;HEALTH
+"238";PCS_64;Poste de santé Héliport;HEALTH
+"238";PCS_66;Clinique Muhammed Fadel;HEALTH
+"238";PCS_65;Clinique 18 Safar;HEALTH
+"238";PCS_63;Centre de santé de Thiawéne;HEALTH
+"238";PCS_62;Centre de santé de Ndam;HEALTH
+"596";PCS_74;Poste de Santé de Varedo;HEALTH
+"596";PCS_70;Poste de Santé de Trypano;HEALTH
+"596";PCS_69;Poste de Santé de Sauthie;HEALTH
+"596";PCS_71;Poste de Santé de Santessou;HEALTH
+"596";PCS_76;Poste de Santé de Médine;HEALTH
+"596";PCS_73;Poste de Santé de Mbour Toucouleurr;HEALTH
+"596";PCS_75;Poste de Santé de Fallokh Mbour;HEALTH
+"596";PCS_77;Poste de santé de Diameguene;HEALTH
+"596";PCS_78;Poste de Santé de Darou Salam;HEALTH
+"596";PCS_72;Poste de Santé de Chateau d'Eau Nord;HEALTH
+"596";PCS_67;Hôpital Grand Mbour;HEALTH
+"596";PCS_81;Clinique (Pramédical) Aida Kamoye;HEALTH
+"596";PCS_82;Clinique Ennaus;HEALTH
+"596";PCS_80;Clinique Bilbassi;HEALTH
+"596";PCS_79;Clinique Al Mansour Pole Mére-Enfant;HEALTH
+"596";PCS_68;Centre de Santé Tefess;HEALTH
+"765";PCS_85;Maternité de Yeumbeul;HEALTH
+"765";PCS_88;Maternité de Boune;HEALTH
+"765";PCS_83;Hopital de Thiaroy;HEALTH
+"765";PCS_86;Hopital de Keur Massar;HEALTH
+"765";PCS_87;Clinique de Lansal;HEALTH
+"765";PCS_84;Centre de santé de Pikine;HEALTH
+"870";PCS_93;Hôpital Principal;HEALTH
+"870";PCS_89;Hôpital le Dantec;HEALTH
+"870";PCS_90;Clinique Samu Social;HEALTH
+"870";PCS_95;Clinique Pasteur;HEALTH
+"870";PCS_91;Clinique Madelaine;HEALTH
+"870";PCS_94;Clinique du Cap;HEALTH
+"870";PCS_92;Clinique Casao;HEALTH
+"251";PCS_38;Poste de Santé  de Pikine;HEALTH
+"251";PCS_40;Poste de Santé de  Ndioloffene;HEALTH
+"251";PCS_39;Poste de Santé de  Guinaw Rail;HEALTH
+"251";PCS_35;Poste de santé de Diamaguene;HEALTH
+"251";PCS_42;Clinique Suma assistance de saint louis;HEALTH
+"251";PCS_43;Clinique Dioum de saint louis;HEALTH
+"251";PCS_44;Clinique de fara Wade de saint louis;HEALTH
+"251";PCS_41;Centre de santé de Saint-Louis;HEALTH
+"990";PCS_113;Clinique Internationale;HEALTH
+"990";PCS_114;Centre de santé Grand Dakar;HEALTH
+"990";PCS_112;Centre de santé Gaspar Camara;HEALTH
+"757";PCS_131;Poste de santé HLM;HEALTH
+"757";PCS_127;Poste de santé Bourguiba;HEALTH
+"757";PCS_129;Hopital Gaspard Camara de Dakar;HEALTH
+"757";PCS_130;Centre de santé HLM;HEALTH
+"757";PCS_128;Centre de santé Grand Daka;HEALTH
+"950";PCS_360;Poste de Santé de PMI de la Médina;HEALTH
+"950";PCS_347;Hôpital Institut d'hygiéne social;HEALTH
+"950";PCS_358;Centre de Santé de Elizabeth diouf;HEALTH
+"950";PCS_359;Centre de Santé de cheikh Ahmadou  Bamba;HEALTH
+"942";PCS_122;Poste de Santé de HAMO TEFESS;HEALTH
+"942";PCS_123;Hôpital de ROI BODIN;HEALTH
+"942";PCS_124;Clinique de MI SALAM;HEALTH
+"942";PCS_126;Clinique de major dieye;HEALTH
+"942";PCS_125;Clinique de Bamtaré;HEALTH
+"944";PCS_407;Poste de sante de Touba diacsao;HEALTH
+"944";PCS_408;Clinique Dabakh malick;HEALTH
+"944";PCS_409;Clinique 24/24;HEALTH
+"772";PCS_184;Poste de santé BAMBILOR;HEALTH
+"772";PCS_492;Clinique KERE YIWE;HEALTH
+"772";PCS_490;Clinique KAWSARA;HEALTH
+A10;PCS_489;Poste de santé Kounoune;HEALTH
+A10;PCS_494;Poste de santé Keur yiw;HEALTH
+A10;PCS_143;Poste de santé Keur Ndiaye Lo;HEALTH
+A10;PCS_141;Poste de santé BAMBILOR;HEALTH
+A10;PCS_493;Poste de santé Bambilor;HEALTH
+A10;PCS_495;Clinique Tahibou diouf;HEALTH
+A10;PCS_144;Clinique Rassoul;HEALTH
+A10;PCS_496;Clinique Kawsara;HEALTH
+A10;PCS_491;Clinique Cité enseignant;HEALTH
+A10;PCS_488;Clinique Adja Ndiémé;HEALTH
+A10;PCS_487;Clinique Ababacar Sy;HEALTH
+A10;PCS_142;Centre de santé Kounoune;HEALTH
+"762";PCS_149;Clinique Adémyse;HEALTH
+"762";PCS_148;Centre de santé CAMBERENE;HEALTH
+"937";PCS_171;Maternité de Dalifort;HEALTH
+"937";PCS_172;Clinique Ya yassine;HEALTH
+"973";PCS_175;Poste de santé Taif;HEALTH
+"973";PCS_176;Poste de santé nassroul lahi;HEALTH
+"973";PCS_174;Poste de santé Fass mbao;HEALTH
+"973";PCS_177;Clinique Cheikhoul khadim;HEALTH
+"973";PCS_178;clinique Camed;HEALTH
+"973";PCS_173;Centre de santé Khadim rassoul;HEALTH
+"756";PCS_151;Poste de santé George  Lao;HEALTH
+"756";PCS_152;Poste de santé Fann Hock;HEALTH
+"756";PCS_150;Centre de santé Gaspard Camara;HEALTH
+"848";PCS_153;Hopital fann;HEALTH
+"848";PCS_155;Clinique SOS CARDIO;HEALTH
+"848";PCS_154;Clinique cheick Anta DIOP;HEALTH
+"910";PCS_168;Poste de santé de WAKHINANE NIMZATT;HEALTH
+"910";PCS_167;Poste de santé DAROU RAHMANE;HEALTH
+"910";PCS_166;Poste de santé DAROU KHANE;HEALTH
+"910";PCS_165;Centre de santé de WAKHINANE NIMZATT;HEALTH
+"912";PCS_752;Poste de Santé de Santeu  yalla;HEALTH
+"912";PCS_182;Poste de Santé de Imam kaire;HEALTH
+"912";PCS_755;Hôpital de Pikine;HEALTH
+"912";PCS_754;Clinique de Lansar;HEALTH
+"912";PCS_753;Centre de Santé de Madame ndiaye;HEALTH
+"945";PCS_170;Dispensaire chez Camara;HEALTH
+"945";PCS_169;Centre de Santé de Malika;HEALTH
+"847";PCS_374;Poste de Santé de Médina gounass;HEALTH
+"847";PCS_375;Poste de Santé de Madame ndiaye;HEALTH
+"847";PCS_376;Poste de Santé de Dego;HEALTH
+"847";PCS_135;Hôpital de Roi bodin;HEALTH
+"760";PCS_156;Centre de Santé de NGOR;HEALTH
+"776";PCS_146;Clinique de Ya cheikh;HEALTH
+"776";PCS_147;Clinique de plateau du Lac;HEALTH
+"776";PCS_145;Centre de Santé de Sangalkam;HEALTH
+"777";PCS_137;Poste de sante la Rochette;HEALTH
+"777";PCS_136;Poste de santé de Thiaroye Gare;HEALTH
+"777";PCS_138;Hôpital de Pikine;HEALTH
+"777";PCS_140;Clinique de Madame Ndoye;HEALTH
+"777";PCS_139;Clinique de khadim Rassoul;HEALTH
+"191";PCS_468;Poste de santé Leona Nord;HEALTH
+"191";PCS_471;Poste de santé DVF ( Derrière de la Voie ferrée);HEALTH
+"191";PCS_473;Croix Rouge;HEALTH
+"191";PCS_476;Clinique Sainte croix;HEALTH
+"209";PCS_674;Poste de Santé de YAYE;HEALTH
+"209";PCS_673;Poste de Santé de NDONDOL;HEALTH
+"209";PCS_678;Case de Santé de Nguémé Issa;HEALTH
+"209";PCS_676;Case de Santé de NDIEMANE;HEALTH
+"209";PCS_675;Case de Santé de MOMBOYE;HEALTH
+"209";PCS_677;Case de Santé de Mbelkhaoul;HEALTH
+"207";PCS_690;Poste de Santé de Ngoye;HEALTH
+"207";PCS_692;Poste de Santé de Gourgourene;HEALTH
+"207";PCS_691;Poste de Santé de Batal;HEALTH
+"207";PCS_695;Maternité de Ngoye;HEALTH
+"207";PCS_694;Case de Santé de Ngodjimene;HEALTH
+"207";PCS_693;Case de Santé de Barry Ndondol;HEALTH
+"203";PCS_16;Poste de santé de  REWOU MAWO;HEALTH
+"203";PCS_15;Poste de Santé de Réfane;HEALTH
+"203";PCS_17;poste de santé de NDEREPPE;HEALTH
+"203";PCS_22;Centre de Santé de THIANDIGUE;HEALTH
+"203";PCS_21;Centre de Santé de NGOUYE;HEALTH
+"203";PCS_19;Centre de Santé de NDORONG MALICK;HEALTH
+"203";PCS_20;Centre de Santé de  NDONG;HEALTH
+"203";PCS_18;Centre de santé de  MBAMBEY;HEALTH
+"225";PCS_882;Poste de Santé de Sokhna Mai Koubra;HEALTH
+"225";PCS_333;Poste de Santé de Paléne;HEALTH
+"225";PCS_881;Poste de Santé de Mame Seynabou Ndiaye Paléne;HEALTH
+"225";PCS_878;Poste de Santé de Mame Cheikh Anta Mbacke;HEALTH
+"225";PCS_876;Poste de Santé de Gawane;HEALTH
+"225";PCS_880;Poste de Santé de Dimb Bapp;HEALTH
+"225";PCS_877;Poste de Santé de Diamaguene;HEALTH
+"225";PCS_332;Poste de Santé de Darou Salam;HEALTH
+"225";PCS_331;Hôpital de Mbacké;HEALTH
+"225";PCS_884;Croix-Rouge;HEALTH
+"225";PCS_879;Clinique de Bakline Paléne;HEALTH
+"225";PCS_883;Centre de Santé;HEALTH
+"449";PCS_763;Poste de Santé de Sobeme;HEALTH
+"449";PCS_764;Poste de Santé de Mbétite;HEALTH
+"449";PCS_766;Poste de Santé de Gadiak;HEALTH
+"449";PCS_767;Poste de Santé de Diohine;HEALTH
+"449";PCS_765;Poste de Santé de Diarrere;HEALTH
+"449";PCS_762;Poste de Santé de Bicole;HEALTH
+"449";PCS_768;Clinique de diohine;HEALTH
+"450";PCS_706;Poste de santé de Sowane;HEALTH
+"450";PCS_707;Poste de santé de Senghor;HEALTH
+"450";PCS_705;Poste de santé de Ndiongolor;HEALTH
+"450";PCS_704;Poste de santé de Fayile;HEALTH
+"450";PCS_703;Poste de santé de Diouroup;HEALTH
+"425";PCS_234;Poste de santé Ndiaye ndiaye;HEALTH
+"425";PCS_233;Poste de santé metteur;HEALTH
+"425";PCS_232;Poste de santé de Pokhal;HEALTH
+"425";PCS_231;Poste de Santé de Darel;HEALTH
+"425";PCS_228;Hôpital Régional fatick;HEALTH
+"425";PCS_230;Clinique privée;HEALTH
+"425";PCS_229;Centre de santé de Fatick;HEALTH
+"425";PCS_235;Case de santé Poukhan;HEALTH
+"454";PCS_199;Poste de santé privé catholique;HEALTH
+"454";PCS_198;Centre de santé de Foundiougne;HEALTH
+"475";PCS_227;Poste de santé keur El Hadj;HEALTH
+"475";PCS_226;Hôpital de Gossas;HEALTH
+"609";PCS_217;Poste de Santé de Warang;HEALTH
+"609";PCS_219;Poste de Santé de Soussane Bambara;HEALTH
+"609";PCS_216;Poste de Santé de Sombel Diop;HEALTH
+"609";PCS_222;Poste de Santé de Sinthiou  Mbadane;HEALTH
+"609";PCS_221;Poste de Santé de Roff;HEALTH
+"609";PCS_220;Poste de Santé de Pointe  Saréne;HEALTH
+"609";PCS_218;Poste de Santé de Mbouléme;HEALTH
+"609";PCS_223;Poste de Santé de Mbaling;HEALTH
+"609";PCS_225;Case de Santé de Sidi Bougou;HEALTH
+"609";PCS_224;Case de Santé de Gagna Bougou;HEALTH
+"841";PCS_208;Poste de santé de Sessene;HEALTH
+"841";PCS_213;Poste de santé de Saokhom2;HEALTH
+"841";PCS_215;Poste de santé de N’dioudiouf;HEALTH
+"841";PCS_209;Poste de santé de Khémé;HEALTH
+"841";PCS_214;Poste de santé de Diokhar;HEALTH
+"841";PCS_212;Case de santé Saokom1;HEALTH
+"841";PCS_210;Case de Sante de Yabo-yabo;HEALTH
+"841";PCS_211;Case de santé de Sao;HEALTH
+G05;PCS_204;Poste de santé Poniène;HEALTH
+G05;PCS_205;Poste de santé Nguinth;HEALTH
+G05;PCS_203;Poste de santé Médina Fall 2;HEALTH
+G05;PCS_202;Poste de santé Médina  Fall 1;HEALTH
+G05;PCS_201;Poste de santé Keur Issa;HEALTH
+G05;PCS_207;Poste de santé Kawsara;HEALTH
+G05;PCS_206;Poste de santé Diakhao;HEALTH
+G05;PCS_200;Hôpital Saint Jean de Dieu;HEALTH
+"619";PCS_162;Poste de Santé de Tagui kaw;HEALTH
+"619";PCS_159;Poste de Santé de Silma;HEALTH
+"619";PCS_163;Poste de Santé de Randoulene;HEALTH
+"619";PCS_164;Poste de Santé de Hersent;HEALTH
+"619";PCS_161;Poste de Santé de Guente;HEALTH
+"619";PCS_160;Poste de Santé de Grand Thies;HEALTH
+"619";PCS_157;Hôpital Régional de Thiés;HEALTH
+"619";PCS_158;Hôpital de DixiŠme;HEALTH
+"619";PCS_191;Centre de Santé de Keur Serigne Ablaye;HEALTH
+"648";PCS_190;Poste de santé Baba Alima;HEALTH
+"648";PCS_189;Maternité Médine;HEALTH
+"648";PCS_188;Hôpital Mame Abdou;HEALTH
+"648";PCS_187;Centre de santé Massamba Sall;HEALTH
+"476";PCS_303;Poste de santé de Walo;HEALTH
+"476";PCS_304;Poste de santé de Farabougou;HEALTH
+"476";PCS_302;Hôpital principal;HEALTH
+"549";PCS_270;Hôpital de Gandiaye;HEALTH
+"549";PCS_271;Case de santé du village de Ndack;HEALTH
+"549";PCS_272;Case de santé de Thioupane;HEALTH
+"548";PCS_330;Poste de santé de Ndorong;HEALTH
+"548";PCS_329;Poste de santé de M‚dina baye;HEALTH
+"548";PCS_327;Clinique de Lamp fall;HEALTH
+"548";PCS_321;Clinique de Diarama;HEALTH
+"548";PCS_328;Centre de santé de Bodian;HEALTH
+"946";PCS_340;Poste de santé de Parcelles Assainies;HEALTH
+"946";PCS_336;Poste de santé de Ndorong;HEALTH
+"946";PCS_334;Poste de santé de Boustane;HEALTH
+"946";PCS_339;Clinique de Binetou Rassoul;HEALTH
+"946";PCS_338;Clinique de Baba Top;HEALTH
+"946";PCS_335;Centre de santé de Sara;HEALTH
+"946";PCS_337;Centre de santé de Sam;HEALTH
+"913";PCS_342;Poste de santé de Parcelles;HEALTH
+"913";PCS_118;Poste de santé de Diamageune;HEALTH
+"913";PCS_116;Poste de santé de Dialeme;HEALTH
+"913";PCS_341;Poste de santé de Dialegne;HEALTH
+"913";PCS_117;Poste de santé de Abattoir Ndagane;HEALTH
+"913";PCS_345;Hôpital de Ibrahim Niass;HEALTH
+"913";PCS_343;Clinique de Tidiane bodian;HEALTH
+"913";PCS_344;Clinique de Sarr;HEALTH
+"913";PCS_115;Centre de santé de Sos village enfant;HEALTH
+"913";PCS_346;Centre de santé de Binetou rassoul;HEALTH
+"556";PCS_245;Poste de Santé de Lamarame;HEALTH
+"556";PCS_244;Poste de Santé de Keur soce;HEALTH
+"556";PCS_246;Poste de Santé de Dagga Sambe ;HEALTH
+"556";PCS_249;Case de Santé de Thiamene taba;HEALTH
+"556";PCS_250;Case de Santé de SAMBARAMATA;HEALTH
+"556";PCS_247;Case de Santé de Sama toucouleur;HEALTH
+"556";PCS_257;Case de Santé de Ndiagne leguene;HEALTH
+"556";PCS_256;Case de Santé de M‚dina leyti;HEALTH
+"556";PCS_252;Case de Santé de Mbouma;HEALTH
+"556";PCS_251;Case de Santé de Keur pathe Malick;HEALTH
+"556";PCS_254;Case de Santé de Kacothie;HEALTH
+"556";PCS_253;Case de Santé de Gniline goumack;HEALTH
+"556";PCS_255;Case de Santé de D'avance geladio ;HEALTH
+"556";PCS_248;Case de Santé de Bata wolof;HEALTH
+"564";PCS_379;Poste de sante de Fass hlm;HEALTH
+"564";PCS_380;Poste de sante de Diamageune;HEALTH
+"564";PCS_378;Poste de sante de Darou Salam;HEALTH
+"564";PCS_381;Centre de sante de Nioro;HEALTH
+"679";PCS_550;Poste de santé Yari dakhar;HEALTH
+"679";PCS_547;Poste de santé Sarsarat;HEALTH
+"679";PCS_545;Poste de santé Keur aline ndiaye;HEALTH
+"679";PCS_551;Poste de santé Dibyatte;HEALTH
+"679";PCS_549;Poste de santé Arafat;HEALTH
+"679";PCS_543;Centre de santé Darou mousty;HEALTH
+"679";PCS_555;Case de santé Diane sylla;HEALTH
+"679";PCS_560;Case de santé de Karathier;HEALTH
+"679";PCS_557;Case de santé de Darou diop ;HEALTH
+"679";PCS_553;Case de santé Darou rahmane;HEALTH
+"679";PCS_558;Case de santé Boulel seck;HEALTH
+"680";PCS_13;Poste de Santé de Ndakar;HEALTH
+"680";PCS_49;Poste de Santé de Diamagueune;HEALTH
+"680";PCS_12;Centre de Santé de Kebemer;HEALTH
+"706";PCS_536;Poste de santé Sidy  maguett  Guisse;HEALTH
+"706";PCS_539;Poste de santé de Guenelenne;HEALTH
+"706";PCS_541;Centre de santé Mame seynabou  ndaw;HEALTH
+"706";PCS_535;Centre de santé Elisabeth  Diouf;HEALTH
+"699";PCS_285;Hôpital Maguette  lo;HEALTH
+"699";PCS_284;Centre de Santé de Linguere;HEALTH
+"733";PCS_101;Poste de Santé de Ndimb;HEALTH
+"733";PCS_99;Poste de Santé de Loboudou;HEALTH
+"733";PCS_102;Poste de Santé de keur Momar Sarr;HEALTH
+"733";PCS_100;Poste de Santé de Gankette balla;HEALTH
+"733";PCS_98;Centre de Santé de Keur Momar Sarr;HEALTH
+"733";PCS_241;Case de Santé de Teudd bitty;HEALTH
+"733";PCS_237;Case de Santé de Sam kebe;HEALTH
+"733";PCS_240;Case de Santé de Ndour de tellel ;HEALTH
+"733";PCS_239;Case de Santé de Loumboul ;HEALTH
+"733";PCS_103;Case de Santé de Loumbi nguido;HEALTH
+"733";PCS_121;Case de Santé de Keur samba thiam;HEALTH
+"733";PCS_238;Case de Santé de Keur Ibra bineta;HEALTH
+"733";PCS_120;Case de Santé de GolondŠ;HEALTH
+"733";PCS_119;Case de Santé de Diamminar;HEALTH
+"733";PCS_243;Case de Santé de Bras;HEALTH
+"733";PCS_242;Case de Santé de Badiene;HEALTH
+"728";PCS_288;Poste de Santé de Santiaba sud;HEALTH
+"728";PCS_289;Poste de Santé de Keur serigne louga Nord;HEALTH
+"728";PCS_290;Poste de Santé de Keur serigne louga est;HEALTH
+"728";PCS_291;Poste de Santé de Arthierie nord;HEALTH
+"728";PCS_287;Hôpital El hadji amadou sahir mbaye;HEALTH
+"728";PCS_286;Centre de Santé de louga;HEALTH
+"272";PCS_320;Poste de santé de kanel;HEALTH
+"272";PCS_319;Centre de santé de kanel;HEALTH
+"301";PCS_443;Poste de santé de diafane sorokoum;HEALTH
+"301";PCS_441;Poste de santé d'Agnam thiodaye;HEALTH
+"301";PCS_442;Poste de santé  d'Agnam goly;HEALTH
+"301";PCS_440;Poste de santé d'Agnam civol;HEALTH
+"301";PCS_444;Poste de santé  d'Agman lidoubé;HEALTH
+"301";PCS_455;Centre de santé de Agnam civol;HEALTH
+"301";PCS_445;Case de santé Mberla bellé;HEALTH
+"301";PCS_453;Case de santé de thioulel thialé;HEALTH
+"301";PCS_448;Case de santé de sylla worgo;HEALTH
+"301";PCS_449;Case de santé de sinthiou boumak;HEALTH
+"301";PCS_454;Case de santé de péthiélle maboubé;HEALTH
+"301";PCS_450;Case de santé de diafane belly thidy;HEALTH
+"301";PCS_456;Case de santé de Agnam ouro ciré;HEALTH
+"301";PCS_447;Case de santé d'Agnam godo;HEALTH
+"281";PCS_526;Poste de santé de Sadel;HEALTH
+"281";PCS_527;Poste de santé de Mbakhna;HEALTH
+"281";PCS_525;Poste de santé de Gaol;HEALTH
+"281";PCS_524;Poste de santé de Doundou;HEALTH
+"281";PCS_523;Poste de santé de Doumga ouro alpha;HEALTH
+"281";PCS_522;Poste de santé Bokidiawe 2;HEALTH
+"281";PCS_521;Poste de santé Bokidiawe 1;HEALTH
+"271";PCS_324;Poste de Santé de Soubalo;HEALTH
+"271";PCS_326;Poste de Santé de Nawel;HEALTH
+"271";PCS_325;Poste de Santé de Diamel;HEALTH
+"271";PCS_322;Hôpital Régional de Matam;HEALTH
+"271";PCS_323;Centre de Santé de Matam;HEALTH
+"285";PCS_654;Poste de Santé de Woudourou;HEALTH
+"285";PCS_655;Poste de Santé de Tiguéré;HEALTH
+"285";PCS_665;Poste de Santé de Tiaréne;HEALTH
+"285";PCS_666;Poste de Santé de Taiba;HEALTH
+"285";PCS_664;Poste de Santé de Sédo;HEALTH
+"285";PCS_652;Poste de Santé de Ndouloumadji founebe;HEALTH
+"285";PCS_653;Poste de Santé de Ndouloumadji Dembe;HEALTH
+"285";PCS_663;Poste de Santé de Nabadji civol;HEALTH
+"285";PCS_669;Poste de Santé de F‚t‚ Ni‚b‚;HEALTH
+"285";PCS_670;Poste de Santé de Boyinadji;HEALTH
+"285";PCS_672;Case de Santé de Sinthiou Mogo;HEALTH
+"285";PCS_671;Case de Santé de Boki saboundé;HEALTH
+"288";PCS_14;Centre de sante de Ranerou;HEALTH
+"306";PCS_11;District sanitaire de Podor;HEALTH
+"306";PCS_10;Centre de sante de Podor;HEALTH
+"252";PCS_532;Poste de santé Santhia ba;HEALTH
+"252";PCS_530;Poste de santé Mamadou Diallo;HEALTH
+"252";PCS_533;Poste de santé Darou salam;HEALTH
+"252";PCS_531;Poste de santé 04-mai;HEALTH
+"252";PCS_529;Centre de santé de Dagana;HEALTH
+"259";PCS_273;Poste de santé Gandon;HEALTH
+"259";PCS_274;Poste de sante de Rao;HEALTH
+"259";PCS_275;Poste de sante de Mbarigo;HEALTH
+"259";PCS_276;Case de sante de Ni‚b‚ne Toub‚;HEALTH
+"259";PCS_277;Case de sante de M‚guigne Boye;HEALTH
+"259";PCS_278;Case de sante de Medina Sall;HEALTH
+"322";PCS_397;Poste de sante de Yawoldé  Yirlabé;HEALTH
+"322";PCS_392;Poste de sante de Wassatake;HEALTH
+"322";PCS_393;Poste de sante de Saldé;HEALTH
+"322";PCS_394;Poste de sante de Ndiayenne Peul;HEALTH
+"322";PCS_391;Poste de sante de Mbayebé salsalbé;HEALTH
+"322";PCS_396;Poste de sante de Karawoyndou;HEALTH
+"322";PCS_395;Poste de sante de Gayekada;HEALTH
+"322";PCS_389;Poste de sante de Diongui;HEALTH
+"322";PCS_390;Poste de sante de Boki Dialloube;HEALTH
+"322";PCS_398;Poste de sante de Boke namari;HEALTH
+"322";PCS_406;Centre de sante de Pete;HEALTH
+"322";PCS_405;Case de sante de Wendou Thillé;HEALTH
+"322";PCS_400;Case de sante de Wala;HEALTH
+"322";PCS_401;Case de sante de Thikité;HEALTH
+"322";PCS_399;Case de sante de Ngouye;HEALTH
+"322";PCS_402;Case de sante de Layki;HEALTH
+"322";PCS_404;Case de sante de Guirwass;HEALTH
+"322";PCS_403;Case de sante de Belemondi;HEALTH
+"260";PCS_28;Poste de Santé de Ross Bethio;HEALTH
+"260";PCS_29;oste de santé de Ross  Bethio;HEALTH
+"260";PCS_30;Centre de Santé de Odabe Nawar;HEALTH
+"258";PCS_656;Poste de sante de Ngallele;HEALTH
+"258";PCS_658;Poste de Santé de Khor;HEALTH
+"258";PCS_657;Poste de Santé de Bango ;HEALTH
+"258";PCS_662;Maternité de Ngallele;HEALTH
+"258";PCS_668;Maternité de Khor ;HEALTH
+"258";PCS_667;Maternité de Bango;HEALTH
+"258";PCS_659;Case de Santé de  Ngallele;HEALTH
+"258";PCS_661;Case de santé de Khor;HEALTH
+"258";PCS_660;Case de santé de Bango;HEALTH
+"1";PCS_498;Poste de santé de Thengori Transgambienne;HEALTH
+"1";PCS_497;Poste de santé de Thengori arrondissement;HEALTH
+"1";PCS_503;Poste de santé de Tendieme;HEALTH
+"1";PCS_505;Poste de santé de Tandiman;HEALTH
+"1";PCS_502;Poste de santé de Soutou;HEALTH
+"1";PCS_517;Poste de santé de Manguiline;HEALTH
+"1";PCS_501;Poste de santé de Mangoule;HEALTH
+"1";PCS_519;Poste de santé de Bandionkoto;HEALTH
+"1";PCS_518;Poste de santé d?AMA;HEALTH
+"1";PCS_499;Poste de santé Badioure;HEALTH
+"1";PCS_515;Clinique Thengori transgambiene;HEALTH
+"1";PCS_516;Clinique Thengori  arrondissement (djikesse);HEALTH
+"1";PCS_520;Centre de santé de Bignona;HEALTH
+"1";PCS_510;Case de santé Piran;HEALTH
+"1";PCS_508;Case de santé Fafesse;HEALTH
+"1";PCS_513;Case de santé Eguilaye;HEALTH
+"1";PCS_514;Case de santé Diourou;HEALTH
+"1";PCS_511;Case de santé Diakine;HEALTH
+"1";PCS_506;Case de santé de Falmere;HEALTH
+"1";PCS_507;Case de santé de Diarone;HEALTH
+"1";PCS_509;Case de santé Bouttolatte;HEALTH
+"1";PCS_512;Case de sant‚ Diakine;HEALTH
+"116";PCS_439;Centre de santé d'Oussoouye;HEALTH
+"71";PCS_386;Poste sante de toubacouta;HEALTH
+"71";PCS_385;Poste sante de kaguitte;HEALTH
+"71";PCS_384;Poste de sante de Nyassia;HEALTH
+"71";PCS_388;Case de sante de dialang;HEALTH
+"71";PCS_387;Case de sante de  darasalam;HEALTH
+"70";PCS_648;Poste Santé djibock de Ziguinchor;HEALTH
+"70";PCS_651;Poste de Santé kandianlang 2 de Ziguinchor;HEALTH
+"70";PCS_650;Poste de santé kandialang 1 de Ziguinchor;HEALTH
+"70";PCS_649;Poste de santé de lyndiane Ziguinchor;HEALTH
+"70";PCS_644;Poste de santé de kandé 2;HEALTH
+"70";PCS_647;Paramedical Antoine de padou de Ziguinchor;HEALTH
+"70";PCS_646;Maternité  néma de Ziguinchor;HEALTH
+"70";PCS_645;Maternité de lyndiane de Ziguinchor;HEALTH
+"70";PCS_643;Maternité de kandé de ZIguinchor;HEALTH
+"70";PCS_642;Maternité de grand dakar de Ziguinchor;HEALTH
+"70";PCS_640;Maternité boukotte sud de Ziguinchor;HEALTH
+"70";PCS_641;Maternité  Bernadette la Croix;HEALTH
+"70";PCS_638;Maternité belfort de Ziguinchor;HEALTH
+"70";PCS_639;Infirmerie camp militaire de Ziguinchor;HEALTH
+"70";PCS_636;Hopital regional de ZIGUINCHOR;HEALTH
+"70";PCS_637;Hopital de la paix de Ziguinchor;HEALTH
+B02;PCS_733;Poste santé de lyndiane;HEALTH
+B02;PCS_732;Poste santé de kande II;HEALTH
+B02;PCS_734;Poste de santé kandialang I;HEALTH
+B02;PCS_735;Poste de santé kandialang I;HEALTH
+B02;PCS_710;Poste de santé de l'Agence de musulman d'Afrique;HEALTH
+B02;PCS_731;Poste de santé  de djibock;HEALTH
+B02;PCS_711;Poste de Santé Bon samaritain de Ziguinchor;HEALTH
+B02;PCS_714;Maternité paramédical de boucotte sud;HEALTH
+B02;PCS_727;Maternité Kande de Ziguinchor;HEALTH
+B02;PCS_729;Maternité de nema;HEALTH
+B02;PCS_728;Maternité de  lyndiane;HEALTH
+B02;PCS_726;Maternité de grand Dakar;HEALTH
+B02;PCS_725;Maternité de Bernadette la croix;HEALTH
+B02;PCS_724;Maternité boucotte sud;HEALTH
+B02;PCS_723;Maternité Belfort;HEALTH
+B02;PCS_708;Hôpital régional de ziguinchor;HEALTH
+B02;PCS_722;Hôpital Infirmerie  camp militaire;HEALTH
+B02;PCS_709;Hôpital de la paix de Ziguinchor;HEALTH
+B02;PCS_720;Dispensaire de santhiaba;HEALTH
+B02;PCS_730;Clinique Paramédical  Saint Antoine de padoue;HEALTH
+B02;PCS_721;Clinique établissement industriel de ziguinchor;HEALTH
+B02;PCS_719;Clinique Commissariat de police;HEALTH
+B02;PCS_715;Clinique Casa Urgence de Ziguinchor;HEALTH
+B02;PCS_712;Clinique Cabinet  la joanne de ziguincho;HEALTH
+B02;PCS_717;Centre médical de kandialang;HEALTH
+B02;PCS_716;Centre médical de garnison de Ziguinchor;HEALTH
+B02;PCS_718;Centre de santé psychiatrique  émile badiane;HEALTH
+B02;PCS_713;Cabinet médical Fatou bintou;HEALTH
+"38";PCS_630;Poste de Santé de Mlomp;HEALTH
+"38";PCS_634;Maternité de Mlomp kewaguir;HEALTH
+"38";PCS_633;Maternité de Mlomp;HEALTH
+"38";PCS_635;Maternité de Ediamath;HEALTH
+"38";PCS_631;Case de Santé de Mlomp kawaguir;HEALTH
+"38";PCS_632;Case de Santé de Ediamath;HEALTH
+"088";PCS_260;Poste de Santé de Sikilo ilele;HEALTH
+"088";PCS_261;Poste de Santé de Sare moussa;HEALTH
+"088";PCS_258;Poste de Santé de Gadapara;HEALTH
+"088";PCS_259;Poste de Santé de Bouna kane;HEALTH
+"088";PCS_262;Hôpital régional de kolda;HEALTH
+"088";PCS_263;Clinique Charles;HEALTH
+"088";PCS_264;Clinique Ama;HEALTH
+"104";PCS_740;Poste de Santé de Sare moussa sow;HEALTH
+"104";PCS_739;Poste de Santé de Sare bilali;HEALTH
+"104";PCS_738;Poste de Santé de Sare bidji;HEALTH
+"104";PCS_744;Case de Santé de Soukou ;HEALTH
+"104";PCS_742;Case de Santé de Sare moussa sow;HEALTH
+"104";PCS_746;Case de Santé de Sare koli dia;HEALTH
+"104";PCS_743;Case de Santé de Sare gagna;HEALTH
+"104";PCS_741;Case de Santé de Niandiaye;HEALTH
+"104";PCS_745;Case de Santé de Boguelo;HEALTH
+"109";PCS_747;Centre de santé Médina yoro foula;HEALTH
+"092";PCS_294;Poste de Santé de Mampatim;HEALTH
+"092";PCS_305;Case de Santé de Temento allette;HEALTH
+"092";PCS_300;Case de Santé de Saré pathé bouya;HEALTH
+"092";PCS_297;Case de Santé de Saré dembayel;HEALTH
+"092";PCS_295;Case de Santé de Pidiro;HEALTH
+"092";PCS_299;Case de Santé de Oguel;HEALTH
+"092";PCS_301;Case de Santé de Foulado yoro;HEALTH
+"092";PCS_298;Case de Santé de Diankacounda;HEALTH
+"092";PCS_296;Case de Santé de Aini madi yoro;HEALTH
+"062";PCS_377;Poste de Santé de Medina Gounass;HEALTH
+"062";PCS_419;Case de Santé de Rabat;HEALTH
+"062";PCS_420;Case de Santé de Mouton Sankoule;HEALTH
+"062";PCS_383;Case de Santé de Missirah Sourath;HEALTH
+"062";PCS_382;Case de Santé de Medina Touat;HEALTH
+"062";PCS_418;Case de Santé de Medina pakane;HEALTH
+"052";PCS_620;Poste de santé Thianka;HEALTH
+"052";PCS_619;Poste de santé Sinthia afia;HEALTH
+"052";PCS_618;Poste de santé Croix rouge;HEALTH
+"052";PCS_617;District sanitaire de vélingara;HEALTH
+"052";PCS_622;Clinique doctor kande;HEALTH
+"052";PCS_621;Clinique coulibaly;HEALTH
+"137";PCS_756;Centre de Santé de Boukiling;HEALTH
+"139";PCS_758;Poste de Santé de Ndiama;HEALTH
+"139";PCS_757;Poste de Santé de Diaroume;HEALTH
+"139";PCS_761;Case de Santé de Souaky;HEALTH
+"139";PCS_760;Case de Santé de Bantantou;HEALTH
+"139";PCS_759;Case de Santé de Bagadadji;HEALTH
+"146";PCS_281;Poste de santé de goudomp;HEALTH
+"152";PCS_350;Poste de santé de Sandiniery;HEALTH
+"152";PCS_348;Poste de santé de Karantaba;HEALTH
+"152";PCS_349;Poste de santé de Diare;HEALTH
+"152";PCS_352;Case de santé de Djidinky mandingue;HEALTH
+"152";PCS_351;Case de santé de Bambadion;HEALTH
+"160";PCS_697;Poste de santé de tourecounda;HEALTH
+"160";PCS_696;Poste de santé de diendé;HEALTH
+"160";PCS_698;Poste de santé de bloc;HEALTH
+"160";PCS_700;Maternité de tourécounda;HEALTH
+"160";PCS_702;Maternité de diendé;HEALTH
+"160";PCS_701;Maternité de bloc;HEALTH
+"160";PCS_699;Case de santé de bissary diounkaya;HEALTH
+"163";PCS_770;Poste de Santé de Sinkere;HEALTH
+"163";PCS_772;Poste de Santé de Médina souani;HEALTH
+"163";PCS_769;Poste de Santé de Djiredji;HEALTH
+"163";PCS_771;Poste de Santé de Boumouda;HEALTH
+"170";PCS_311;Poste de Santé de Marsasoum;HEALTH
+"136";PCS_589;Poste de sante de Dembo coly;HEALTH
+"136";PCS_590;Poste de sante de Amar;HEALTH
+"136";PCS_591;Centre de sante de Moricounda;HEALTH
+"136";PCS_592;Centre de sante de EPS 1;HEALTH
+"494";PCS_781;District sanitaire de Birkilane;HEALTH
+"494";PCS_782;Clinique Moussa Siré Thiam;HEALTH
+"495";PCS_292;Poste de Santé de Mabo;HEALTH
+"495";PCS_293;Poste de Santé de Koumpeul ;HEALTH
+"493";PCS_308;Poste de santé de Kaffrine 2;HEALTH
+"493";PCS_310;Poste de santé de Diamagueune t‚p‚;HEALTH
+"493";PCS_309;Poste de santé de Diamagueune centre;HEALTH
+"493";PCS_306;Hôpital régional de kaffrine;HEALTH
+"493";PCS_307;Centre de santé de District de kaffrine;HEALTH
+"523";PCS_313;Poste de santé de Sorokogne;HEALTH
+"523";PCS_314;Poste de santé de Ngodiba;HEALTH
+"523";PCS_312;Poste de santé de Kahi;HEALTH
+"523";PCS_315;Case de santé de Tougne mosqu‚e;HEALTH
+"523";PCS_318;Case de santé de Sikim;HEALTH
+"523";PCS_317;Case de santé de Ndodj;HEALTH
+"523";PCS_316;Case de santé de Diamagueune;HEALTH
+"538";PCS_355;Poste de santé de Santhie Gal Ngon;HEALTH
+"538";PCS_356;Poste de santé de Médina Tabakh;HEALTH
+"538";PCS_354;Poste de santé de Mbelbouk;HEALTH
+"538";PCS_353;Poste de santé de Kathiote;HEALTH
+"538";PCS_363;Case de santé de Taïba;HEALTH
+"538";PCS_133;Case de santé de Ngentou Malick;HEALTH
+"538";PCS_134;Case de santé de Ndiodiéne;HEALTH
+"538";PCS_357;Case de santé de Mouille;HEALTH
+"538";PCS_361;Case de santé de Médinatou Salam 4;HEALTH
+"538";PCS_366;Case de santé de Guenth peulh 1;HEALTH
+"538";PCS_365;Case de santé de Guenth peulh 1;HEALTH
+"538";PCS_362;Case de santé de Guenth Ngouille;HEALTH
+"538";PCS_364;Case de santé de Ciss;HEALTH
+"538";PCS_132;Case de santé de Barol;HEALTH
+"508";PCS_269;Poste de Santé de urbain 2;HEALTH
+"508";PCS_268;Poste de Santé de Urbain 1;HEALTH
+"508";PCS_267;Centre de Santé de KOUNGHEUL;HEALTH
+"518";PCS_236;Centre de Santé de Malem Hodar;HEALTH
+"904";PCS_750;Poste de santé de Thiokétian;HEALTH
+"904";PCS_749;Poste de santé de Thiabédji;HEALTH
+"904";PCS_748;Poste de santé de Bandafassi;HEALTH
+"904";PCS_181;Case de santé de Pathassi;HEALTH
+"904";PCS_180;Case de santé de Nathia;HEALTH
+"904";PCS_183;Case de santé de Landiénie;HEALTH
+"904";PCS_751;Case de santé de Ibel;HEALTH
+"904";PCS_179;Case de santé de Bundoukoni;HEALTH
+"364";PCS_97;Poste de Santé de Fatiga;HEALTH
+"364";PCS_96;Poste de Santé de Dalaba;HEALTH
+"364";PCS_50;Centre de Santé de Kedougou;HEALTH
+N01;PCS_367;Poste de sante de Ninefecha;HEALTH
+N01;PCS_368;Case de sante de Woulidie;HEALTH
+N01;PCS_369;Case de sante de Thiankoye;HEALTH
+N01;PCS_370;Case de sante de Ndebou boudi;HEALTH
+N01;PCS_372;Case de sante de Manda thies;HEALTH
+N01;PCS_373;Case de sante de Baraboye;HEALTH
+N01;PCS_371;Case de sante de Assoni;HEALTH
+"369";PCS_610;Poste de Sante de TOMORONKOTO;HEALTH
+"369";PCS_612;Poste de Sante de  MAKO;HEALTH
+"369";PCS_611;Poste de Sante de BANTAKO;HEALTH
+"369";PCS_614;Case de Sante de TAMBANOUMBIA;HEALTH
+"369";PCS_616;Case de sante de KABATEGUINDA;HEALTH
+"369";PCS_613;Case de Sante de DALAKOYE;HEALTH
+"369";PCS_615;Case de Sante de BAGNOMBA;HEALTH
+"379";PCS_47;Centre de Santé de Thianguto;HEALTH
+"379";PCS_45;Centre de Santé de Salemata;HEALTH
+"379";PCS_46;Centre de Santé de Lingukito;HEALTH
+"379";PCS_48;Centre de Santé de Ebarack;HEALTH
+N02;PCS_34;Poste de Santé de santé de Tenkoto;HEALTH
+N02;PCS_31;Poste de Santé de Sabodala;HEALTH
+N02;PCS_32;Poste de Santé  de  Mamakhona;HEALTH
+N02;PCS_33;Poste de Santé de Bransan;HEALTH
+"383";PCS_736;Centre de Santé de Saraya;HEALTH
+"383";PCS_737;Case de Santé de Mandakholing;HEALTH
+"341";PCS_463;Clinique Sy;HEALTH
+"341";PCS_462;Clinique M. Sow;HEALTH
+"341";PCS_461;Clinique M. Ndiaye;HEALTH
+"341";PCS_460;Centre urbain de Bakel;HEALTH
+"341";PCS_459;centre de santé de Bakel;HEALTH
+"350";PCS_280;Dispensaire de la mission catholique;HEALTH
+"350";PCS_279;Centre de santé de Goudiry;HEALTH
+"393";PCS_266;Clinique Amadou Lamine BA;HEALTH
+"393";PCS_265;Centre de Santé de Koumpentoum;HEALTH
+"408";PCS_608;Poste de Santé de Sankagne;HEALTH
+"408";PCS_574;Poste de Santé de Missirah;HEALTH
+"408";PCS_607;Poste de Santé de Gouloumbou;HEALTH
+"408";PCS_602;Poste de Santé de Bira;HEALTH
+"408";PCS_609;Poste de Santé de Bambadinka;HEALTH
+"408";PCS_585;Poste de Santé de Amdalaye tessan;HEALTH
+"410";PCS_679;Poste de Santé de NETTEBOULO;HEALTH
+"410";PCS_681;Poste de Santé de fode kounda Ansou;HEALTH
+"410";PCS_680;Poste de Santé de djinkord Peul;HEALTH
+"410";PCS_682;Poste de Santé de Darsalam;HEALTH
+"410";PCS_684;Case de Santé de Sourouyel;HEALTH
+"410";PCS_683;Case de Santé de segou koura;HEALTH
+"410";PCS_686;Case de Santé de Missira sarakhole;HEALTH
+"410";PCS_688;Case de Santé de Medina Gueneto;HEALTH
+"410";PCS_689;Case de Santé de keniaba;HEALTH
+"410";PCS_685;Case de Santé de fara ba;HEALTH
+"410";PCS_687;Case de Santé de Bantantinty;HEALTH
+"400";PCS_593;Poste de sante de Sinthiou Malem;HEALTH
+"400";PCS_595;Poste de sante de Botou;HEALTH
+"400";PCS_594;Case de sante de Saré faring;HEALTH
+"400";PCS_596;Case de Santé de Padah Peulh;HEALTH
+E18;PCS_604;Poste Sante de Gourel Diadié;HEALTH
+E18;PCS_597;Poste de Santé de Tambacounda;HEALTH
+E18;PCS_606;Poste de Sante de Plateau;HEALTH
+E18;PCS_605;Poste de sante de Marché Marinière;HEALTH
+E18;PCS_601;Poste de Santé de Gouille;HEALTH
+E18;PCS_598;Maternité de Tambacounda;HEALTH
+E18;PCS_599;Dispensaire Municipal de Tambacounda;HEALTH
+E18;PCS_600;Dispensaire Municipal de Tam;HEALTH
+E18;PCS_603;Case de Sante Village SOS;HEALTH
+"273";PCS_1;Poste de Santé Sinthiou Bamambé;HEALTH
+"605";PCS_424;Poste de santé de Toglou;HEALTH
+"605";PCS_426;Poste de santé de Thicky;HEALTH
+"605";PCS_783;Poste de Santé de Kiréne;HEALTH
+"605";PCS_784;Poste de santé de kandam;HEALTH
+"605";PCS_422;Poste de santé de Diass;HEALTH
+"605";PCS_423;Poste de santé de Dagga;HEALTH
+"605";PCS_421;Poste de santé de Boukhou;HEALTH
+"605";PCS_785;Poste de santé de Benteigné;HEALTH
+"605";PCS_786;Centre de santé de Popenguine;HEALTH
+"605";PCS_427;Case de santé de Mbayar;HEALTH
+"605";PCS_425;Case de santé de Kholpa;HEALTH
+"605";PCS_428;Case de santé de Gandoul;HEALTH
+"605";PCS_429;Case de santé de Bandian Sesséne;HEALTH
+"605";PCS_430;Case de santé de Bandia Mbambara;HEALTH
+"606";PCS_431;Poste de santé de Popenguine sérére;HEALTH
+"606";PCS_432;Poste de santé de Ndayane;HEALTH
+"606";PCS_433;Centre de santé de Popenguine;HEALTH
+"610";PCS_437;Poste de santé de Tene Toubab;HEALTH
+"610";PCS_434;Poste de santé de Sindia;HEALTH
+"610";PCS_436;Poste de santé de Nguerigno;HEALTH
+"610";PCS_435;Poste de santé de Guereo;HEALTH
+"610";PCS_438;Poste de santé de Djilakh;HEALTH
+G02;PCS_446;Poste de santé de Somone;HEALTH
+"603";PCS_452;Poste de santé de NGUEKOKH  2;HEALTH
+"603";PCS_451;Poste de santé de NGUEKOKH 1;HEALTH
+"607";PCS_457;Poste de santé de Scale;HEALTH
+"607";PCS_458;Poste de santé de Medine;HEALTH
+"612";PCS_464;Poste de santé de Ngueniene;HEALTH
+"612";PCS_465;Poste de santé de Ndianda;HEALTH
+"612";PCS_469;Poste de santé de Mbodiene;HEALTH
+"612";PCS_466;Poste de santé de Fadial;HEALTH
+"612";PCS_467;Poste de santé de Diemane;HEALTH
+"612";PCS_472;Case de santé de Velingara;HEALTH
+"612";PCS_477;Case de santé de Noyacp;HEALTH
+"612";PCS_470;Case de santé de Ndoffane;HEALTH
+"612";PCS_474;Case de santé de Faou1;HEALTH
+"612";PCS_475;Case de santé de Diolofiba sérére;HEALTH
+"595";PCS_479;Poste de santé de Fadiouth;HEALTH
+"595";PCS_478;Poste de santé de Elizabeth Diouf;HEALTH
+"595";PCS_480;Poste de santé de Chantier 2;HEALTH
+"595";PCS_482;Clinique de Plateau Médical;HEALTH
+"595";PCS_481;Clinique de Alphonse;HEALTH
+"595";PCS_186;Centre de santé de Joal Fadiouth;HEALTH
+G01;PCS_185;Poste de santé de Saly tapé;HEALTH
+G01;PCS_483;Poste de santé de Saly carrefour;HEALTH
+G01;PCS_484;Case de santé de Saly veligara;HEALTH
+G01;PCS_485;Case de santé de Saly joseph;HEALTH
+G01;PCS_486;Case de santé de Niakh Niakhal;HEALTH
+"611";PCS_504;Clinique Notre Dame de la Paix;HEALTH
+"611";PCS_528;Clinique Aley Tall;HEALTH
+"611";PCS_500;Centre de santé Thiadiaye;HEALTH
+"598";PCS_568;Poste de santé de Ndiareo;HEALTH
+"598";PCS_566;Poste de santé de Ndiaganiao;HEALTH
+"598";PCS_571;Poste de santé de Guelor Wolof;HEALTH
+"598";PCS_572;Clinique de Cathodique;HEALTH
+"598";PCS_573;Case de santé de Ndiaganiao;HEALTH
+"613";PCS_575;Poste de santé de SANDIARA;HEALTH
+"613";PCS_577;Poste de santé de Louly  Ndia;HEALTH
+"613";PCS_576;Poste de santé de Louly  Bétengné;HEALTH
+"613";PCS_583;Case de santé de Soussane;HEALTH
+"613";PCS_579;Case de santé de Soukéne;HEALTH
+"613";PCS_584;Case de santé de Nianar;HEALTH
+"613";PCS_578;Case de santé de Ndolo;HEALTH
+"613";PCS_582;Case de santé de Kouthie;HEALTH
+"613";PCS_581;Case de santé de Godogéne;HEALTH
+"613";PCS_580;Case de santé de Fayelane;HEALTH
+SC05;PCS_587;Poste de santé de Louly Sindiane;HEALTH
+SC05;PCS_588;Poste de santé de Louly Ngogom;HEALTH
+SC05;PCS_586;Poste de santé de Louly Bentagne;HEALTH
+"597";PCS_538;Poste de santé de Tocomack;HEALTH
+"597";PCS_540;Poste de santé de Mboulouctene secco;HEALTH
+"597";PCS_537;Poste de santé de Mbalamsone;HEALTH
+"597";PCS_542;Poste de santé de Mbafaye;HEALTH
+"597";PCS_534;Poste de santé de Fissel Escale;HEALTH
+"597";PCS_554;Case de santé de Ngonéne;HEALTH
+"597";PCS_561;Case de santé de Ndoyombouph;HEALTH
+"597";PCS_548;Case de santé de Mbedap;HEALTH
+"597";PCS_544;Case de santé de Lambayen;HEALTH
+"597";PCS_559;Case de santé de Guerane;HEALTH
+"597";PCS_546;Case de santé de Diob;HEALTH
+"597";PCS_556;Case de santé de Dagdam;HEALTH
+"597";PCS_552;Case de santé de Back;HEALTH
+"766";PCS_778;Poste de Santé de Yaye Aram Ndiaye;HEALTH
+"766";PCS_776;Poste de santé de Ndiareme Limamoulaye;HEALTH
+"766";PCS_780;Poste de Santé de Ma Salam;HEALTH
+"766";PCS_779;Poste de Santé de Doudou;HEALTH
+"766";PCS_774;Hôpital de Dalal Diam;HEALTH
+"766";PCS_773;Hôpital de Bedouin;HEALTH
+"766";PCS_777;Clinique de Thierno Kandji;HEALTH
+"766";PCS_775;Centre de Santé de Nimzat;HEALTH
+"201";PCS_787;Poste de Santé de Gawane;HEALTH
+"201";PCS_789;Case de Santé de Wallo Keur Massamba Niang;HEALTH
+"201";PCS_790;Case de Santé de Keur Mbar;HEALTH
+"201";PCS_788;Case de Santé de Gapp;HEALTH
+"219";PCS_791;Poste de Santé de Ngohe;HEALTH
+"219";PCS_792;Poste de Santé de Lagnar;HEALTH
+"219";PCS_793;Poste de Santé de Keur Gane;HEALTH
+"219";PCS_795;Case de Santé de Ndiokhoba;HEALTH
+"219";PCS_794;Case de Santé de Boundou;HEALTH
+"220";PCS_797;Poste de Santé de Thiobe;HEALTH
+"220";PCS_796;Poste de Santé de Pattar;HEALTH
+"220";PCS_798;Poste de Santé de Gappo;HEALTH
+"220";PCS_801;Case de Santé de Sambeguinth;HEALTH
+"220";PCS_799;Case de Santé de Diaken Digue;HEALTH
+"220";PCS_800;Case de Santé de Babrou;HEALTH
+"233";PCS_803;Poste de Santé de Guigan;HEALTH
+"233";PCS_802;Poste de Santé de Dalla ngabou;HEALTH
+"233";PCS_805;Case de Santé de Ngabou 2;HEALTH
+"233";PCS_804;Case de Santé de Douysangou;HEALTH
+"237";PCS_806;Poste de Santé de Touba Fall;HEALTH
+"237";PCS_808;Case de Santé de Madina Toure;HEALTH
+"237";PCS_809;Case de Santé de Guebb Serrere;HEALTH
+"237";PCS_807;Case de Santé de Guebb Fall;HEALTH
+"420";PCS_810;Poste de Santé de Taif;HEALTH
+"420";PCS_811;Case de Santé de Darou Baila;HEALTH
+"420";PCS_813;Case de Santé de Bouliery NdiolofŠne;HEALTH
+"420";PCS_812;Case de Santé de Bombaly;HEALTH
+"993";PCS_814;Poste de Santé de Darou nahim;HEALTH
+C02;PCS_815;Poste de Santé de Taiba Thiekene;HEALTH
+J01;PCS_816;Poste de Santé de Mbam;HEALTH
+J01;PCS_818;Case de Santé de Mbassis;HEALTH
+J01;PCS_817;Case de Santé de Gague;HEALTH
+"488";PCS_822;Poste de Santé de Ndiene lagane;HEALTH
+"488";PCS_819;Case de Santé de Malka;HEALTH
+"488";PCS_821;Case de Santé de Kayewaly;HEALTH
+"488";PCS_820;Case de Santé de Haymbayar;HEALTH
+"490";PCS_823;Poste de Santé de Patar;HEALTH
+"490";PCS_824;Case de Santé de Som;HEALTH
+"593";PCS_826;Poste de Santé de Thianaba;HEALTH
+"593";PCS_825;Poste de Santé de Ouadiour;HEALTH
+"647";PCS_827;Poste de Santé de Ngaye diagne;HEALTH
+"647";PCS_829;Poste de Santé de N'ayez djite;HEALTH
+"647";PCS_828;Poste de Santé de Lebou  est;HEALTH
+"649";PCS_831;Poste de Santé de Touba fall;HEALTH
+"649";PCS_833;Poste de Santé de Ngaham1;HEALTH
+"649";PCS_835;Poste de Santé de Ndombine;HEALTH
+"649";PCS_830;Poste de Santé de Meouane;HEALTH
+"649";PCS_832;Poste de Santé de Mekhe village;HEALTH
+"649";PCS_834;Poste de Santé de Keur khar diop;HEALTH
+"649";PCS_837;Case de Santé de Tob‚ne;HEALTH
+"649";PCS_841;Case de Santé de Sine moussa abdou;HEALTH
+"649";PCS_836;Case de Santé de Ngakham 2;HEALTH
+"649";PCS_838;Case de Santé de Ndeucou;HEALTH
+"649";PCS_839;Case de Santé de Ndankh;HEALTH
+"649";PCS_840;Case de Santé de Massar;HEALTH
+"655";PCS_843;Poste de Santé de Touba kane;HEALTH
+"655";PCS_842;Poste de Santé de Koul;HEALTH
+"655";PCS_845;Poste de Santé de Khandane;HEALTH
+"655";PCS_844;Poste de Santé de Fass diacksao;HEALTH
+"655";PCS_847;Case de Santé de Santhiou sine;HEALTH
+"655";PCS_853;Case de Santé de Sakh;HEALTH
+"655";PCS_855;Case de Santé de Ngay Ngay  ndiabel;HEALTH
+"655";PCS_852;Case de Santé de Ngadiame;HEALTH
+"655";PCS_854;Case de Santé de Ndiayenne lack;HEALTH
+"655";PCS_851;Case de Santé de Ndeukou lamane;HEALTH
+"655";PCS_849;Case de Santé de Keur massamba fatim;HEALTH
+"655";PCS_846;Case de Santé de Golobe;HEALTH
+"655";PCS_850;Case de Santé de Diama thiedou;HEALTH
+"655";PCS_848;Case de Santé de Darou gaye;HEALTH
+"664";PCS_856;Poste de Santé de Henriette husnier boigny;HEALTH
+"664";PCS_857;Clinique de Saint thérése;HEALTH
+"665";PCS_859;Poste de Santé de Ndiassane;HEALTH
+"665";PCS_858;Poste de Santé de Cherif lo;HEALTH
+"665";PCS_860;Clinique de Koudiadiene;HEALTH
+"665";PCS_862;Case de Santé de Keur thione sarr;HEALTH
+"665";PCS_863;Case de Santé de Keur magueye ndao;HEALTH
+"665";PCS_864;Case de Santé de Keur khale sarata;HEALTH
+"665";PCS_861;Case de Santé de Keur Amado coumba;HEALTH
+"668";PCS_866;Poste de Santé de Pire gourey;HEALTH
+"668";PCS_867;Poste de Santé de Kƒ;HEALTH
+"668";PCS_865;Maternité de Pire;HEALTH
+"668";PCS_874;Case de Santé de Samael;HEALTH
+"668";PCS_871;Case de Santé de Ndieguene;HEALTH
+"668";PCS_873;Case de Santé de Merina sall;HEALTH
+"668";PCS_870;Case de Santé de Mbarack l“;HEALTH
+"668";PCS_868;Case de Santé de Keur gallo kebe;HEALTH
+"668";PCS_872;Case de Santé de Keur alioune kane;HEALTH
+"668";PCS_869;Case de Santé de Bagne;HEALTH
+"663";PCS_875;Case de Santé de NDIOMPY;HEALTH
+"683";PCS_885;Poste de Santé de Mbadiane;HEALTH
+"683";PCS_886;Poste de Santé de Darou wahab;HEALTH
+"683";PCS_887;Poste de Santé de Darou miname;HEALTH
+"683";PCS_888;Poste de Santé de Darou kosso;HEALTH
+"683";PCS_890;Case de Santé de Tinguidi;HEALTH
+"683";PCS_891;Case de Santé de Thiamine 2;HEALTH
+"683";PCS_892;Case de Santé de Taif diop;HEALTH
+"683";PCS_889;Case de Santé de Niomre lo;HEALTH
+"685";PCS_896;Poste de Santé de Thiedé Nganado;HEALTH
+"685";PCS_893;Poste de Santé de Sam yabal;HEALTH
+"685";PCS_895;Case de Santé de Ngoundioira;HEALTH
+"685";PCS_894;Case de Santé de More Daga;HEALTH
+"689";PCS_899;Poste de Santé de Pekh;HEALTH
+"689";PCS_898;Poste de Santé de Ndieye;HEALTH
+"689";PCS_902;Poste de Santé de Dara khara;HEALTH
+"689";PCS_897;Poste de Santé de Bandegne;HEALTH
+"689";PCS_909;Case de Santé de Thiary loro;HEALTH
+"689";PCS_903;Case de Santé de Siweul seck;HEALTH
+"689";PCS_911;Case de Santé de Santhiou diokol;HEALTH
+"689";PCS_906;Case de Santé de Parba;HEALTH
+"689";PCS_912;Case de Santé de Ngaraf ouolof;HEALTH
+"689";PCS_904;Case de Santé de Ndjiweul;HEALTH
+"689";PCS_908;Case de Santé de Ndiarno  diop;HEALTH
+"689";PCS_900;Case de Santé de Ndangour;HEALTH
+"689";PCS_907;Case de Santé de Messere mbaye;HEALTH
+"689";PCS_901;Case de Santé de Mbadiar;HEALTH
+"689";PCS_905;Case de Santé de Keur sidy mbengue;HEALTH
+"689";PCS_910;Case de Santé de Keur ndiaye peul;HEALTH
+"691";PCS_914;Poste de Santé de Lompoul sur mer;HEALTH
+"691";PCS_913;Poste de Santé de Kab gaye;HEALTH
+"691";PCS_919;Case de Santé de Touré gueul;HEALTH
+"691";PCS_916;Case de Santé de Thiahaw gaye;HEALTH
+"691";PCS_922;Case de Santé de Teumbou mbaye;HEALTH
+"691";PCS_925;Case de Santé de Tawa peul;HEALTH
+"691";PCS_915;Case de Santé de Tallene gaye;HEALTH
+"691";PCS_917;Case de Santé de Nguebeul;HEALTH
+"691";PCS_918;Case de Santé de Merina ndiaye;HEALTH
+"691";PCS_924;Case de Santé de Medina soump;HEALTH
+"691";PCS_921;Case de Santé de Lambane wilane;HEALTH
+"691";PCS_920;Case de Santé de Keur mbaye ndao;HEALTH
+"691";PCS_926;Case de Santé de Berkom lo;HEALTH
+"691";PCS_923;Case de Santé de Awa ba;HEALTH
+"695";PCS_927;Poste de Santé de Gueoul;HEALTH
+H02;PCS_928;Poste de Santé de Nguourane;HEALTH
+H02;PCS_934;Case de Santé de Thierry batty;HEALTH
+H02;PCS_931;Case de Santé de Nuage diawar;HEALTH
+H02;PCS_932;Case de Santé de Ndiokoul fall;HEALTH
+H02;PCS_933;Case de Santé de Merina tall;HEALTH
+H02;PCS_930;Case de Santé de Mbaom diop3;HEALTH
+H02;PCS_935;Case de Santé de Khadji gueye;HEALTH
+H02;PCS_929;Case de Santé de Bakhaya Dia;HEALTH
