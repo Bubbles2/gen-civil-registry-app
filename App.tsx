@@ -1,5 +1,5 @@
 import React, {useEffect, useCallback, useState, JSXElementConstructor} from "react";
-import {initDb, getDBConnection, addUser} from "./src/core/services/databaseService";
+import {initDb, getDBConnection, addUser, existLogin} from "./src/core/services/databaseService";
 import {Provider as PaperProvider} from "react-native-paper";
 import {NavigationContainer} from "@react-navigation/native";
 import Router from "./src";
@@ -14,6 +14,8 @@ import SdkJs from "./src/core/SdkJs";
 import {useTranslation} from "react-i18next";
 import { useDispatch } from 'react-redux';
 import { setupActions } from './src/store/setup-slice';
+import BcryptReactNative from 'bcrypt-react-native';
+import BuildConfig from 'react-native-build-config';
 
 
 const App = () : JSX.Element  => {
@@ -30,6 +32,22 @@ const App = () : JSX.Element  => {
       const db : SQLiteDatabase = await getDBConnection();
       // TODO if there were changes get collection points from DBif phone collection point not set  
       const cpObjects =  await initDb(db);
+      if (__DEV__ && BuildConfig.FLAVOR === 'dev' && !(await existLogin(db, 'testuser'))) {
+        const salt = await BcryptReactNative.getSalt(12);
+        const password = await BcryptReactNative.hash(salt, 'test1234');
+        await addUser(
+          db,
+          'testuser',
+          password,
+          'Test',
+          'User',
+          'MOBILITY_ADM',
+          '',
+          '4102444800000',
+          '',
+          'TESTUSER',
+        );
+      }
       dispatch(setupActions.addCollectionPoints(cpObjects))
       SdkJs.changeAlert("success",loadingEnd)
     } catch (error) {

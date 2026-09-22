@@ -68,8 +68,6 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
 
   let perm = [
     PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE,
-    PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
-    PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
     PermissionsAndroid.PERMISSIONS.SEND_SMS,
     PermissionsAndroid.PERMISSIONS.READ_SMS,
     PermissionsAndroid.PERMISSIONS.RECEIVE_SMS,

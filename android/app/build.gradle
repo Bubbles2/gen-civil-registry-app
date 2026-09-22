@@ -105,12 +105,6 @@ android {
             include (*reactNativeArchitectures())
         }
     }
-    signingConfigs {
-        // Every field APK is signed with this key (rule 1 of the upgrade plan): never rotate it.
-        debug {
-            storeFile file("../app/keystore/rro_debug.keystore")
-        }
-    }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
