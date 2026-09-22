@@ -134,7 +134,6 @@ const DateInput = (props: Props) => {
             right={
               <Input.Icon
                 icon="calendar"
-                name="calendar"
                 forceTextInputFocus={false}
                 disabled={props.disabled ? props.disabled : false}
                 onPress={() => {

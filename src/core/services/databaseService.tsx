@@ -177,6 +177,10 @@ const getAllFormValue = (
   }
 };
 
+// Non-admin view: only the declarations saved from this phone's collection
+// point. Filters on the top-level COLPOINT_CODE, which Forms.tsx sets to the
+// point's code for both types; ACT.POINT_COLLECTE is a code for births but a
+// label for deaths, so it cannot be used here.
 const getAllFormValueByCP = (
   useQuery,
   type,
@@ -189,7 +193,7 @@ const getAllFormValueByCP = (
   switch (type) {
     case "NAISSANCE":
       return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
+        "TYPE in {'NAISSANCE'} and STATUS in {$0,$1,$2,$3} AND COLPOINT_CODE == $4",
         status1,
         status2,
         status3,
@@ -198,7 +202,7 @@ const getAllFormValueByCP = (
       );
     case "DECES":
       return useQuery("FORMS").filtered(
-        "TYPE in {'DECES'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
+        "TYPE in {'DECES'} and STATUS in {$0,$1,$2,$3} AND COLPOINT_CODE == $4",
         status1,
         status2,
         status3,
@@ -207,7 +211,7 @@ const getAllFormValueByCP = (
       );
     default:
       return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE','DECES'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
+        "TYPE in {'NAISSANCE','DECES'} and STATUS in {$0,$1,$2,$3} AND COLPOINT_CODE == $4",
         status1,
         status2,
         status3,

@@ -237,7 +237,7 @@ const Dashboard = ({ navigation, route, ...props }: Props) => {
   }
 
   const formData = userIsAdmin ?
-    getAllFormValue(useQuery, valueType, status1, status2, status3, status4) : getAllFormValueByCP(useQuery, valueType, status1, status2, status3, status4, ""/*userState.collection_point_id.toString()*/)
+    getAllFormValue(useQuery, valueType, status1, status2, status3, status4) : getAllFormValueByCP(useQuery, valueType, status1, status2, status3, status4, userState.collection_point_code)
 
 
   const showToast = (msgKey: String) => {

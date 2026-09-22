@@ -121,7 +121,6 @@ const TimeInput = (props: Props) => {
             right={
               <Input.Icon
                 icon="calendar"
-                name="calendar"
                 disabled={props.disabled ? props.disabled : false}
                 onPress={() => {
                   setVisible(!visible);

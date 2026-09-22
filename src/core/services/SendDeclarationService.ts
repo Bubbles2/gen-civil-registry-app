@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import flatten from "flat";
+import { flatten } from "flat";
 import { Realm } from "@realm/react";
 import { updateStatusDb, getOfficeByCollectionPointCode, getDBConnection } from "./databaseService";
 import Logger from "../Logger";
@@ -12,7 +12,7 @@ const LOCAL_ONLY_FIELDS = ["ID", "TYPE", "STATUS", "ERROR", "network", "COLPOINT
 // Pure: builds the wire payload for a declaration. `externalId` is the
 // server-side idempotency key and must equal the local record ID.
 export const buildDeclarationPayload = (declaration: any, officeCode: string) => {
-  const flatdecl = flatten(declaration);
+  const flatdecl = flatten<any, Record<string, any>>(declaration);
   if (declaration.TYPE === "NAISSANCE" || declaration.TYPE === "DECES") {
     LOCAL_ONLY_FIELDS.forEach(field => delete flatdecl[field]);
   }

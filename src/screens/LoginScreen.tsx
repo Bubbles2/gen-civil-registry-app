@@ -21,7 +21,7 @@ import { Appbar, Modal, Portal, Text, Button, Provider,TextInput as RnpInput } f
 import SdkJs from "../core/SdkJs";
 import Logger from "../core/Logger";
 import BcryptReactNative from 'bcrypt-react-native';
-import jwt_decode from "jwt-decode";
+import { jwtDecode, JwtPayload } from "jwt-decode";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from '../store/user-slice';
 import { SelectList } from "react-native-dropdown-select-list";
@@ -66,10 +66,12 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
     return state.setup.PhoneCollectionPoint;
   });
 
+  // No storage permission: all file access is app-private (getExternalFilesDir)
+  // or via the Storage Access Framework, neither of which needs one. Requesting
+  // the legacy READ/WRITE_EXTERNAL_STORAGE on Android 13+ is auto-denied as
+  // BLOCKED and locked users out of the app.
   let perm = [
     PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE,
-    PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
-    PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
     PermissionsAndroid.PERMISSIONS.SEND_SMS,
     PermissionsAndroid.PERMISSIONS.READ_SMS,
     PermissionsAndroid.PERMISSIONS.RECEIVE_SMS,
@@ -419,7 +421,8 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
 
   const onResponseWs = (db, token, props) => {
 
-    const decoded = jwt_decode(token);
+    // Claims added by the CRSEN gateway on top of the standard JWT payload
+    const decoded = jwtDecode<JwtPayload & { roles: string[]; code: string; cpc: string }>(token);
     LoginScreenLog.debug("token decoded", decoded)
     getUserbyLogin(db, data.login).then(user => {
       if (user) {

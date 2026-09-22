@@ -1,6 +1,7 @@
 import React from "react";
-import {View} from "react-native";
-import { ScrollView } from "react-native-gesture-handler";
+// Plain RN ScrollView: the gesture-handler one requires a GestureHandlerRootView
+// ancestor, which this app never mounts (dev builds throw a Render Error).
+import {View, ScrollView} from "react-native";
 import {Dialog as RDialog, Portal, Text,Button as RButton} from "react-native-paper";
 import Logger from "../../core/Logger";
 
