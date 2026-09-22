@@ -496,7 +496,11 @@ public class SdkJs extends ReactContextBaseJavaModule
 
     }
 
-    @ReactMethod
+    // Not a @ReactMethod: it returns a SweetAlertDialog, which cannot cross the
+    // bridge, so JS could never have called it (and does not). The old bridge
+    // ignored the annotation; the New Architecture's interop layer parses every
+    // @ReactMethod when the module is first touched and refuses the whole module
+    // with "Unable to parse JNI signature. Detected unsupported return class".
     public SweetAlertDialog pushAlertError(String title, String message, String confirmText) {
 
         SweetAlertDialog dialog = new SweetAlertDialog(getCurrentActivity(), SweetAlertDialog.ERROR_TYPE);

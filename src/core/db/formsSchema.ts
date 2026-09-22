@@ -1,11 +1,12 @@
 /**
- * The declaration object graph, transcribed from src/realmSchema/ by
- * scripts/generate-forms-schema.js. Do not edit by hand.
+ * The declaration object graph.
  *
- * The SQLite store needs the property names, their order and their defaults so
- * a declaration read back out of the database serialises exactly as the Realm
- * object did — but it must not import `realm` to get them. `__tests__/formsSchema.test.ts`
- * re-derives this from the same sources and fails if the two have drifted.
+ * Generated from src/realmSchema/ while Realm still existed; since Phase 13
+ * removed Realm this *is* the schema, not a copy of one. The property order is
+ * load-bearing: SendDeclarationService flattens a declaration onto the wire
+ * with Object.keys, so this order is the payload's field order, and the
+ * defaults are what make a field the form skipped arrive as "" rather than
+ * missing. __tests__/formsSchema.test.ts pins both.
  */
 
 import type { Schema } from "../services/realmInput";

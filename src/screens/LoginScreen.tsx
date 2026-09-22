@@ -225,12 +225,13 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
     //
   };
 
-  // Hidden support action: long-press the build ID to copy the Realm and
-  // SQLite databases to app-specific external storage for `adb pull`.
+  // Hidden support action: long-press the build ID to copy the SQLite
+  // databases (declarations and reference data) to app-specific external
+  // storage for `adb pull`.
   const onExportDatabases = () => {
     Alert.alert(
       "Export des bases de données",
-      "Copier les bases Realm et SQLite dans le stockage externe de l'application ?",
+      "Copier les bases de données dans le stockage externe de l'application ?",
       [
         { text: "Annuler", style: "cancel" },
         {

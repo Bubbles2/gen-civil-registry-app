@@ -5,8 +5,8 @@
 set -u
 cd "$(dirname "$0")/../.."
 OUT=scripts/validate/out; mkdir -p "$OUT"
-TSC_BASELINE=480                 # Phase 12 baseline (was 482); update when a phase deliberately changes it
-BUNDLE_BASELINE=5385533          # bytes, 2026-09-22 Phase 12 (was 5 358 354; +27 kB for the SQLite store and op-sqlite's JS)
+TSC_BASELINE=449                 # Phase 13 baseline (was 480; Realm's schema files went with it)
+BUNDLE_BASELINE=5083633          # bytes, 2026-09-22 Phase 13 (was 5 385 533; -302 kB, Realm's JS removed)
 fail=0
 
 echo "== V1 release JS bundle"

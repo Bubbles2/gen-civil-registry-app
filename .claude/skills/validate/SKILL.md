@@ -34,8 +34,8 @@ diagnosis was wrong and cost Phase 11 its first V4/V5 attempt.
 ```bash
 scripts/validate/static-checks.sh
 ```
-Prints PASS/FAIL per check against the baselines in the script (tsc 482 on TS 5.9 since
-Phase 11, bundle ±20 %). Its last section tests `Selector.open()` with the current `TEMP`
+Prints PASS/FAIL per check against the baselines in the script (tsc 449 since Phase 13,
+bundle ±20 %). Its last section tests `Selector.open()` with the current `TEMP`
 and again with `C:\Temp`, and tells you which form of `gradlew` will work.
 
 ## 2. Build matrix and golden APK — V4, V5
@@ -50,9 +50,12 @@ Do not pipe it through `Select-Object` — that buffers the whole run and never 
 
 **A debug APK needs the Metro port baked in.** The dev server port is an APK resource
 (`react_native_dev_server_port`); `npm run android:dev` passes `--port 3000`, a plain
-`assembleDebug` leaves 8081. A debug APK built without it cannot reach Metro, silently falls
-back to the cached dev bundle and dies with `Missing Realm constructor` +
-`UnsatisfiedLinkError ... invalidateCaches`, which looks like a broken native lib but is not:
+`assembleDebug` leaves 8081. A debug APK built without it cannot reach Metro and dies in a way that looks like
+a native failure but is not. On the legacy architecture that was
+`Missing Realm constructor` + `UnsatisfiedLinkError ... invalidateCaches`; under
+the New Architecture it is
+`SurfaceRegistryBinding::startSurface failed. Global was not installed.`
+Either way, check for "The packager does not seem to be running" first:
 ```bash
 cd android && TEMP='C:\Temp' TMP='C:\Temp' ./gradlew :app:assembleDevDebug -PreactNativeDevServerPort=3000
 ```
@@ -62,13 +65,11 @@ previous build is still on the emulator, pull it and diff like for like:
 ```bash
 adb pull "$(adb shell pm path com.crseneagalmobile.dev | tr -d '\r' | sed 's/package://')" old.apk
 ```
-then `apkanalyzer manifest permissions|manifest print|files list` on both. Expect 17
-permissions and 213 `lib/` entries. `librealm.so` differs on every rebuild — Realm 12 is a
-Gradle subproject that compiles its C++ binding with CMake, so it is a build output, not a
-shipped prebuilt. Check its ELF `.dynsym` still exports `JNI_OnLoad`,
-`injectModuleIntoJSGlobal` and `invalidateCaches`, and **re-run V6 on the newly built APK**
-(`adb install -r`, never uninstall) — a V6 done over Metro against the old installed build
-does not exercise the native library the new APKs ship.
+then `apkanalyzer manifest permissions|manifest print|files list` on both. Since Phase 13
+expect **17 permissions** and **73 `lib/` entries** — RN 0.76 merges its native libraries into
+one `libreactnative.so`, and `librealm.so` is gone with Realm. Always **re-run V6 on the newly
+built APK** (`adb install -r`, never uninstall): a V6 done over Metro against the previously
+installed build does not exercise the native libraries the new APKs ship.
 
 `READ_/WRITE_EXTERNAL_STORAGE` still appear in the merged manifest even though the app
 manifest no longer declares them: the merger implies them because a Be-Bound AAR has
@@ -107,14 +108,17 @@ Steps and expected results:
 | tap copy → VALIDER; menu ⋮ → tick Validé, untick Brouillon | exactly 1 row |
 | long-press row → tick it → ⋮ → ENVOYER | log: `Request failed with status code 401` (dev gateway, expected); Erreur filter shows the row |
 | search child first name / date / nonsense | hits / hits / 0 (search is on CHILD fields, case-sensitive) |
-| DÉCONNEXION; long-press build ID → EXPORTER | "Export terminé"; `adb shell ls /sdcard/Android/data/com.crseneagalmobile.dev/files/export/*/` has `dbSenegal.db` 565 248 B, `declarations.realm`, `manifest.txt`; `adb pull` it and `PRAGMA integrity_check` = ok |
+| DÉCONNEXION; long-press build ID → EXPORTER | "Export terminé"; `adb shell ls /sdcard/Android/data/com.crseneagalmobile.dev/files/export/*/` has `dbSenegal.db`, `crsen.db` (the encrypted declaration store) and `manifest.txt` — no `declarations.realm` since Phase 13; `adb pull` and `PRAGMA integrity_check` = ok on dbSenegal.db (crsen.db needs the SQLCipher key) |
 
 Known dev-only noise (not failures): `defaultProps` deprecation, `SerializableStateInvariantMiddleware took …`,
 `onPress in the scope of RadioButtonGroup`.
 
 ## 4. Payloads — V7
-Only meaningful against the archived golden template data (outside the repo). If the emulator
-no longer holds the "Dads Babs"/Doe drafts, mark V7 *not reproducible* rather than diffing new data.
+The strongest form: send the *same* declaration the previous phase sent and diff the logged
+`notification : {...}` payload byte for byte (Phase 12 did this across the Realm -> SQLite
+move). Otherwise compare the metadata key set and key *order* against the last capture in
+`scripts/validate/out/payload-*.json.txt` — the order is the payload's field order and is what
+a storage or schema change would silently break.
 
 ## 5. Report
 Table with one row per V-check: result, comparison to the previous phase doc, and any new

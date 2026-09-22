@@ -21,6 +21,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactHost;
 import com.facebook.react.defaults.DefaultReactNativeHost;
+import com.facebook.react.soloader.OpenSourceMergedSoMapping;
 import com.facebook.soloader.SoLoader;
 
 import java.io.File;
@@ -78,7 +79,14 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     sApplication = this;
     setUpPLogger();
-    SoLoader.init(this, /* native exopackage */ false);
+    // RN 0.76 merges its native libraries into one libreactnative.so; the
+    // merged-mapping overload is what teaches SoLoader where the old library
+    // names now live. The boolean overload silently fails to map them.
+    try {
+      SoLoader.init(this, OpenSourceMergedSoMapping.INSTANCE);
+    } catch (java.io.IOException e) {
+      throw new RuntimeException("SoLoader.init failed", e);
+    }
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
       // If you opted-in for the New Architecture, we load the native entry point for this app.
       DefaultNewArchitectureEntryPoint.load();
