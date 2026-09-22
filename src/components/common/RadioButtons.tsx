@@ -5,10 +5,17 @@ import PropTypes from "prop-types";
 import {Controller} from "react-hook-form";
 import {theme} from "../../core/theme";
 import Logger from "../../core/Logger";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
-const RadioButtons =  (props: Props) =>{
+const RadioButtonsDefaults = {
+  disabled: false,
+  required: false,
+};
+
+const RadioButtons =  (rawProps: Props) =>{
+  const props = withDefaults(rawProps, RadioButtonsDefaults);
   const generateButton = () => {
     if (props.orientation === "row") {
       return (
@@ -171,9 +178,5 @@ RadioButtons.propTypes = {
   orientation: PropTypes.oneOf(["row", "column"]),
 };
 
-RadioButtons.defaultProps = {
-  disabled: false,
-  required: false,
-};
 
 export default RadioButtons;

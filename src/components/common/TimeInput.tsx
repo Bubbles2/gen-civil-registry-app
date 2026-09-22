@@ -5,10 +5,21 @@ import { TimePickerModal } from "react-native-paper-dates";
 import PropTypes from "prop-types";
 import { Controller } from "react-hook-form";
 import { theme } from "../../core/theme";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>;
 
-const TimeInput = (props: Props) => {
+const TimeInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+  visible : true
+};
+
+const TimeInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, TimeInputDefaults);
   const [visible, setVisible] = React.useState(false);
   const onDismiss = React.useCallback(() => {
     setVisible(false);
@@ -187,13 +198,5 @@ TimeInput.propTypes = {
 
 };
 
-TimeInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-  visible : true
-};
 
 export default TimeInput;

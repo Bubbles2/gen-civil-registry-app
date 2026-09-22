@@ -16,8 +16,8 @@ import { useSelector, useDispatch } from 'react-redux';
 type Props = React.ComponentProps<typeof Object>
 const NotificationInformation = (props:Props) => {
   const {t} = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
 
   const userState = useSelector((state) => {
     return state.user

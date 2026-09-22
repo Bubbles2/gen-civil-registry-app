@@ -7,10 +7,21 @@ import PropTypes from "prop-types";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import moment from "moment"
 import { useTranslation } from "react-i18next";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
-const DateInput = (props: Props) => {
+const DateInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+  visible:true
+};
+
+const DateInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, DateInputDefaults);
   const {t} = useTranslation();
   const [visible, setVisible] = React.useState(false);
   const [veryYoung, setVeryYoung] = React.useState("");
@@ -205,13 +216,5 @@ DateInput.propTypes = {
   visible:PropTypes.bool
 };
 
-DateInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-  visible:true
-};
 
 export default DateInput;

@@ -64,3 +64,6 @@ buck-out/
 /vendor/bundle/
 
 android/app/src/dev/assets/index.android.bundle
+# Kotlin 2.0 (Phase 14) writes per-build session files here; it is regenerable
+# build state, like android/.gradle and android/app/.cxx.
+android/.kotlin/

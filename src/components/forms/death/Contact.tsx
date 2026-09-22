@@ -15,8 +15,8 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 type Props = React.ComponentProps<typeof Object>
 const Contact = (props:Props) => {
   const {t} = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
 
   useEffect(()=>{
     if(props.refScroll.current){   

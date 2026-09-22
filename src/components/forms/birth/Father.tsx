@@ -13,16 +13,16 @@ import Logger from "../../../core/Logger";
 type Props = React.ComponentProps<typeof Object>
 const Father = (props:Props) => {
   const { t } = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
-  const ref3 = useRef();
-  const ref4 = useRef();
-  const ref5 = useRef();
-  const ref6 = useRef();
-  const ref7 = useRef();
-  const ref8 = useRef();
-  const ref9 = useRef();
-  const ref10 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
+  const ref3 = useRef(undefined);
+  const ref4 = useRef(undefined);
+  const ref5 = useRef(undefined);
+  const ref6 = useRef(undefined);
+  const ref7 = useRef(undefined);
+  const ref8 = useRef(undefined);
+  const ref9 = useRef(undefined);
+  const ref10 = useRef(undefined);
 
   const watchIndicateFather = props.watch("ACT_NAI.INDICATE_FATHER_y8n")
   const watchFatherDeceased = props.watch("FATHER.DECEASED")

@@ -15,7 +15,7 @@ import { useDispatch } from 'react-redux';
 import { setupActions } from './src/store/setup-slice';
 
 
-const App = () : JSX.Element  => {
+const App = () : React.JSX.Element  => {
   const {t} = useTranslation();
   const [key, setKey] = useState(null);
 

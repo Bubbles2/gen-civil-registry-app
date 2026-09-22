@@ -16,9 +16,9 @@ import Autocomplete from "../../common/Autocomplete";
 type Props = React.ComponentProps<typeof Object>
 const Parents = (props:Props) => {
   const {t} = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
-  const ref3 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
+  const ref3 = useRef(undefined);
  
 
   useEffect(()=>{

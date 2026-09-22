@@ -4,6 +4,7 @@ import {TextInput as Input} from "react-native-paper";
 import {theme} from "../../core/theme";
 import {Controller} from "react-hook-form";
 import PropTypes from "prop-types";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
@@ -29,7 +30,18 @@ const addValidationRules : Function = (
   };
 };
 
-const TextInput = (props: Props) => {
+const TextInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+  editable:true,
+  display:true,
+};
+
+const TextInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, TextInputDefaults);
   return (
     <Controller
       control={props.control}
@@ -118,14 +130,5 @@ TextInput.propTypes = {
   display:PropTypes.bool,
 };
 
-TextInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-  editable:true,
-  display:true,
-};
 
 export default TextInput;

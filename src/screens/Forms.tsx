@@ -91,7 +91,7 @@ const Forms = props => {
     props.onClick("home")
   }
 
-  const scrollref = React.useRef()
+  const scrollref = React.useRef(undefined)
 
   const listState = useSelector((state: ListState) => {
     return state.stateList

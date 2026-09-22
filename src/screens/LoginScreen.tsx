@@ -37,7 +37,13 @@ import { exportDatabases } from "../core/services/exportService";
 
 type Props = {
   navigation: Navigation;
-  login: Function;
+  // Optional since Phase 14. React Navigation v7 types a screen as
+  // ScreenComponentType, which only supplies `navigation`/`route`; a second
+  // *required* prop makes the component unassignable and fails the <Stack.Screen>
+  // in src/index.tsx. Nothing ever passed `login`: the `props.login` reads below
+  // are inside onLoginPressed(props), whose parameter shadows these props and
+  // carries the react-hook-form values.
+  login?: Function;
 };
 const LoginScreenLog = Logger.extend("LoginScreen");
 
@@ -50,7 +56,7 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
   const dispatch = useDispatch();
   const data = { login: "", password: "" };
   const { t } = useTranslation();
-  const ref1 = useRef();
+  const ref1 = useRef(undefined);
 
   const [visible, setVisible] = React.useState(false);
   const [isPermissionGranted,setPermissionGranted] = React.useState(false)
