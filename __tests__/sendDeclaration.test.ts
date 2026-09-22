@@ -34,6 +34,9 @@ const mockGetOffice = jest.fn();
 jest.mock("../src/core/services/databaseService", () => ({
   getDBConnection: jest.fn(() => Promise.resolve({})),
   getOfficeByCollectionPointCode: (...args: any[]) => mockGetOffice(...args),
+}));
+// Phase 12: statuses are written to the SQLite store, not Realm.
+jest.mock("../src/core/db/declarations", () => ({
   updateStatusDb: (...args: any[]) => mockUpdateStatusDb(...args),
 }));
 
@@ -183,7 +186,9 @@ describe("sendDeclaration", () => {
     expect(mockPost).not.toHaveBeenCalled();
     expect(mockUpdateStatusDb).toHaveBeenCalledTimes(1);
     const [passedId, status] = mockUpdateStatusDb.mock.calls[0];
-    expect(passedId.equals(id)).toBe(true);
+    // Phase 12: the act's ID is passed through as it is stored (24-hex), not
+    // rewrapped in an ObjectId on the way to the store.
+    expect(passedId).toBe(id.toHexString());
     expect(status).toBe("ERREUR");
     expect(updateNotifications).toHaveBeenCalledWith(1, 0);
   });
@@ -201,8 +206,7 @@ describe("sendBatch status transitions", () => {
     expect(mockPost).toHaveBeenCalledTimes(1);
     expect(mockUpdateStatusDb).toHaveBeenCalledTimes(1);
     const [passedId, status, error] = mockUpdateStatusDb.mock.calls[0];
-    expect(passedId).toBeInstanceOf(ObjectId);
-    expect(passedId.equals(id)).toBe(true);
+    expect(passedId).toBe(id.toHexString());
     expect(status).toBe("ARCHIVE");
     expect(error).toBe("");
     expect(updateNotifications).toHaveBeenCalledWith(0, 1);
@@ -219,8 +223,7 @@ describe("sendBatch status transitions", () => {
     expect(mockPost).toHaveBeenCalledTimes(1);
     expect(mockUpdateStatusDb).toHaveBeenCalledTimes(1);
     const [passedId, status, error] = mockUpdateStatusDb.mock.calls[0];
-    expect(passedId).toBeInstanceOf(ObjectId);
-    expect(passedId.equals(id)).toBe(true);
+    expect(passedId).toBe(id.toHexString());
     expect(status).toBe("ERREUR");
     expect(error).toBe("Error: Network Error");
     expect(updateNotifications).toHaveBeenCalledWith(1, 0);
@@ -239,7 +242,7 @@ describe("sendBatch status transitions", () => {
 
     expect(mockPost).toHaveBeenCalledTimes(2);
     expect(mockUpdateStatusDb).toHaveBeenCalledTimes(2);
-    const byId = new Map(mockUpdateStatusDb.mock.calls.map(([i, s]) => [i.toHexString(), s]));
+    const byId = new Map(mockUpdateStatusDb.mock.calls.map(([i, s]) => [String(i), s]));
     expect(byId.get(ok.toHexString())).toBe("ARCHIVE");
     expect(byId.get(ko.toHexString())).toBe("ERREUR");
   });

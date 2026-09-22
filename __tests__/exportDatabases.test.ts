@@ -29,9 +29,11 @@ jest.mock("../src/core/SdkJs", () => ({
   default: { exportDatabases: (...a: any[]) => mockNativeExport(...a) },
 }));
 
-const mockGetRealm = jest.fn();
-jest.mock("../src/core/services/databaseService", () => ({
-  getRealm: (...a: any[]) => mockGetRealm(...a),
+// Phase 12: the Realm copy now goes through the migrator's read-only opener,
+// which resolves null once a device no longer has a Realm file.
+const mockOpenRealm = jest.fn();
+jest.mock("../src/core/db/bootstrap", () => ({
+  openRealmReadOnly: (...a: any[]) => mockOpenRealm(...a),
 }));
 
 import { exportDatabases, REALM_EXPORT_FILENAME } from "../src/core/services/exportService";
@@ -46,7 +48,7 @@ beforeEach(() => {
   realm = { writeCopyTo: jest.fn(), close: jest.fn() };
   mockNativeExport.mockResolvedValue(DIR);
   mockGetItem.mockResolvedValue(KEY);
-  mockGetRealm.mockResolvedValue(realm);
+  mockOpenRealm.mockResolvedValue(realm);
 });
 
 test("writes an encrypted Realm copy into the native export directory and returns it", async () => {
@@ -77,11 +79,22 @@ test("rethrows when writeCopyTo fails, still without closing the Realm", async (
 test("rejects without opening Realm when no key is stored", async () => {
   mockGetItem.mockResolvedValue(null);
   await expect(exportDatabases()).rejects.toThrow(/no encryption key/);
-  expect(mockGetRealm).not.toHaveBeenCalled();
+  expect(mockOpenRealm).not.toHaveBeenCalled();
 });
 
 test("propagates a native export failure without touching Realm", async () => {
   mockNativeExport.mockRejectedValue(new Error("NO_EXTERNAL_STORAGE"));
   await expect(exportDatabases()).rejects.toThrow("NO_EXTERNAL_STORAGE");
-  expect(mockGetRealm).not.toHaveBeenCalled();
+  expect(mockOpenRealm).not.toHaveBeenCalled();
+});
+
+test("skips the Realm copy on a device that has no Realm file", async () => {
+  mockOpenRealm.mockResolvedValue(null);
+
+  await expect(exportDatabases()).resolves.toBe(DIR);
+
+  // The native side still exported both SQLite databases; there was simply no
+  // Realm left to copy.
+  expect(mockNativeExport).toHaveBeenCalledTimes(1);
+  expect(realm.writeCopyTo).not.toHaveBeenCalled();
 });

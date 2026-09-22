@@ -1,0 +1,18 @@
+diff --git a/node_modules/@op-engineering/op-sqlite/android/CMakeLists.txt b/node_modules/@op-engineering/op-sqlite/android/CMakeLists.txt
+index 3467240..4ce5be4 100644
+--- a/node_modules/@op-engineering/op-sqlite/android/CMakeLists.txt
++++ b/node_modules/@op-engineering/op-sqlite/android/CMakeLists.txt
+@@ -3,6 +3,13 @@ cmake_minimum_required(VERSION 3.9.0)
+ 
+ set (PACKAGE_NAME "op-sqlite")
+ 
++# op-sqlite's C++ uses std::variant (C++17) but sets no standard, so it inherits
++# the compiler default. NDK 25's clang 14 defaults to gnu++14 and the build fails
++# with "no template named 'variant' in namespace 'std'". RN 0.76+ projects get 17
++# from the ReactAndroid imported targets; on RN 0.75 nothing supplies it.
++set(CMAKE_CXX_STANDARD 17)
++set(CMAKE_CXX_STANDARD_REQUIRED ON)
++
+ include_directories(
+   ../cpp
+   ../cpp/sqlcipher

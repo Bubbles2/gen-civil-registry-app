@@ -73,6 +73,15 @@ android {
         resources {
             excludes += ["META-INF/DEPENDENCIES"]
         }
+        jniLibs {
+            // op-sqlite ships CR-SQLite and sqlite-vec as prebuilt .so in its
+            // jniLibs for every ABI, and AGP packages them whether or not the
+            // features are enabled. package.json turns on sqlcipher only, and
+            // the loads are compile-guarded (OP_SQLITE_USE_CRSQLITE /
+            // OP_SQLITE_USE_SQLITE_VEC, both undefined here), so these are
+            // 4.25 MB per APK that can never be reached.
+            excludes += ["**/libcrsqlite.so", "**/libsqlite_vec.so"]
+        }
     }
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion

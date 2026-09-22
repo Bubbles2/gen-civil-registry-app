@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { flatten } from "flat";
-import { Realm } from "@realm/react";
-import { updateStatusDb, getOfficeByCollectionPointCode, getDBConnection } from "./databaseService";
+import { getOfficeByCollectionPointCode, getDBConnection } from "./databaseService";
+import { updateStatusDb } from "../db/declarations";
 import Logger from "../Logger";
 import createApiInstance from './axiosapi'
 import logger from "../Logger";
@@ -63,11 +63,10 @@ export const sendBatch = (acts, updateNotifications, endpoint) => {
     Logger.debug("one act  ",act)
     sendDeclaration(act, endpoint).then(response => {
       Logger.debug("response send ",response)
-        updateStatus(new Realm.BSON.ObjectId(act.ID.toString()), "ARCHIVE", "");
+        updateStatus(act.ID, "ARCHIVE", "");
         updateNotifications(0, 1);
       }, err => {
-        updateStatus(
-          new Realm.BSON.ObjectId(act.ID.toString()), "ERREUR", err.toString());
+        updateStatus(act.ID, "ERREUR", err.toString());
         updateNotifications(1, 0);
         Logger.error("Update DB - sendDeclaration ",err);
       Logger.error("Update DB - endpoint ",endpoint);

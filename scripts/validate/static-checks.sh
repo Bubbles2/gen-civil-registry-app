@@ -5,8 +5,8 @@
 set -u
 cd "$(dirname "$0")/../.."
 OUT=scripts/validate/out; mkdir -p "$OUT"
-TSC_BASELINE=482                 # Phase 11 baseline (TypeScript 5.9.3; Phase 10 was 513 on TS 5.0.4); update when a phase deliberately changes it
-BUNDLE_BASELINE=5358354          # bytes, 2026-09-22 Phase 11 (was 5 254 595; +104 kB, almost all react-native-paper 5)
+TSC_BASELINE=480                 # Phase 12 baseline (was 482); update when a phase deliberately changes it
+BUNDLE_BASELINE=5385533          # bytes, 2026-09-22 Phase 12 (was 5 358 354; +27 kB for the SQLite store and op-sqlite's JS)
 fail=0
 
 echo "== V1 release JS bundle"

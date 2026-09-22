@@ -1,14 +1,13 @@
 import BackgroundService from "react-native-background-actions";
 import {NativeEventEmitter} from "react-native";
 import SdkJs from "../SdkJs";
-import {Realm} from "@realm/react";
-import {getAllValidAct, updateStatusDb} from "./databaseService";
+import {getAllValidAct, updateStatusDb} from "../db/declarations";
 import Logger from "../Logger";
 //================================================================================
 // This is a function that will run in the backround service it is NOT the background
 // service
 //================================================================================
-const updateStatus = (id:Realm.BSON.ObjectId, newStatus:string, error:string) => {
+const updateStatus = (id: string, newStatus: string, error: string) => {
   updateStatusDb(id, newStatus, error)
     .catch(err => {
       Logger.error("updateStatusDb ",err);
@@ -38,7 +37,7 @@ const BeBoundService   = async (taskDataArguments:{config:{delay:number},setAllL
             beboundResponse.remove();
             nbSuccess = nbSuccess + 1
             updateStatus(
-              new Realm.BSON.ObjectId(event.id),
+              event.id,
               "ARCHIVE",
               event.receive,
             );
@@ -73,7 +72,7 @@ const BeBoundService   = async (taskDataArguments:{config:{delay:number},setAllL
             nbError = nbError + 1;
 
             updateStatus(
-              new Realm.BSON.ObjectId(event.id),
+              event.id,
               "ERREUR",
               event.receive,
             );

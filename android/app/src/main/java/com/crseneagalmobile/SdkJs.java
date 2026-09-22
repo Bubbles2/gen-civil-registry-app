@@ -837,9 +837,11 @@ public class SdkJs extends ReactContextBaseJavaModule
         });
     }
 
-    // Name react-native-sqlite-storage opens with location "default", which
-    // resolves to context.getDatabasePath(name).
-    private static final String SQLITE_DB_NAME = "dbSenegal.db";
+    // Names the two SQLite stores open with. react-native-sqlite-storage uses
+    // location "default" and op-sqlite its default location; both resolve to
+    // context.getDatabasePath(name). crsen.db holds the declarations migrated
+    // out of Realm in Phase 12, so the export corpus is incomplete without it.
+    private static final String[] SQLITE_DB_NAMES = {"dbSenegal.db", "crsen.db"};
 
     /**
      * Creates <externalFilesDir>/export/<timestamp>/, copies the SQLite
@@ -876,16 +878,18 @@ public class SdkJs extends ReactContextBaseJavaModule
             manifest.append("gitSha=").append(BuildConfig.GIT_SHA).append('\n');
             manifest.append("exportedAt=").append(OffsetDateTime.now().toString()).append('\n');
 
-            File sqlite = context.getDatabasePath(SQLITE_DB_NAME);
-            for (String suffix : new String[]{"", "-journal", "-wal", "-shm"}) {
-                File src = new File(sqlite.getPath() + suffix);
-                if (src.isFile()) {
-                    File dst = new File(dir, src.getName());
-                    Files.copy(src.toPath(), dst.toPath(), StandardCopyOption.REPLACE_EXISTING);
-                    // Files.copy creates the file owner-only (0600); `adb shell` runs as
-                    // a different user and could not pull it. Match the other files.
-                    dst.setReadable(true, false);
-                    manifest.append("sqlite=").append(dst.getName()).append(" bytes=").append(dst.length()).append('\n');
+            for (String dbName : SQLITE_DB_NAMES) {
+                File sqlite = context.getDatabasePath(dbName);
+                for (String suffix : new String[]{"", "-journal", "-wal", "-shm"}) {
+                    File src = new File(sqlite.getPath() + suffix);
+                    if (src.isFile()) {
+                        File dst = new File(dir, src.getName());
+                        Files.copy(src.toPath(), dst.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        // Files.copy creates the file owner-only (0600); `adb shell` runs as
+                        // a different user and could not pull it. Match the other files.
+                        dst.setReadable(true, false);
+                        manifest.append("sqlite=").append(dst.getName()).append(" bytes=").append(dst.length()).append('\n');
+                    }
                 }
             }
 
