@@ -21,7 +21,7 @@ import { Appbar, Modal, Portal, Text, Button, Provider,TextInput as RnpInput } f
 import SdkJs from "../core/SdkJs";
 import Logger from "../core/Logger";
 import BcryptReactNative from 'bcrypt-react-native';
-import jwt_decode from "jwt-decode";
+import { jwtDecode, JwtPayload } from "jwt-decode";
 import { useDispatch, useSelector } from "react-redux";
 import { userActions } from '../store/user-slice';
 import { SelectList } from "react-native-dropdown-select-list";
@@ -37,7 +37,13 @@ import { exportDatabases } from "../core/services/exportService";
 
 type Props = {
   navigation: Navigation;
-  login: Function;
+  // Optional since Phase 14. React Navigation v7 types a screen as
+  // ScreenComponentType, which only supplies `navigation`/`route`; a second
+  // *required* prop makes the component unassignable and fails the <Stack.Screen>
+  // in src/index.tsx. Nothing ever passed `login`: the `props.login` reads below
+  // are inside onLoginPressed(props), whose parameter shadows these props and
+  // carries the react-hook-form values.
+  login?: Function;
 };
 const LoginScreenLog = Logger.extend("LoginScreen");
 
@@ -50,7 +56,7 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
   const dispatch = useDispatch();
   const data = { login: "", password: "" };
   const { t } = useTranslation();
-  const ref1 = useRef();
+  const ref1 = useRef(undefined);
 
   const [visible, setVisible] = React.useState(false);
   const [isPermissionGranted,setPermissionGranted] = React.useState(false)
@@ -66,6 +72,10 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
     return state.setup.PhoneCollectionPoint;
   });
 
+  // No storage permission: all file access is app-private (getExternalFilesDir)
+  // or via the Storage Access Framework, neither of which needs one. Requesting
+  // the legacy READ/WRITE_EXTERNAL_STORAGE on Android 13+ is auto-denied as
+  // BLOCKED and locked users out of the app.
   let perm = [
     PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE,
     PermissionsAndroid.PERMISSIONS.SEND_SMS,
@@ -221,12 +231,13 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
     //
   };
 
-  // Hidden support action: long-press the build ID to copy the Realm and
-  // SQLite databases to app-specific external storage for `adb pull`.
+  // Hidden support action: long-press the build ID to copy the SQLite
+  // databases (declarations and reference data) to app-specific external
+  // storage for `adb pull`.
   const onExportDatabases = () => {
     Alert.alert(
       "Export des bases de données",
-      "Copier les bases Realm et SQLite dans le stockage externe de l'application ?",
+      "Copier les bases de données dans le stockage externe de l'application ?",
       [
         { text: "Annuler", style: "cancel" },
         {
@@ -417,7 +428,8 @@ const LoginScreen = ({ navigation, ...props }: Props) => {
 
   const onResponseWs = (db, token, props) => {
 
-    const decoded = jwt_decode(token);
+    // Claims added by the CRSEN gateway on top of the standard JWT payload
+    const decoded = jwtDecode<JwtPayload & { roles: string[]; code: string; cpc: string }>(token);
     LoginScreenLog.debug("token decoded", decoded)
     getUserbyLogin(db, data.login).then(user => {
       if (user) {

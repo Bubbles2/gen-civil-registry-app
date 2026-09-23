@@ -3,7 +3,7 @@ import { Image, StyleSheet, View } from "react-native";
 import BuildConfig from 'react-native-build-config';
 const flavor = BuildConfig.FLAVOR
 
-const Logo = (): JSX.Element => {
+const Logo = (): React.JSX.Element => {
 
 
   const getSourceByFlavor = () => {

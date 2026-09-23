@@ -5,6 +5,7 @@ import {theme} from "../../core/theme";
 import {Controller} from "react-hook-form";
 import PropTypes from "prop-types";
 import {useTranslation} from "react-i18next";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
@@ -22,7 +23,17 @@ const addValidationRules : Function = (
   };
 };
 
-const NotificationNumberInput = (props: Props) => {
+const NotificationNumberInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+  editable:true
+};
+
+const NotificationNumberInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, NotificationNumberInputDefaults);
   const {t} = useTranslation();
   return (
     <Controller
@@ -97,13 +108,5 @@ NotificationNumberInput.propTypes = {
   autoCapitalize:PropTypes.string
 };
 
-NotificationNumberInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-  editable:true
-};
 
 export default NotificationNumberInput;

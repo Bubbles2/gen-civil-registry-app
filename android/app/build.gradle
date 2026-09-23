@@ -73,6 +73,15 @@ android {
         resources {
             excludes += ["META-INF/DEPENDENCIES"]
         }
+        jniLibs {
+            // op-sqlite ships CR-SQLite and sqlite-vec as prebuilt .so in its
+            // jniLibs for every ABI, and AGP packages them whether or not the
+            // features are enabled. package.json turns on sqlcipher only, and
+            // the loads are compile-guarded (OP_SQLITE_USE_CRSQLITE /
+            // OP_SQLITE_USE_SQLITE_VEC, both undefined here), so these are
+            // 4.25 MB per APK that can never be reached.
+            excludes += ["**/libcrsqlite.so", "**/libsqlite_vec.so"]
+        }
     }
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -103,6 +112,31 @@ android {
             enable enableSeparateBuildPerCPUArchitecture
             universalApk false  // If true, also generate a universal APK
             include (*reactNativeArchitectures())
+        }
+    }
+    signingConfigs {
+        // Every field APK is signed with this key (rule 1 of the upgrade plan): never
+        // rotate it. A different key means an installed device cannot upgrade in place -
+        // the only way forward is uninstall, which deletes /data/data/<pkg>/files and
+        // takes the Realm file and the declaration store with it.
+        //
+        // The keystore is gitignored (*.keystore) and has never been committed, so it is
+        // absent on a fresh clone and on other machines. Guarding on exists() keeps those
+        // builds working - they fall back to AGP's default debug key - while any machine
+        // that holds the real keystore still signs field APKs with it.
+        //
+        // Deleting this block outright ("Fix for run on Mac", 9a4eddb) also makes the
+        // build work elsewhere, but silently: field APKs then get the default key with
+        // nothing said. That is the failure this guard exists to make loud.
+        debug {
+            def fieldKeystore = file("../app/keystore/rro_debug.keystore")
+            if (fieldKeystore.exists()) {
+                storeFile fieldKeystore
+            } else {
+                logger.warn("WARNING: ${fieldKeystore} not found. Debug APKs will be " +
+                            "signed with the default key and CANNOT upgrade an installed " +
+                            "field device. Do not ship these.")
+            }
         }
     }
     buildTypes {

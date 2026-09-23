@@ -6,8 +6,7 @@ import Router from "./src";
 import {theme} from "./src/core/theme";
 import "./src/core/i18n";
 import {saveKeyRealm} from "./src/core/RealmConfig";
-import FormsContext from "./src/realmSchema/Forms";
-const {RealmProvider} = FormsContext;
+import {initDeclarationStore} from "./src/core/db/bootstrap";
 import Logger from "./src/core/Logger";
 import { SQLiteDatabase} from "react-native-sqlite-storage";
 import SdkJs from "./src/core/SdkJs";
@@ -18,7 +17,7 @@ import BcryptReactNative from 'bcrypt-react-native';
 import BuildConfig from 'react-native-build-config';
 
 
-const App = () : JSX.Element  => {
+const App = () : React.JSX.Element  => {
   const {t} = useTranslation();
   const [key, setKey] = useState(null);
 
@@ -65,9 +64,18 @@ const App = () : JSX.Element  => {
     async function fetchData() {
       try {
         const tempKey = await saveKeyRealm();
+        // The encryption key has to be in AsyncStorage before the store opens:
+        // SQLCipher takes the same value Realm used. The Realm -> SQLite copy
+        // runs here, before the navigator mounts, so no screen can read the
+        // store while it is half-filled. On every later launch this is a single
+        // "already-done" lookup.
+        const migration = await initDeclarationStore();
+        if (migration.outcome === "migrated") {
+          Logger.info(`App: migrated ${migration.copied} declarations from Realm`);
+        }
         setKey(tempKey);
       } catch (error) {
-        Logger.error("App fetchData: failed to get Realm key", error);
+        Logger.error("App fetchData: failed to prepare the declaration store", error);
         SdkJs.changeAlert("error", t('loading.problem'));
       }
     }
@@ -81,12 +89,14 @@ const App = () : JSX.Element  => {
   return (
 
       <PaperProvider theme={theme}>
+        {/* `key` is still the gate, but it now also means "the declaration
+            store is open and any Realm migration has finished". RealmProvider
+            is gone: nothing in the app reads Realm any more except the
+            migrator, which opens it read-only and only once. */}
         {key &&  (
-          <RealmProvider encryptionKey={key}>
-            <NavigationContainer>
-              <Router />
-            </NavigationContainer>
-          </RealmProvider>
+          <NavigationContainer>
+            <Router />
+          </NavigationContainer>
         )}
 
       </PaperProvider>

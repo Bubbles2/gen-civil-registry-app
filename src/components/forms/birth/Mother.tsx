@@ -11,14 +11,14 @@ import Autocomplete from "../../common/Autocomplete";
 type Props = React.ComponentProps<typeof Object>
 const Mother = (props:Props) => {
   const {t} = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
-  const ref3 = useRef();
-  const ref4 = useRef();
-  const ref5 = useRef();
-  const ref6 = useRef();
-  const ref7 = useRef();
-  const ref8 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
+  const ref3 = useRef(undefined);
+  const ref4 = useRef(undefined);
+  const ref5 = useRef(undefined);
+  const ref6 = useRef(undefined);
+  const ref7 = useRef(undefined);
+  const ref8 = useRef(undefined);
 
   const watchFatherDeceased = props.watch("FATHER.DECEASED")
   const watchIndicateFather = props.watch("ACT_NAI.INDICATE_FATHER_y8n")

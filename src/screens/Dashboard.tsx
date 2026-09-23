@@ -1,4 +1,3 @@
-import Realm from "realm";
 import React, { useEffect } from "react";
 import { View, Linking, NativeEventEmitter, ToastAndroid, StyleSheet } from "react-native";
 import Button from "../components/common/Button";
@@ -20,17 +19,15 @@ import {
 } from "react-native-paper";
 import SdkJs from "../core/SdkJs";
 import { Menu } from "react-native-paper";
+import { getListValuesByCode } from "../core/services/databaseService";
 import {
-  getAllFormValue,
   updateStatusDb,
   getAllValidAct,
-  getListValuesByCode,
   getAllFormByIds,
-  getAllFormValueByCP,
-  deleteNotification
-} from "../core/services/databaseService";
+  deleteNotification,
+} from "../core/db/declarations";
+import { useDeclarations } from "../core/db/useDeclarations";
 import BackgroundService from "react-native-background-actions";
-import FormsContext from "../realmSchema/Forms";
 import { useSelector, useDispatch } from 'react-redux';
 import MenuStatus from '../components/MenuStatus'
 import MenuType from '../components/MenuType'
@@ -48,7 +45,6 @@ import { formatDataForBackDeath } from "../core/control/deathFormValidate";
 import { sendDeclaration } from "../core/services/SendDeclarationService";
 import moment from "moment";
 
-const { useQuery } = FormsContext;
 type Props = {
   navigation: Navigation;
   route?: { params?: { resetFilter?: boolean } };
@@ -236,8 +232,14 @@ const Dashboard = ({ navigation, route, ...props }: Props) => {
     return map
   }
 
-  const formData = userIsAdmin ?
-    getAllFormValue(useQuery, valueType, status1, status2, status3, status4) : getAllFormValueByCP(useQuery, valueType, status1, status2, status3, status4, ""/*userState.collection_point_id.toString()*/)
+  // Was Realm's live useQuery("FORMS").filtered(...). useDeclarations runs the
+  // same filter against SQLite and re-runs it after every write, so the list
+  // still refreshes on save, validate, send and delete.
+  const formData = useDeclarations({
+    type: valueType,
+    statuses: [status1, status2, status3, status4],
+    colpointCode: userIsAdmin ? null : userState.collection_point_code,
+  })
 
 
   const showToast = (msgKey: String) => {
@@ -438,7 +440,7 @@ const Dashboard = ({ navigation, route, ...props }: Props) => {
                   setResponseDataManualSend(prevState => [...prevState, formSummary]);
                 }
                 setCountResponseDataManualSend((prevValue) => prevValue + 1)
-                updateStatus(new Realm.BSON.ObjectId(act.ID.toString()), "ARCHIVE", "");
+                updateStatus(act.ID, "ARCHIVE", "");
 
               }, err => {
                 if (act.TYPE === "NAISSANCE") {
@@ -470,7 +472,7 @@ const Dashboard = ({ navigation, route, ...props }: Props) => {
                 }
 
                 setCountResponseDataManualSend((prevValue) => prevValue + 1)
-                updateStatus(new Realm.BSON.ObjectId(act.ID.toString()), "ERREUR", err.toString());
+                updateStatus(act.ID, "ERREUR", err.toString());
 
                 Logger.error("Update DB - sendNotification ", err);
                 Logger.error("Update DB - endpoint ", endpoint);

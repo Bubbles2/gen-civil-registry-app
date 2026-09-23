@@ -1,4 +1,3 @@
-import Realm from "realm";
 import React, { useEffect, useState } from "react";
 import { Appbar, Portal, Dialog, Text } from "react-native-paper";
 import { View, StyleSheet, ScrollView } from "react-native";
@@ -11,12 +10,11 @@ import { useForm, useFormState } from "react-hook-form";
 import getDataBirth from "../components/forms/birth/DataBirth";
 import getDataDeath from "../components/forms/death/DataDeath";
 import {
-  addOrUpdateForm,
   getDBConnection,
-  getFormById,
   getCollectionPointByCode,
   getCPTypeByCode
 } from "../core/services/databaseService";
+import { addOrUpdateForm, getFormById, newId } from "../core/db/declarations";
 import { useTranslation } from "react-i18next";
 import { Button as ButtonRn } from "react-native";
 import Defunct from "../components/forms/death/Defunct";
@@ -93,7 +91,7 @@ const Forms = props => {
     props.onClick("home")
   }
 
-  const scrollref = React.useRef()
+  const scrollref = React.useRef(undefined)
 
   const listState = useSelector((state: ListState) => {
     return state.stateList
@@ -443,7 +441,7 @@ const Forms = props => {
           },
         };
         if(props.route.params.duplicate){
-          tempNai.ID = new Realm.BSON.ObjectId()
+          tempNai.ID = newId()
           reset(tempNai)
         }else {
           reset(tempNai)
@@ -505,7 +503,7 @@ const Forms = props => {
           },
         }     
         if(props.route.params.duplicate){
-          tempDec.ID = new Realm.BSON.ObjectId()
+          tempDec.ID = newId()
           reset(tempDec)
         }else {
           reset(tempDec)

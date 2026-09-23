@@ -5,6 +5,7 @@ import { theme } from "../../core/theme";
 import { Control, Controller, FieldValues, UseFormRegister, ValidationRule } from "react-hook-form";
 import PropTypes from "prop-types";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
@@ -28,7 +29,16 @@ const addValidationRules: Function = (
   };
 };
 
-const AutocompleteInput = (props: Props) => {
+const AutocompleteInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+};
+
+const AutocompleteInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, AutocompleteInputDefaults);
 
   const [visible, setVisible] = React.useState(false)
   const [filteredData, setFilteredData] = React.useState([]);
@@ -168,12 +178,5 @@ AutocompleteInput.propTypes = {
   autoCapitalize:PropTypes.string
 };
 
-AutocompleteInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-};
 
 export default AutocompleteInput;

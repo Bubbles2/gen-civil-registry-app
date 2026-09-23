@@ -4,14 +4,7 @@ import {
   SQLiteDatabase,
 } from "react-native-sqlite-storage";
 import "react-native-get-random-values";
-import { Realm } from "@realm/react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { Encodeuint8arr } from "../RealmConfig";
-import { config } from "../../realmSchema/Forms";
-import { toRealmInput } from "./realmInput";
-
-// The app's own object schemas, with their `default`s (realm.schema strips them).
-const appSchema = config.schema.map((c: any) => c.schema ?? c);
 import Logger from "../Logger";
 import { Double } from "react-native/Libraries/Types/CodegenTypes";
 import { forEach } from "lodash";
@@ -42,255 +35,10 @@ const getCurrentParamValuesUsed = () =>{
 
 
 
-// fetch the data back asyncronously
-const retrieveKeyDb = () => {
-  return new Promise((resolve, reject) => {
-    AsyncStorage.getItem("keyDb")
-      .then(res => {
-        if (res !== null) {
-          const temp = Encodeuint8arr(res);
-          resolve(temp);
-        } else {
-          resolve(null);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-};
-
-const addOrUpdateForm = allData =>
-  new Promise((resolve, reject) => {
-    getRealm()
-      .then(realm => {
-        try {
-          realm.write(() => {
-
-            let data = realm.create("FORMS", toRealmInput(appSchema, "FORMS", allData), "modified");
-            Logger.debug("data db",data)
-            //todo voir si on fait qqchose de la data
-            resolve(data);
-          });
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-
-const updateStatusDb = (id, newStatus, error) =>
-  new Promise((resolve, reject) => {
-    getRealm()
-      .then(realm => {
-        try {
-          realm.write(() => {
-            const document = realm.objectForPrimaryKey("FORMS", id);
-            document.STATUS = newStatus;
-            if (error != null) {
-              document.ERROR = error;
-            }
-            //todo voir si on fait qqchose de la data
-            resolve(document);
-          });
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-
-  const deleteNotification = (id) =>
-    new Promise((resolve, reject) => {
-    getRealm()
-      .then(realm => {
-        try {
-          realm.write(() => {
-            const document = realm.objectForPrimaryKey("FORMS", id);
-            realm.delete(document)
-            resolve(true)
-          });       
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-
-const getFormById = id =>
-  new Promise((resolve, reject) => {
-    getRealm()
-      .then(realm => {
-        try {
-          realm.write(() => {
-            const document = realm.objectForPrimaryKey("FORMS", id);
-            resolve(document);
-          });
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-
-const getAllFormValue = (
-  useQuery,
-  type,
-  status1,
-  status2,
-  status3,
-  status4,
-) => {
-  switch (type) {
-    case "NAISSANCE":
-      return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE'} and STATUS in {$0,$1,$2,$3}",
-        status1,
-        status2,
-        status3,
-        status4
-      );
-    case "DECES":
-      return useQuery("FORMS").filtered(
-        "TYPE in {'DECES'} and STATUS in {$0,$1,$2,$3}",
-        status1,
-        status2,
-        status3,
-        status4
-      );
-    default:
-      return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE','DECES'} and STATUS in {$0,$1,$2,$3}",
-        status1,
-        status2,
-        status3,
-        status4,
-      );
-  }
-};
-
-const getAllFormValueByCP = (
-  useQuery,
-  type,
-  status1,
-  status2,
-  status3,
-  status4,
-  collection_point,
-) => {
-  switch (type) {
-    case "NAISSANCE":
-      return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
-        status1,
-        status2,
-        status3,
-        status4,
-        collection_point,
-      );
-    case "DECES":
-      return useQuery("FORMS").filtered(
-        "TYPE in {'DECES'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
-        status1,
-        status2,
-        status3,
-        status4,
-        collection_point,
-      );
-    default:
-      return useQuery("FORMS").filtered(
-        "TYPE in {'NAISSANCE','DECES'} and STATUS in {$0,$1,$2,$3} AND ACT.POINT_COLLECTE LIKE   $4",
-        status1,
-        status2,
-        status3,
-        status4,
-        collection_point,
-      );
-  }
-};
-
-const getAllFormByIds = (arrayOfIds) => new Promise((resolve, reject) => {
-  getRealm()
-    .then(realm => {
-      try {
-        let data = realm
-          .objects("FORMS")
-          .filtered(
-            "ID in $0",
-            arrayOfIds,
-          );
-        if (data.length > 0) {
-          resolve(data);
-        } else {
-          reject("No act found");
-        }
-      } catch (err) {
-        reject(err);
-      }
-    })
-    .catch(err => {
-      reject(err);
-    });
-});
-
-const getAllValidAct = () =>
-  new Promise((resolve, reject) => {
-    getRealm()
-      .then(realm => {
-        try {
-          let data = realm
-            .objects("FORMS")
-            .filtered("TYPE in {'NAISSANCE','DECES'} and STATUS = 'VALIDE'");
-          if (data.length > 0) {
-            resolve(data);
-          } else {
-            reject("No valid act");
-          }
-        } catch (err) {
-          reject(err);
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-
-//test
-
-const getRealm = () => {
-  return new Promise((resolve, reject) => {
-    retrieveKeyDb()
-      .then(res1 => {
-        if (res1 !== null) {
-          Realm.open({
-            config,
-            encryptionKey: res1,
-          })
-            .then(res => {
-              resolve(res);
-            })
-            .catch(err => {
-              reject(err);
-            });
-        } else {
-          // Without this branch the promise never settles and every caller
-          // (updateStatusDb, addOrUpdateForm, ...) hangs silently.
-          reject(new Error("getRealm: no encryption key stored (keyDb is null)"));
-        }
-      })
-      .catch(err => {
-        reject(err);
-      });
-  });
-};
+// The declaration store lives in src/core/db (Phase 12) and no longer needs
+// Realm. What remains here is the reference-data and user database
+// (dbSenegal.db, react-native-sqlite-storage); folding that into the same
+// encrypted store is the remaining follow-up.
 
 //////SQLITE////////
 enablePromise(true);
@@ -1475,12 +1223,6 @@ export {
   testLogin,
   addUser,
   addListItem,
-  getRealm,
-  addOrUpdateForm,
-  getAllFormValue,
-  updateStatusDb,
-  getFormById,
-  getAllValidAct,
   existLogin,
   getUserbyLogin,
   getCollectionPointIdByCode,
@@ -1493,9 +1235,6 @@ export {
   getCollectionPointByCode,
   getCollectionPoints,
   getListValuesByCode,
-  getAllFormByIds,
-  getAllFormValueByCP,
-  deleteNotification,
   getOfficeByCode,
   getCPTypeByCode
 };

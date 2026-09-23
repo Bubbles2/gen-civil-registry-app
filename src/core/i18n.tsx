@@ -5,7 +5,8 @@ import {resources} from "./allTranslation";
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
-    compatibilityJSON: 'v3',
+    // compatibilityJSON: 'v3' removed with i18next 24 (JSON v3 plurals dropped);
+    // the app has no plural keys, so the option was already a no-op.
     resources,
     lng: "fr-FR",
     keySeparator: ".", // we do use keys in form messages.welcome

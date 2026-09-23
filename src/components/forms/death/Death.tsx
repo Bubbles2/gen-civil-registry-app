@@ -14,7 +14,7 @@ import RadioButtons from "../../common/RadioButtons";
 type Props = React.ComponentProps<typeof Object>
 const Death = (props:Props) => {
   const {t} = useTranslation();
-  const ref1 = useRef();
+  const ref1 = useRef(undefined);
 
   const knownDate = props.watch("DECES.DEATH_DATA.KNOWN_DEATH_DATE")
 

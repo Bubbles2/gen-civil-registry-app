@@ -1,8 +1,7 @@
 import BackgroundService from "react-native-background-actions";
 import { NativeEventEmitter } from "react-native";
-import { getAllValidAct, updateStatusDb } from "./databaseService";
+import { getAllValidAct, updateStatusDb } from "../db/declarations";
 import { sendBatch, sendDeclaration } from "./SendDeclarationService";
-import { Realm } from "@realm/react";
 import Logger from "../Logger";
 import SdkJs from "../SdkJs";
 import validateForm, { formatDataForBack } from "../control/birthFormValidate";
@@ -10,7 +9,7 @@ import validateForm, { formatDataForBack } from "../control/birthFormValidate";
 // This is a function that will run in the backround service it is NOT the background
 // service
 //================================================================================
-const updateStatus = (id: Realm.BSON.ObjectId, newStatus: string, error: string) => {
+const updateStatus = (id: string, newStatus: string, error: string) => {
   updateStatusDb(id, newStatus, error)
     .catch(err => {
       Logger.error("updateStatusDb ", err);

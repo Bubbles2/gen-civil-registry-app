@@ -18,11 +18,11 @@ import { useSelector } from "react-redux";
 type Props = React.ComponentProps<typeof Object>
 const BirthInformation = (props:Props) => {
   const { t } = useTranslation();
-  const ref1 = useRef();
-  const ref2 = useRef();
-  const ref3 = useRef();
-  const ref4 = useRef();
-  const ref5 = useRef();
+  const ref1 = useRef(undefined);
+  const ref2 = useRef(undefined);
+  const ref3 = useRef(undefined);
+  const ref4 = useRef(undefined);
+  const ref5 = useRef(undefined);
 
 
   const watchChildAlive = props.watch("CHILD.CHILD_ALIVE")

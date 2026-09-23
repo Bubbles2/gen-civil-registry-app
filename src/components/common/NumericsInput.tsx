@@ -6,6 +6,7 @@ import { Controller } from "react-hook-form";
 import PropTypes from "prop-types";
 import NumericInput from 'react-native-numeric-input'
 import Logger from "../../core/Logger";
+import {withDefaults} from "./withDefaults";
 
 type Props = React.ComponentProps<typeof Object>
 
@@ -29,7 +30,16 @@ const addValidationRules : Function  = (
   };
 };
 
-const NumericsInput = (props: Props) => {
+const NumericsInputDefaults = {
+  disabled: false,
+  required: false,
+  customControl: null,
+  customErrorMessage: "",
+  type: "string",
+};
+
+const NumericsInput = (rawProps: Props) => {
+  const props = withDefaults(rawProps, NumericsInputDefaults);
   const handleInputChange = (value) => {
     if (props.onChange) {
       props.onChange(value);
@@ -167,12 +177,5 @@ NumericsInput.propTypes = {
   type: PropTypes.string,
 };
 
-NumericsInput.defaultProps = {
-  disabled: false,
-  required: false,
-  customControl: null,
-  customErrorMessage: "",
-  type: "string",
-};
 
 export default NumericsInput;
