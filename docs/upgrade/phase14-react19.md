@@ -299,6 +299,61 @@ walkthrough; nothing failed and no JS error accompanied it. It is a Fabric
 prop-parsing soft assertion, not a crash. Recorded because it was not seen in
 Phase 13 — worth watching rather than acting on.
 
+## Re-running this phase's tests
+
+The walkthrough above is scripted as `scripts/validate/v6-phase14.sh`, so it does
+not have to be redriven by hand.
+
+```bash
+scripts/validate/v6-phase14.sh             # build + install + walkthrough + V7
+scripts/validate/v6-phase14.sh --no-build  # reuse the installed APK (~7 min)
+scripts/validate/v6-phase14.sh --check     # boot / login / row count only (~2 min)
+```
+
+PASS/FAIL per step, non-zero exit on any failure. Verified green end to end:
+**35 passed, 0 failed**.
+
+Getting there took five runs, and the four defects were all the same shape — a
+check that passed while testing nothing. They are worth naming because the script
+exists to catch regressions, and each of these would have hidden one:
+
+| Defect | Why it mattered |
+|---|---|
+| `grep -q "CONNEXION"` also matches **DÉ**`CONNEXION` on the dashboard | the script asserted "back at the login screen", passed, then drove the export against a screen that was not there. Fixed with `grep -qx '"CONNEXION"'` |
+| the export used the newest export directory | a **stale** directory from an earlier run satisfied every file check, so the step passed having exported nothing. Now it counts directories before and after |
+| `integrity_check` printed PASS from inside python | the result never reached the tally, so a corrupt database would have been reported and the script would still have exited 0 |
+| `export MSYS_NO_PATHCONV=1` globally | breaks `curl -o /dev/null`, so every Metro readiness check failed silently. `launch.sh` already carried this warning |
+
+Two real UI behaviours also had to be encoded: selecting *Domicile* on page 3
+inserts an address field that pushes `Naissance multiple *` below the fold, and
+`uiautomator` only reports rendered nodes — so the page must be scrolled or the
+radio simply is not there, and the form stalls with no error modal. And a fixed
+`sleep` after a relaunch under-waits a cold JS reload; it polls now.
+
+The static checks (V1–V3) and the build matrix (V4/V5) stay where they were:
+
+```bash
+scripts/validate/static-checks.sh                     # V1 bundle, V2 tsc, V3 jest
+cd android && TEMP='C:\Temp' TMP='C:\Temp' ./gradlew assembleRelease assembleDebug
+```
+
+Two notes on what the script is and is not. **There is no e2e framework in this
+project** — no Detox, Appium or Maestro. Every step is `adb shell input` driving the
+real app, `uiautomator dump` reading the screen back through `ui.sh`, and `adb logcat`
+for assertions. And the ⋮ menu and row dialog are React Native overlays that
+`uiautomator` cannot see at all, so those few steps are tapped at fixed coordinates
+kept in one OVERLAY BLOCK at the top of the script; it refuses to run on anything
+other than `Pixel_5_Save` at 1080x2340 rather than tapping blind.
+
+The script asserts the React 19 date-picker regression directly — it opens the
+picker on both a populated and an **empty** date field and fails if either throws.
+That is the check to run after any future React, RN or picker bump, and the one that
+would catch the `defaultProps` removal coming back.
+
+`--check` is deliberately cheap enough to run after any dependency change: it proves
+the app boots bridgeless, opens SQLCipher, does not re-run the Realm migration, and
+logs in offline.
+
 ## The disk problem Phase 13 warned about came true
 
 Phase 13 closed with "a full 8-variant New Architecture build needs several GB

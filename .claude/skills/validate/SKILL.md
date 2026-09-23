@@ -77,6 +77,21 @@ manifest no longer declares them: the merger implies them because a Be-Bound AAR
 not a regression.
 
 ## 3. On-device walkthrough — V6
+
+**The Phase 14 sequence is scripted** — prefer it over redriving by hand:
+```bash
+scripts/validate/v6-phase14.sh             # build + install + full walkthrough + V7
+scripts/validate/v6-phase14.sh --no-build  # reuse the installed APK
+scripts/validate/v6-phase14.sh --check     # boot/login/row-count only (~2 min)
+```
+It prints PASS/FAIL per step and exits non-zero on any failure. It asserts the
+React 19 date-picker regression explicitly (see `patches/react-native-modal-datetime-picker`),
+so run it after any React, RN or picker bump. Its coordinates assume
+`Pixel_5_Save` at 1080x2340 and it refuses to run on any other screen size.
+
+There is no e2e framework here (no Detox/Appium/Maestro): everything is
+`adb shell input` + `uiautomator dump` + `adb logcat`.
+
 Drive the emulator with `scripts/validate/ui.sh` (run it with no args for usage). Rules
 learned the hard way:
 - Tap by text (`ui.sh tap "CONNEXION"`), never by remembered coordinates — layouts shift.
@@ -89,6 +104,17 @@ learned the hard way:
 - Radio groups: `ui.sh radio "<label>"` for a unique label; otherwise `ui.sh tapnth RadioButton <n>`
   and confirm with `ui.sh states`. Long forms scroll — swipe (`adb shell input swipe 540 1700 540 700 500`) and re-dump.
 - The row dialog opens on a plain tap of a row cell; long-press toggles selection checkboxes.
+- **`ui.sh` cannot see the app's dialogs** (Phase 14). The ⋮ filter menu and the row
+  MODIFIER/VALIDER/DUPLIQUER/SUPPRIMER dialog are React Native overlays: they never appear
+  in a `uiautomator dump`, and dumping *closes* them. Drive them by coordinates read off a
+  screenshot (`adb exec-out screencap -p > x.png`). `v6-phase14.sh` keeps those in one
+  OVERLAY BLOCK at the top.
+- **Long-press only selects a `Validé` row** (Phase 14). Long-pressing a Brouillon row does
+  nothing — no checkbox — and ENVOYER with nothing selected is a silent no-op that logs
+  absolutely nothing. Order is VALIDER → filter to Validé → long-press → tick → ⋮ → ENVOYER.
+- **Never `export MSYS_NO_PATHCONV=1` for a whole script.** It keeps `/sdcard` paths intact
+  for `adb` but breaks `curl -o /dev/null`, which makes every Metro readiness check fail
+  silently. Wrap adb instead: `adbx(){ MSYS_NO_PATHCONV=1 adb "$@"; }`.
 
 Seed the login first (idempotent):
 ```bash

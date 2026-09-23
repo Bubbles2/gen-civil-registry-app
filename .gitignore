@@ -67,3 +67,7 @@ android/app/src/dev/assets/index.android.bundle
 # Kotlin 2.0 (Phase 14) writes per-build session files here; it is regenerable
 # build state, like android/.gradle and android/app/.cxx.
 android/.kotlin/
+
+# Realm archives pulled off devices by docs/migration/pull-realm.sh.
+# These are real civil-registry declarations. Encrypted, but never commit them.
+docs/migration/archive/

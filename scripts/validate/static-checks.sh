@@ -5,8 +5,8 @@
 set -u
 cd "$(dirname "$0")/../.."
 OUT=scripts/validate/out; mkdir -p "$OUT"
-TSC_BASELINE=449                 # Phase 13 baseline (was 480; Realm's schema files went with it)
-BUNDLE_BASELINE=5083633          # bytes, 2026-09-22 Phase 13 (was 5 385 533; -302 kB, Realm's JS removed)
+TSC_BASELINE=413                 # Phase 14 (was 449; React 19 useRef/JSX fixes net -36)
+BUNDLE_BASELINE=5235187          # bytes, 2026-09-22 Phase 14 (was 5 083 633; +152 kB, React 19 + navigation v7)
 fail=0
 
 echo "== V1 release JS bundle"
